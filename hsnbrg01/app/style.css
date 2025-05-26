@@ -1,0 +1,487 @@
+body {
+    font-family: IBM Plex Mono, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1e1e1e;
+    color: #e7e7e7;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: rgba(75, 75, 75, 0.7);
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    padding: 11px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #8a8a8a;
+    border-radius: 5px;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ff0000;
+    color: white;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 90px;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.header p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+
+.main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.main h2 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.main p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    white-space: pre-line;
+}
+
+#info-MSC {
+    display: none;
+    padding: 0;
+    background: none;
+    margin: 0;
+    font-size: 18px;
+    max-width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+
+button {
+    padding: 10px;
+    margin: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1f1f1f;
+}
+
+.footer {
+    background-color: #494949;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 40px;
+    }
+
+    .main h2 {
+        font-size: 28px;
+    }
+
+    .main p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    #info-MSC {
+        max-width: 100%;
+        padding: 15px;
+        margin: 10px auto;
+    }
+}
+
+/* === Reproductor de música === */
+
+.music-player {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.music-player h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.music-player .control-btn {
+    background-color: #e13535;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.music-player .control-btn:hover {
+    background-color: #ff9a9e;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+    max-width: 250px;
+    margin-left: center;
+    margin-right: center;
+}
+
+
+.control-btn {
+    flex: 1;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.control-btn:hover {
+    background-color: #393939;
+}
+
+.song-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.song-list button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 5px 0;
+    cursor: pointer;
+    text-align: left;
+}
+
+.song-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#songImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.song-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #888;
+    height: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    width: 0;
+}
+
+.song-time {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.random-btn {
+    background-color: #2a2a2a;
+    border: none;
+    color: #fff;
+    padding: 14px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.random-btn:hover {
+    background-color: #333;
+}
+
+
+
+
+
+
+
+.ibm-plex-mono-thin {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-mono-extralight {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-mono-light {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-mono-medium {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-mono-semibold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-mono-thin-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex-mono-extralight-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex-mono-light-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex-mono-regular-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-mono-medium-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-mono-semibold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-mono-bold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+.spotify-layout {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  background-color: #121212;
+  color: white;
+  font-family: 'IBM Plex Mono', sans-serif;
+}
+
+.album-cover img {
+  width: 320px;
+  height: 320px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.track-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.track-info h1 {
+  font-size: 32px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.album-meta {
+  color: #b3b3b3;
+  margin: 5px 0 20px;
+}
+
+.track-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 8px;
+  background-color: transparent;
+}
+
+.track:hover {
+  background-color: #2a2a2a;
+  border-radius: 20px;
+}
+
+.track .number {
+  width: 20px;
+  text-align: right;
+  color: #b3b3b3;
+}
+
+.track .title {
+  flex: 1;
+  font-weight: 500;
+}
+
+.track .time {
+  color: #777;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .spotify-layout {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 12px;
+    background-color: #1e1e1e;
+  }
+
+  .album-cover img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 12px;
+  }
+
+  .track-info h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .album-meta {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .track {
+    gap: 12px;
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .track .number {
+    width: 16px;
+  }
+
+  .random-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .controls {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+
