@@ -1,3 +1,34 @@
+function mostrarInicio() {
+    document.getElementById('inicio').style.display = 'block';
+    document.getElementById('info-MSC').style.display = 'none';
+    document.querySelector('.header').style.display = 'block';
+    window.scrollTo(0, 0);
+}
+
+
+function mostrarMSC() {
+    document.getElementById('inicio').style.display = 'none';
+    document.getElementById('info-MSC').style.display = 'block';
+    document.querySelector('.header').style.display = 'none';
+    window.scrollTo(0, 0);
+}
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+        mostrarInicio();
+});
+
+
+
+
+
+
+
+
+
+
+
+
 let audio = new Audio();
 let isPlaying = false;
 
@@ -188,52 +219,8 @@ document.querySelector('.progress-bar')?.addEventListener('click', function(even
   audio.currentTime = time;
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  mostrarInicio();
-
   const randomBtn = document.querySelector('.random-btn');
   if (randomBtn) {
     randomBtn.addEventListener('click', playRandomSong);
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function mostrarInicio() {
-    document.getElementById('inicio').style.display = 'block';
-    document.getElementById('info-MSC').style.display = 'none';
-    document.querySelector('.header').style.display = 'block';
-    window.scrollTo(0, 0);
-}
-
-
-function mostrarMSC() {
-    document.getElementById('inicio').style.display = 'none';
-    document.getElementById('info-MSC').style.display = 'block';
-    document.querySelector('.header').style.display = 'none';
-    window.scrollTo(0, 0);
-}
-
-
-    document.addEventListener('DOMContentLoaded', () => {
-        mostrarInicio();
-});
-
-
