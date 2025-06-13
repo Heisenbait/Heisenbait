@@ -8,20 +8,21 @@ body {
 }
 
 .navbar {
-    background-color: rgba(132, 132, 132, 0.7);
-    backdrop-filter: blur(20px);
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
     position: fixed;
     bottom: 20px;
-    left: 0;
-    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    padding: 10px 25px;
+    background: rgba(255, 255, 255, 0.1); /* más claro, más iOS */
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border-radius: 40px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     z-index: 1000;
-    padding: 10px 0;
-    border-radius: 12px;
-    width: fit-content;
-    margin: 0 auto;
+    font-family: 'IBM Plex Mono', sans-serif;
 }
 
 .navbar a {
