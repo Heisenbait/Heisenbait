@@ -47,12 +47,12 @@ const songs = [
   {
     src: "archivos/Eazy - The Game, Kanye West.mp3",
     name: "Eazy",
-    image: "archivos/buster_portada.jpg"
+    image: "archivos/Cover of Eazy by The Game, Kanye West.jpg"
   },
   {
-    src: "rutadecancion1.mp3",
+    src: "archivos/Master Of Puppets - Metallica.mp3",
     name: "Master Of Puppets",
-    image: "archivos/buster_portada.jpg"
+    image: "archivos/Cover of Master Of Puppets by Metallica.jpg"
   },
   {
     src: "rutadecancion1.mp3",
