@@ -1,12 +1,13 @@
-function mostrarInicio() {
+function mostrarInicio(event) {
+    if (event) event.preventDefault();
     document.getElementById('inicio').style.display = 'block';
     document.getElementById('info-MSC').style.display = 'none';
     document.querySelector('.header').style.display = 'block';
     window.scrollTo(0, 0);
 }
 
-
-function mostrarMSC() {
+function mostrarMSC(event) {
+    if (event) event.preventDefault();
     document.getElementById('inicio').style.display = 'none';
     document.getElementById('info-MSC').style.display = 'block';
     document.querySelector('.header').style.display = 'none';
@@ -15,7 +16,6 @@ function mostrarMSC() {
 
     document.addEventListener('DOMContentLoaded', () => {
             mostrarInicio();
-
 });
 
 
