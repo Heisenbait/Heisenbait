@@ -1,22 +1,31 @@
-function mostrarInicio(event) {
-    if (event) event.preventDefault();
+function mostrarInicio() {
     document.getElementById('inicio').style.display = 'block';
     document.getElementById('info-MSC').style.display = 'none';
     document.querySelector('.header').style.display = 'block';
     window.scrollTo(0, 0);
 }
 
-function mostrarMSC(event) {
-    if (event) event.preventDefault();
+function mostrarMSC() {
     document.getElementById('inicio').style.display = 'none';
     document.getElementById('info-MSC').style.display = 'block';
     document.querySelector('.header').style.display = 'none';
     window.scrollTo(0, 0);
 }
 
-    document.addEventListener('DOMContentLoaded', () => {
-            mostrarInicio();
+document.addEventListener('DOMContentLoaded', () => {
+    mostrarInicio();
+
+    document.getElementById('inicioBtn').addEventListener('click', function(event) {
+        event.preventDefault();
+        mostrarInicio();
+    });
+
+    document.getElementById('mscBtn').addEventListener('click', function(event) {
+        event.preventDefault();
+        mostrarMSC();
+    });
 });
+
 
 
     
