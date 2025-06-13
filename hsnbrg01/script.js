@@ -13,13 +13,13 @@ function mostrarMSC() {
     window.scrollTo(0, 0);
 }
 
-
+    document.addEventListener('DOMContentLoaded', () => {
+            mostrarInicio();
 
 });
 
 
-    document.addEventListener('DOMContentLoaded', () => {
-        mostrarInicio();
+    
 
 
 
