@@ -13,9 +13,15 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
     z-index: 1000;
+    padding: 10px 0;
+    border-radius: 12px;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .navbar a {
