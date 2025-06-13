@@ -4,13 +4,14 @@ let isPlaying = false;
 document.querySelectorAll('.track').forEach(track => {
   track.addEventListener('click', () => {
     const src = track.getAttribute('data-src');
-    if (src) {
-      audio.src = src;
-      audio.play();
-      isPlaying = true;
-    }
+    const name = track.querySelector('.title').innerText;
+    const image = document.querySelector('.album-cover img').src;
+
+    playSong(src, name, image);
+    alert(`Reproduciendo: ${name}`);
   });
 });
+
 
 
 function playSong(songSrc, songName, songImage) {
