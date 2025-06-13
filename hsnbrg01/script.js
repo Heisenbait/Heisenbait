@@ -14,12 +14,12 @@ function mostrarMSC() {
 }
 
 
-    document.addEventListener('DOMContentLoaded', () => {
-        mostrarInicio();
+
 });
 
 
-
+    document.addEventListener('DOMContentLoaded', () => {
+        mostrarInicio();
 
 
 
