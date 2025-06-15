@@ -491,6 +491,10 @@ img {
   }
 }
 
+#playPauseBtn {
+  font-size: 30px; 
+}
+
 #playPauseBtn:hover {
   transform: scale(1.1);
 }
