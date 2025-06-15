@@ -101,6 +101,10 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch(error => console.error("Error al reproducir:", error));
   }
 
+  function updatePlayPauseButton() {
+    playPauseBtn.textContent = isPlaying ? '❚❚' : '▶';
+  }
+
   function togglePlayPause() {
   if (!audio.src || (audio.paused && audio.currentTime === 0)) {
     currentSongIndex = 0;
@@ -110,9 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
     isPlaying ? audio.pause() : audio.play();
     isPlaying = !isPlaying;
   }
-  function updatePlayPauseButton() {
-    playPauseBtn.textContent = isPlaying ? '❚❚' : '▶';
-     }
+  updatePlayPauseButton();
   }
   
   function nextSong() {
