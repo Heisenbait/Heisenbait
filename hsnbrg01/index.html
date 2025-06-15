@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HSNBRG01</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/jpg" href="archivos/buster_portada.jpg">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HSNBRG01</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" type="image/jpg" href="archivos/buster_portada.jpg" />
 </head>
 <body>
+  <div class="navbar">
+    <a href="#" id="inicioBtn">Inicio</a>
+    <a href="#" id="mscBtn">MSCQMG</a>
+  </div>
 
-    <div class="navbar">
-        <a href="#" id="inicioBtn">Inicio</a>
-        <a href="#" id="mscBtn">MSCQMG</a>
-    </div>
+  <div class="header">
+    <h1>HSNBRG01</h1>
+    <p>...</p>
+    <img src="archivos/Cover of Eazy by The Game, Kanye West.png" alt="Mono Rojo" width="400" />
+  </div>
 
-    <div class="header">
-        <h1>HSNBRG01</h1>
-        <p>...</p>
-        <img src="archivos/Cover of Eazy by The Game, Kanye West.png" alt="Mono Rojo" width="400">
-    </div>
-
-    <div class="main" id="inicio">
-        <h2>I Thought About Killing You</h2>
-        <p>I know, I know, I know, I know, know
+  <div class="main" id="inicio">
+    <h2>I Thought About Killing You</h2>
+    <p>I know, I know, I know, I know, know
 I know, I know, I know, I know, know
 I, I know it, I know it
 
@@ -91,89 +90,55 @@ They wanna see me go ape (ape, ape)
 All you gotta do is speak on Ye
 All you gotta do is speak on Ye
 Don't get your tooth chipped like Frito-Lay</p>
-    </div>
-  
-  <div id="info-MSC" style="display: none;">
-  <div class="spotify-layout">
-    <div class="album-cover">
-      <img src="archivos/buster_portada.jpg" alt="Portada del álbum" />
-  <div class="controls">
-  <button class="control-btn" onclick="prevSong()">&#9664;&#9664;</button>
-  <button class="control-btn" onclick="togglePlayPause()">▶</button>
-  <button class="control-btn" onclick="nextSong()">&#9654;&#9654;</button>
-</div>
-    </div>
-    <div class="track-info">
-      <h1>CANCIONEEEEEEEEEEESSSSSS</h1>
-      <p class="album-meta">CANCIONEEEEEEEEEEESSSSSS · 12 tracks · 30m 11s</p>
-      <button class="random-btn">Aleatorio</button>
+  </div>
 
-      <div class="track-list">
-        <div class="track" data-src="archivos/Eazy - The Game, Kanye West.mp3">
-          <span class="number">1</span>
-          <div class="title">Eazy</div>
-          <span class="time">2 hours ago</span>
+  <div id="info-MSC" style="display: none;">
+    <div class="spotify-layout">
+      <div class="album-cover">
+        <img id="songImage" src="archivos/buster_portada.jpg" alt="Portada del álbum" />
+        <div class="controls">
+          <button class="control-btn" onclick="prevSong()">&#9664;&#9664;</button>
+          <button class="control-btn" id="playPauseBtn" onclick="togglePlayPause()">▶</button>
+          <button class="control-btn" onclick="nextSong()">&#9654;&#9654;</button>
         </div>
-        <div class="track" data-src="archivos/Master Of Puppets - Metallica.mp3">
-          <span class="number">2</span>
-          <div class="title">Master Of Puppets</div>
-          <span class="time">2 hours ago</span>
+        <div class="song-name" id="songName">Ninguna canción</div>
+        <div class="progress-bar" id="progressBar">
+          <div class="progress" id="progress"></div>
         </div>
-        <div class="track" data-src="rutadecancion1.mp3">
-          <span class="number">3</span>
-          <div class="title">Juicy - 2005 Remaster</div>
-          <span class="time">2 hours ago</span>
+        <div class="song-time">
+          <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
         </div>
-        <div class="track" data-src="rutadecancion1.mp3">
-          <span class="number">4</span>
-          <div class="title">Cancion4</div>
-          <span class="time">2 hours ago</span>
-        </div>
-        <div class="track" data-src="rutadecancion1.mp3">
-          <span class="number">5</span>
-          <div class="title">Cancion5</div>
-          <span class="time">2 hours ago</span>
-        </div>
-        <div class="track" data-src="rutadecancion1.mp3">
-          <span class="number">6</span>
-          <div class="title">Cancion6</div>
-          <span class="time">2 hours ago</span>
-        </div>
-        <div class="track" data-src="rutadecancion1.mp3">
-          <span class="number">7</span>
-          <div class="title">Cancion7</div>
-          <span class="time">2 hours ago</span>
-        </div>
-        <div class="track" data-src="rutadecancion1.mp3">
-          <span class="number">8</span>
-          <div class="title">Cancion8</div>
-          <span class="time">2 hours ago</span>
-        </div>
-        <div class="track" data-src="rutadecancion1.mp3">
-          <span class="number">9</span>
-          <div class="title">Cancion9</div>
-          <span class="time">2 hours ago</span>
-        </div>
-        <div class="track" data-src="rutadecancion1.mp3">
-          <span class="number">10</span>
-          <div class="title">Cancion10</div>
-          <span class="time">2 hours ago</span>
-        </div>
-        <div class="track" data-src="rutadecancion1.mp3">
-          <span class="number">11</span>
-          <div class="title">Cancion11</div>
-          <span class="time">2 hours ago</span>
-        </div>
-        <div class="track" data-src="rutadecancion1.mp3">
-          <span class="number">12</span>
-          <div class="title">Cancion12</div>
-          <span class="time">2 hours ago</span>
+      </div>
+
+      <div class="track-info">
+        <h1>Playlist</h1>
+        <p class="album-meta">12 canciones · 30m 11s</p>
+        <button class="random-btn">Aleatorio</button>
+
+        <div class="track-list">
+          <div class="track" data-src="archivos/Eazy - The Game, Kanye West.mp3">
+            <span class="number">1</span>
+            <div class="title">Eazy</div>
+            <span class="time">2 hours ago</span>
+          </div>
+          <div class="track" data-src="archivos/Master Of Puppets - Metallica.mp3">
+            <span class="number">2</span>
+            <div class="title">Master Of Puppets</div>
+            <span class="time">2 hours ago</span>
+          </div>
+          <div class="track" data-src="rutadecancion1.mp3">
+            <span class="number">3</span>
+            <div class="title">Juicy - 2005 Remaster</div>
+            <span class="time">2 hours ago</span>
+          </div>
+          <!-- Puedes continuar agregando más canciones como hiciste antes -->
+          <!-- ... -->
         </div>
       </div>
     </div>
   </div>
-</div>
 
   <script src="script.js"></script>
 </body>
 </html>
+
