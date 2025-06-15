@@ -193,7 +193,6 @@ img {
     margin-right: center;
 }
 
-
 .control-btn {
     flex: 1;
     text-align: center;
@@ -393,6 +392,7 @@ img {
 }
 
 .track-info {
+  font-family: 'IBM Plex Mono', monospace;
   margin: 0;
   width: 100%;
   flex: 1;
