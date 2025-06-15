@@ -59,9 +59,9 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: "4:16"
     },
     {
-      src: "archivos/Juicy - 2005 Remaster - The Notorious B.I.G..mp3",
+      src: "archivos/Friends - Los Retros.mp3",
       name: "Juicy - 2005 Remaster",
-      image: "archivos/Cover of Juicy - 2005 Remaster by The Notorious B.I.G..jpg",
+      image: "archivos/Cover of Friends by Los Retros.jpg",
       duration: "4:16"
     }
       
