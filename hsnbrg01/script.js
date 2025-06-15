@@ -112,8 +112,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   function updatePlayPauseButton() {
     playPauseBtn.textContent = isPlaying ? '❚❚' : '▶';
+     }
   }
-
+  
   function nextSong() {
     currentSongIndex = (currentSongIndex + 1) % songs.length;
     playSong(songs[currentSongIndex]);
@@ -129,7 +130,6 @@ document.addEventListener('DOMContentLoaded', () => {
     playSong(songs[currentSongIndex]);
   }
 
-  // Barra de progreso
   audio.addEventListener('timeupdate', () => {
     if (audio.duration) {
       const progress = (audio.currentTime / audio.duration) * 100;
@@ -154,7 +154,6 @@ document.addEventListener('DOMContentLoaded', () => {
     return `${min}:${sec < 10 ? '0' + sec : sec}`;
   }
 
-  // Funciones globales
   window.nextSong = nextSong;
   window.prevSong = prevSong;
   window.togglePlayPause = togglePlayPause;
