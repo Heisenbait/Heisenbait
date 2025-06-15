@@ -443,12 +443,13 @@ img {
 
 @media (max-width: 768px) {
   .spotify-layout {
-    flex-direction: column;
-    padding: 20px;
-    align-items: center;
-    gap: 20px;
-    border-radius: 12px;
-    background-color: #1e1e1e;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .track-info {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
   .album-cover img {
