@@ -501,6 +501,7 @@ img {
 }
 
 #playPauseBtn:hover {
+  background-color: transparent;
   transform: scale(1.1);
 }
 
