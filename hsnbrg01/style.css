@@ -269,7 +269,7 @@ img {
     border: none;
     color: #fff;
     padding: 14px 16px;
-    border-radius: 20px;
+    border-radius: 12px;
     cursor: pointer;
     margin-bottom: 30px;
 }
@@ -427,7 +427,7 @@ img {
 
 .track:hover {
   background-color: #2a2a2a;
-  border-radius: 20px;
+  border-radius: 12px;
 }
 
 .track .number {
