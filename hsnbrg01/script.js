@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-
+  // ========== NAVEGACIÓN ==========
   const inicioBtn = document.getElementById('inicioBtn');
   const mscBtn = document.getElementById('mscBtn');
   const inicio = document.getElementById('inicio');
@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initPlayer();
   }
 
+  // ========== REPRODUCTOR ==========
   const songs = [
     {
       src: "archivos/Eazy - The Game, Kanye West.mp3",
@@ -56,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let isPlaying = false;
   let audioInitialized = false;
 
+  // Elementos del DOM
   const songNameEl = document.getElementById('songName');
   const songImageEl = document.getElementById('songImage');
   const progressEl = document.getElementById('progress');
@@ -65,26 +67,58 @@ document.addEventListener('DOMContentLoaded', () => {
   const trackListEl = document.querySelector('.track-list');
   const randomBtn = document.querySelector('.random-btn');
 
-  function initPlayer() {
-    if (audioInitialized) return;
-    audioInitialized = true;
+  // ========== FUNCIONES DE DURACIÓN AUTOMÁTICA ==========
+  async function getAudioDuration(url) {
+    return new Promise((resolve, reject) => {
+      const audio = new Audio();
+      audio.src = url;
+      audio.addEventListener('loadedmetadata', () => {
+        resolve(formatTime(audio.duration));
+      });
+      audio.addEventListener('error', () => {
+        reject(new Error('Error al cargar el audio'));
+      });
+    });
+  }
 
-    songs.forEach((song, index) => {
+  async function createTrackList() {
+    trackListEl.innerHTML = ''; // Limpiar lista existente
+
+    for (const [index, song] of songs.entries()) {
       const trackEl = document.createElement('div');
       trackEl.className = 'track';
       trackEl.dataset.index = index;
-      trackEl.innerHTML = `
-        <span class="number">${index + 1}</span>
-        <div class="title">${song.name}</div>
-        <span class="time">2:00</span>
-      `;
+
+      try {
+        const duration = await getAudioDuration(song.src);
+        song.duration = duration; // Guarda la duración en el objeto
+        trackEl.innerHTML = `
+          <span class="number">${index + 1}</span>
+          <div class="title">${song.name}</div>
+          <span class="time">${duration}</span>
+        `;
+      } catch (error) {
+        console.error(`Error con ${song.name}:`, error);
+        trackEl.innerHTML = `
+          <span class="number">${index + 1}</span>
+          <div class="title">${song.name}</div>
+          <span class="time">0:00</span>
+        `;
+      }
+
       trackEl.addEventListener('click', () => {
         currentSongIndex = index;
         playSong(song);
       });
       trackListEl.appendChild(trackEl);
-    });
+    }
+  }
 
+  // ========== FUNCIONES DEL REPRODUCTOR ==========
+  function initPlayer() {
+    if (audioInitialized) return;
+    audioInitialized = true;
+    createTrackList(); // Carga las canciones con duraciones reales
     playPauseBtn.addEventListener('click', togglePlayPause);
     randomBtn.addEventListener('click', playRandomSong);
   }
@@ -106,17 +140,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function togglePlayPause() {
-  if (!audio.src || (audio.paused && audio.currentTime === 0)) {
-    currentSongIndex = 0;
-    playSong(songs[currentSongIndex]);
-  } 
-  else {
-    isPlaying ? audio.pause() : audio.play();
-    isPlaying = !isPlaying;
+    if (!audio.src || (audio.paused && audio.currentTime === 0)) {
+      currentSongIndex = 0;
+      playSong(songs[currentSongIndex]);
+    } else {
+      isPlaying ? audio.pause() : audio.play();
+      isPlaying = !isPlaying;
+    }
+    updatePlayPauseButton();
   }
-  updatePlayPauseButton();
-  }
-  
+
   function nextSong() {
     currentSongIndex = (currentSongIndex + 1) % songs.length;
     playSong(songs[currentSongIndex]);
@@ -132,6 +165,13 @@ document.addEventListener('DOMContentLoaded', () => {
     playSong(songs[currentSongIndex]);
   }
 
+  function formatTime(seconds) {
+    const min = Math.floor(seconds / 60);
+    const sec = Math.floor(seconds % 60);
+    return `${min}:${sec < 10 ? '0' + sec : sec}`;
+  }
+
+  // ========== EVENT LISTENERS ==========
   audio.addEventListener('timeupdate', () => {
     if (audio.duration) {
       const progress = (audio.currentTime / audio.duration) * 100;
@@ -150,14 +190,8 @@ document.addEventListener('DOMContentLoaded', () => {
     audio.currentTime = (clickX / width) * duration;
   });
 
-  function formatTime(seconds) {
-    const min = Math.floor(seconds / 60);
-    const sec = Math.floor(seconds % 60);
-    return `${min}:${sec < 10 ? '0' + sec : sec}`;
-  }
-
+  // ========== FUNCIONES GLOBALES ==========
   window.nextSong = nextSong;
   window.prevSong = prevSong;
   window.togglePlayPause = togglePlayPause;
 });
-
