@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       src: "archivos/Eazy - The Game, Kanye West.mp3",
       name: "Eazy",
-      image: "archivos/Cover of Eazy by The Game, Kanye West.jpg"
+      image: "archivos/Cover of Eazy by The Game, Kanye West (1).jpg"
     },
     {
       src: "archivos/Master Of Puppets - Metallica.mp3",
