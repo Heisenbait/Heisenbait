@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // Elementos de navegación
+  // ==================== NAVEGACIÓN ====================
   const inicioBtn = document.getElementById('inicioBtn');
   const mscBtn = document.getElementById('mscBtn');
   const inicio = document.getElementById('inicio');
@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Mostrar inicio al cargar
   mostrarInicio();
 
-  // Botones navegación
+  // Eventos de navegación
   inicioBtn.addEventListener('click', (e) => {
     e.preventDefault();
     mostrarInicio();
@@ -32,11 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
     infoMSC.style.display = 'block';
     header.style.display = 'none';
     window.scrollTo(0, 0);
-    // Inicializar reproductor solo cuando sea visible
-    if (!audioInitialized) initPlayer();
+    initPlayer();
   }
 
-  // ========== REPRODUCTOR ========== //
+  // ==================== REPRODUCTOR ====================
   const songs = [
     {
       src: "archivos/Eazy - The Game, Kanye West.mp3",
@@ -47,11 +46,14 @@ document.addEventListener('DOMContentLoaded', () => {
       src: "archivos/Master Of Puppets - Metallica.mp3",
       name: "Master Of Puppets",
       image: "archivos/Cover of Master Of Puppets by Metallica.jpg"
+    },
+    {
+      src: "archivos/Juicy - 2005 Remaster.mp3",
+      name: "Juicy - 2005 Remaster",
+      image: "archivos/buster_portada.jpg"
     }
-    // Añade más canciones aquí
   ];
 
-  // Variables del reproductor
   const audio = new Audio();
   let currentSongIndex = 0;
   let isPlaying = false;
@@ -84,17 +86,17 @@ document.addEventListener('DOMContentLoaded', () => {
       `;
       trackEl.addEventListener('click', () => {
         currentSongIndex = index;
-        playSong(songs[currentSongIndex]);
+        playSong(song);
       });
       trackListEl.appendChild(trackEl);
     });
 
-    // Eventos del reproductor
+    // Eventos
     playPauseBtn.addEventListener('click', togglePlayPause);
     randomBtn.addEventListener('click', playRandomSong);
   }
 
-  // Funciones del reproductor
+  // Control de reproducción
   function playSong(song) {
     audio.src = song.src;
     audio.play()
@@ -157,12 +159,9 @@ document.addEventListener('DOMContentLoaded', () => {
     return `${min}:${sec < 10 ? '0' + sec : sec}`;
   }
 
-  // Exponer funciones globales
+  // Funciones globales
   window.nextSong = nextSong;
   window.prevSong = prevSong;
+  window.togglePlayPause = togglePlayPause;
 });
-  const randomBtn = document.querySelector('.random-btn');
-  if (randomBtn) {
-    randomBtn.addEventListener('click', playRandomSong);
-  }
-});
+
