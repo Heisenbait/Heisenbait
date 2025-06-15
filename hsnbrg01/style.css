@@ -267,7 +267,7 @@ img {
     border: none;
     color: #fff;
     padding: 14px 16px;
-    border-radius: 16px;
+    border-radius: 20px;
     cursor: pointer;
     margin-bottom: 30px;
 }
@@ -441,6 +441,16 @@ img {
   font-size: 12px;
 }
 
+@media (max-width: 768px) {
+  .spotify-layout {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 12px;
+    background-color: #1e1e1e;
+  }
+
   .album-cover img {
     width: 100%;
     height: auto;
@@ -472,6 +482,25 @@ img {
     padding: 10px 20px;
     font-size: 14px;
   }
+}
+
+@media (max-width: 768px) {
+  .controls {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+}
+
+#playPauseBtn {
+  transition: transform 0.2s;
+  background: #e13535 !important;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+#playPauseBtn:hover {
+  transform: scale(1.1);
 }
 
 
