@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       src: "archivos/Juicy - 2005 Remaster - The Notorious B.I.G..mp3",
       name: "Juicy - 2005 Remaster",
-      image: "archivos/Cover of Juicy - 2005 Remaster - The Notorious B.I.G..jpg"
+      image: "archivos/Cover of Juicy - 2005 Remaster by The Notorious B.I.G..jpg"
     }
   ];
 
