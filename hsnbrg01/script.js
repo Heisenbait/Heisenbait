@@ -54,13 +54,13 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       src: "archivos/Someone To Spend Time With - Los Retros.mp3",
-      name: "Juicy - 2005 Remaster",
+      name: "Someone To Spend Time With",
       image: "archivos/Cover of Someone To Spend Time With by Los Retros.jpg",
       duration: "4:16"
     },
     {
       src: "archivos/Friends - Los Retros.mp3",
-      name: "Juicy - 2005 Remaster",
+      name: "Friends",
       image: "archivos/Cover of Friends by Los Retros.jpg",
       duration: "4:16"
     }
