@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // ========== NAVEGACIÓN ==========
+
   const inicioBtn = document.getElementById('inicioBtn');
   const mscBtn = document.getElementById('mscBtn');
   const inicio = document.getElementById('inicio');
@@ -33,27 +33,26 @@ document.addEventListener('DOMContentLoaded', () => {
     initPlayer();
   }
 
-  // ========== REPRODUCTOR (CON DURACIONES PRE-GENERADAS) ==========
   const songs = [
     {
       src: "archivos/Eazy - The Game, Kanye West.mp3",
       name: "Eazy",
       image: "archivos/Cover of Eazy by The Game, Kanye West (1).jpg",
-      duration: "3:54" // Duración pre-calculada
+      duration: "3:54"
     },
     {
       src: "archivos/Master Of Puppets - Metallica.mp3",
       name: "Master Of Puppets",
       image: "archivos/Cover of Master Of Puppets by Metallica.jpg",
-      duration: "8:35" // Duración pre-calculada
+      duration: "8:35"
     },
     {
       src: "archivos/Juicy - 2005 Remaster - The Notorious B.I.G..mp3",
       name: "Juicy - 2005 Remaster",
       image: "archivos/Cover of Juicy - 2005 Remaster by The Notorious B.I.G..jpg",
-      duration: "4:16" // Duración pre-calculada
+      duration: "4:16"
     }
-    // Añade el resto de tus 200+ canciones aquí con sus duraciones
+      
   ];
 
   const audio = new Audio();
@@ -61,7 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
   let isPlaying = false;
   let audioInitialized = false;
 
-  // Elementos del DOM
   const songNameEl = document.getElementById('songName');
   const songImageEl = document.getElementById('songImage');
   const progressEl = document.getElementById('progress');
@@ -71,9 +69,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const trackListEl = document.querySelector('.track-list');
   const randomBtn = document.querySelector('.random-btn');
 
-  // ========== FUNCIONES DEL REPRODUCTOR (SIMPLIFICADAS) ==========
   function createTrackList() {
-    trackListEl.innerHTML = ''; // Limpiar lista existente
+    trackListEl.innerHTML = '';
 
     songs.forEach((song, index) => {
       const trackEl = document.createElement('div');
@@ -95,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function initPlayer() {
     if (audioInitialized) return;
     audioInitialized = true;
-    createTrackList(); // Ahora es instantáneo
+    createTrackList();
     playPauseBtn.addEventListener('click', togglePlayPause);
     randomBtn.addEventListener('click', playRandomSong);
   }
@@ -148,7 +145,6 @@ document.addEventListener('DOMContentLoaded', () => {
     return `${min}:${sec < 10 ? '0' + sec : sec}`;
   }
 
-  // ========== EVENT LISTENERS ==========
   audio.addEventListener('timeupdate', () => {
     if (audio.duration) {
       const progress = (audio.currentTime / audio.duration) * 100;
@@ -167,7 +163,6 @@ document.addEventListener('DOMContentLoaded', () => {
     audio.currentTime = (clickX / width) * duration;
   });
 
-  // ========== FUNCIONES GLOBALES ==========
   window.nextSong = nextSong;
   window.prevSong = prevSong;
   window.togglePlayPause = togglePlayPause;
