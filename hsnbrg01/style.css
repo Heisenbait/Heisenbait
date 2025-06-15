@@ -491,14 +491,6 @@ img {
   }
 }
 
-#playPauseBtn {
-  transition: transform 0.2s;
-  background: #e13535 !important;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-
 #playPauseBtn:hover {
   transform: scale(1.1);
 }
