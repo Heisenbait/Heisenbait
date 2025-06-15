@@ -110,8 +110,9 @@ document.addEventListener('DOMContentLoaded', () => {
     isPlaying ? audio.pause() : audio.play();
     isPlaying = !isPlaying;
   }
-  updatePlayPauseButton();
-}
+  function updatePlayPauseButton() {
+    playPauseBtn.textContent = isPlaying ? '❚❚' : '▶';
+  }
 
   function nextSong() {
     currentSongIndex = (currentSongIndex + 1) % songs.length;
