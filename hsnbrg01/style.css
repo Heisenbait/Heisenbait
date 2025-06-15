@@ -454,7 +454,7 @@ img {
   .album-cover img {
     width: 100%;
     height: auto;
-    max-width: 250px;
+    max-width: 300px;
     border-radius: 12px;
   }
 
