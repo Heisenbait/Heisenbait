@@ -432,6 +432,7 @@ img {
 }
 
 .track .title {
+  text-align: center;
   flex: 1;
   font-weight: 500;
 }
@@ -440,17 +441,6 @@ img {
   color: #777;
   font-size: 12px;
 }
-
-@media (max-width: 768px) {
-  .spotify-layout {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-
-  .track-info {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
 
   .album-cover img {
     width: 100%;
