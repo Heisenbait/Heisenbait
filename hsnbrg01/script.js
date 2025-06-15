@@ -1,15 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // ==================== NAVEGACIÓN ====================
+
   const inicioBtn = document.getElementById('inicioBtn');
   const mscBtn = document.getElementById('mscBtn');
   const inicio = document.getElementById('inicio');
   const infoMSC = document.getElementById('info-MSC');
   const header = document.querySelector('.header');
 
-  // Mostrar inicio al cargar
   mostrarInicio();
 
-  // Eventos de navegación
   inicioBtn.addEventListener('click', (e) => {
     e.preventDefault();
     mostrarInicio();
@@ -35,7 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initPlayer();
   }
 
-  // ==================== REPRODUCTOR ====================
   const songs = [
     {
       src: "archivos/Eazy - The Game, Kanye West.mp3",
@@ -48,9 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
       image: "archivos/Cover of Master Of Puppets by Metallica.jpg"
     },
     {
-      src: "archivos/Juicy - 2005 Remaster.mp3",
+      src: "archivos/Juicy - 2005 Remaster by The Notorious B.I.G..mp3",
       name: "Juicy - 2005 Remaster",
-      image: "archivos/buster_portada.jpg"
+      image: "archivos/Cover of Juicy - 2005 Remaster by The Notorious B.I.G..jpg"
     }
   ];
 
