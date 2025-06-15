@@ -56,7 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
   let isPlaying = false;
   let audioInitialized = false;
 
-  // Elementos del DOM
   const songNameEl = document.getElementById('songName');
   const songImageEl = document.getElementById('songImage');
   const progressEl = document.getElementById('progress');
@@ -66,12 +65,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const trackListEl = document.querySelector('.track-list');
   const randomBtn = document.querySelector('.random-btn');
 
-  // Inicializar reproductor
   function initPlayer() {
     if (audioInitialized) return;
     audioInitialized = true;
 
-    // Crear lista de canciones
     songs.forEach((song, index) => {
       const trackEl = document.createElement('div');
       trackEl.className = 'track';
@@ -88,12 +85,10 @@ document.addEventListener('DOMContentLoaded', () => {
       trackListEl.appendChild(trackEl);
     });
 
-    // Eventos
     playPauseBtn.addEventListener('click', togglePlayPause);
     randomBtn.addEventListener('click', playRandomSong);
   }
 
-  // Control de reproducción
   function playSong(song) {
     audio.src = song.src;
     audio.play()
@@ -107,14 +102,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function togglePlayPause() {
+  if (!audio.src || (audio.paused && audio.currentTime === 0)) {
+    currentSongIndex = 0;
+    playSong(songs[currentSongIndex]);
+  } 
+  else {
     isPlaying ? audio.pause() : audio.play();
     isPlaying = !isPlaying;
-    updatePlayPauseButton();
   }
-
-  function updatePlayPauseButton() {
-    playPauseBtn.textContent = isPlaying ? '❚❚' : '▶';
-  }
+  updatePlayPauseButton();
+}
 
   function nextSong() {
     currentSongIndex = (currentSongIndex + 1) % songs.length;
