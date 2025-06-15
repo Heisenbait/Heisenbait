@@ -148,7 +148,10 @@ img {
     }
 }
 
-/* === Reproductor de música === */
+
+
+
+
 
 .music-player {
     background-color: #444;
@@ -229,8 +232,8 @@ img {
 }
 
 #songImage {
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     border-radius: 30px;
 }
 
@@ -383,8 +386,8 @@ img {
 }
 
 .album-cover img {
-  width: 250px;
-  height: 250px;
+  width: 320px;
+  height: 320px;
   border-radius: 8px;
   object-fit: cover;
 }
