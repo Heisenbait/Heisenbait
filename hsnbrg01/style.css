@@ -474,24 +474,5 @@ img {
   }
 }
 
-@media (max-width: 768px) {
-  .controls {
-    max-width: 100%;
-    padding: 0 20px;
-  }
-
-#playPauseBtn {
-  font-size: 30px; 
-}
-
-#playPauseBtn:hover {
-  background-color: transparent !important;
-  transform: scale(1.1);
-}
-
-.control-btn:hover {
-  background-color: transparent !important;
-  transform: scale(1.1);
-}
 
 
