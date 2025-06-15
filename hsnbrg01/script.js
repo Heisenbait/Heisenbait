@@ -1,231 +1,159 @@
-function mostrarInicio() {
-    document.getElementById('inicio').style.display = 'block';
-    document.getElementById('info-MSC').style.display = 'none';
-    document.querySelector('.header').style.display = 'block';
-    window.scrollTo(0, 0);
-}
-
-function mostrarMSC() {
-    document.getElementById('inicio').style.display = 'none';
-    document.getElementById('info-MSC').style.display = 'block';
-    document.querySelector('.header').style.display = 'none';
-    window.scrollTo(0, 0);
-}
-
 document.addEventListener('DOMContentLoaded', () => {
+  const inicioBtn = document.getElementById('inicioBtn');
+  const mscBtn = document.getElementById('mscBtn');
+
+  const inicio = document.getElementById('inicio');
+  const infoMSC = document.getElementById('info-MSC');
+  const header = document.querySelector('.header');
+
+  // Mostrar inicio al cargar
+  mostrarInicio();
+
+  // Botones navegación
+  inicioBtn.addEventListener('click', (e) => {
+    e.preventDefault();
     mostrarInicio();
-
-    document.getElementById('inicioBtn').addEventListener('click', function(event) {
-        event.preventDefault();
-        mostrarInicio();
-    });
-
-    document.getElementById('mscBtn').addEventListener('click', function(event) {
-        event.preventDefault();
-        mostrarMSC();
-    });
-});
-
-
-
-    
-
-
-
-
-
-
-
-
-
-let audio = new Audio();
-let isPlaying = false;
-
-document.querySelectorAll('.track').forEach(track => {
-  track.addEventListener('click', () => {
-    const src = track.getAttribute('data-src');
-    const name = track.querySelector('.title').innerText;
-    const image = document.querySelector('.album-cover img').src;
-
-    playSong(src, name, image);
-    alert(`Reproduciendo: ${name}`);
   });
-});
 
-const songs = [
-  {
-    src: "archivos/Eazy - The Game, Kanye West.mp3",
-    name: "Eazy",
-    image: "archivos/Cover of Eazy by The Game, Kanye West.jpg"
-  },
-  {
-    src: "archivos/Master Of Puppets - Metallica.mp3",
-    name: "Master Of Puppets",
-    image: "archivos/Cover of Master Of Puppets by Metallica.jpg"
-  },
-  {
-    src: "rutadecancion1.mp3",
-    name: "Juicy - 2005 Remaster",
-    image: "archivos/buster_portada.jpg"
-  },
-
-  {
-    src: "rutadecancion1.mp3",
-    name: "cancion4",
-    image: "archivos/buster_portada.jpg"
-  },
-
-  {
-    src: "rutadecancion1.mp3",
-    name: "cancion5",
-    image: "archivos/buster_portada.jpg"
-  },
-
-  {
-    src: "rutadecancion1.mp3",
-    name: "cancion6",
-    image: "archivos/buster_portada.jpg"
-  },
-
-  {
-    src: "rutadecancion1.mp3",
-    name: "cancion7",
-    image: "archivos/buster_portada.jpg"
-  },
-
-  {
-    src: "rutadecancion1.mp3",
-    name: "cancion8",
-    image: "archivos/buster_portada.jpg"
-  },
-
-  {
-    src: "rutadecancion1.mp3",
-    name: "cancion9",
-    image: "archivos/buster_portada.jpg"
-  },
-
-  {
-    src: "rutadecancion1.mp3",
-    name: "cancion10",
-    image: "archivos/buster_portada.jpg"
-  },
-
-  {
-    src: "rutadecancion1.mp3",
-    name: "cancion11",
-    image: "archivos/buster_portada.jpg"
-  },
-
-  {
-    src: "rutadecancion1.mp3",
-    name: "cancion12",
-    image: "archivos/buster_portada.jpg"
-  },
-  
-];
-
-let currentSongIndex = 0;
-let isPlaying = false;
-const audio = new Audio();
-
-function playSong(songSrc, songName, songImage) {
-  audio.src = songSrc;
-  audio.play();
-  isPlaying = true;
-  updatePlayPauseButton();
-
-  const nameEl = document.getElementById("songName");
-  const imageEl = document.getElementById("songImage");
-
-  if (nameEl) nameEl.textContent = songName;
-  if (imageEl) imageEl.src = songImage;
-
-  updateSongDuration();
-}
-
-function togglePlayPause() {
-  if (isPlaying) {
-    audio.pause();
-  } else {
-    audio.play();
-  }
-  isPlaying = !isPlaying;
-  updatePlayPauseButton();
-}
-
-function updatePlayPauseButton() {
-  const playPauseButton = document.querySelector('.control-btn:nth-child(2)');
-  if (playPauseButton) {
-    playPauseButton.textContent = isPlaying ? '❚❚' : '▶';
-  }
-}
-
-function nextSong() {
-  currentSongIndex = (currentSongIndex + 1) % songs.length;
-  const song = songs[currentSongIndex];
-  playSong(song.src, song.name, song.image);
-}
-
-function prevSong() {
-  currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
-  const song = songs[currentSongIndex];
-  playSong(song.src, song.name, song.image);
-}
-
-function playRandomSong() {
-  currentSongIndex = Math.floor(Math.random() * songs.length);
-  const song = songs[currentSongIndex];
-  playSong(song.src, song.name, song.image);
-}
-
-document.querySelectorAll('.track').forEach((track, index) => {
-  track.addEventListener('click', () => {
-    const song = songs[index];
-    if (song) {
-      currentSongIndex = index;
-      playSong(song.src, song.name, song.image);
-      alert(`Reproduciendo: ${song.name}`);
-    }
+  mscBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    mostrarMSC();
   });
-});
 
-audio.ontimeupdate = function() {
+  function mostrarInicio() {
+    inicio.style.display = 'block';
+    infoMSC.style.display = 'none';
+    header.style.display = 'block';
+    window.scrollTo(0, 0);
+  }
+
+  function mostrarMSC() {
+    inicio.style.display = 'none';
+    infoMSC.style.display = 'block';
+    header.style.display = 'none';
+    window.scrollTo(0, 0);
+  }
+
+  // Reproductor
+  const songs = [
+    {
+      src: "archivos/Eazy - The Game, Kanye West.mp3",
+      name: "Eazy",
+      image: "archivos/Cover of Eazy by The Game, Kanye West.jpg"
+    },
+    {
+      src: "archivos/Master Of Puppets - Metallica.mp3",
+      name: "Master Of Puppets",
+      image: "archivos/Cover of Master Of Puppets by Metallica.jpg"
+    },
+    {
+      src: "rutadecancion1.mp3",
+      name: "Juicy - 2005 Remaster",
+      image: "archivos/buster_portada.jpg"
+    },
+    // Repite con tus otras canciones
+  ];
+
+  const audio = new Audio();
+  let currentSongIndex = 0;
+  let isPlaying = false;
+
+  const songNameEl = document.getElementById('songName');
+  const songImageEl = document.getElementById('songImage');
   const progressEl = document.getElementById('progress');
-  if (audio.duration && progressEl) {
-    const progress = (audio.currentTime / audio.duration) * 100;
-    progressEl.style.width = progress + '%';
-  }
-  updateCurrentTime();
-};
-
-audio.onended = function() {
-  nextSong();
-};
-
-function updateCurrentTime() {
   const currentTimeEl = document.getElementById('current-time');
   const totalTimeEl = document.getElementById('total-time');
-  const duration = audio.duration || 0;
-  const current = audio.currentTime;
+  const playPauseBtn = document.getElementById('playPauseBtn');
+  const trackListEl = document.getElementById('trackList');
 
-  const format = (sec) => {
+  function playSong(song) {
+    audio.src = song.src;
+    audio.play();
+    isPlaying = true;
+    songNameEl.textContent = song.name;
+    songImageEl.src = song.image;
+    updatePlayPauseButton();
+  }
+
+  function updatePlayPauseButton() {
+    playPauseBtn.textContent = isPlaying ? '❚❚' : '▶';
+  }
+
+  function togglePlayPause() {
+    if (isPlaying) {
+      audio.pause();
+    } else {
+      audio.play();
+    }
+    isPlaying = !isPlaying;
+    updatePlayPauseButton();
+  }
+
+  function nextSong() {
+    currentSongIndex = (currentSongIndex + 1) % songs.length;
+    playSong(songs[currentSongIndex]);
+  }
+
+  function prevSong() {
+    currentSongIndex = (currentSongIndex - 1 + songs.length) % songs.length;
+    playSong(songs[currentSongIndex]);
+  }
+
+  function playRandomSong() {
+    currentSongIndex = Math.floor(Math.random() * songs.length);
+    playSong(songs[currentSongIndex]);
+  }
+
+  // Tiempo y progreso
+  audio.ontimeupdate = () => {
+    if (audio.duration) {
+      const progress = (audio.currentTime / audio.duration) * 100;
+      progressEl.style.width = `${progress}%`;
+
+      currentTimeEl.textContent = formatTime(audio.currentTime);
+      totalTimeEl.textContent = formatTime(audio.duration);
+    }
+  };
+
+  audio.onended = () => {
+    nextSong();
+  };
+
+  function formatTime(sec) {
     const min = Math.floor(sec / 60);
     const s = Math.floor(sec % 60);
     return `${min}:${s < 10 ? '0' + s : s}`;
-  };
-
-  if (currentTimeEl && totalTimeEl) {
-    currentTimeEl.textContent = format(current);
-    totalTimeEl.textContent = format(duration);
   }
-}
 
-document.querySelector('.progress-bar')?.addEventListener('click', function(event) {
-  const width = this.offsetWidth;
-  const offset = event.offsetX;
-  const time = (offset / width) * audio.duration;
-  audio.currentTime = time;
+  document.querySelector('.progress-bar')?.addEventListener('click', function (event) {
+    const width = this.offsetWidth;
+    const offset = event.offsetX;
+    const time = (offset / width) * audio.duration;
+    audio.currentTime = time;
+  });
+
+  // Crear lista de canciones dinámicamente
+  songs.forEach((song, index) => {
+    const trackEl = document.createElement('div');
+    trackEl.classList.add('track');
+    trackEl.setAttribute('data-index', index);
+    trackEl.innerHTML = `
+      <span class="number">${index + 1}</span>
+      <div class="title">${song.name}</div>
+      <span class="time">2 hours ago</span>
+    `;
+    trackEl.addEventListener('click', () => {
+      currentSongIndex = index;
+      playSong(song);
+    });
+    trackListEl.appendChild(trackEl);
+  });
+
+  // Exponer funciones globales
+  window.togglePlayPause = togglePlayPause;
+  window.nextSong = nextSong;
+  window.prevSong = prevSong;
+  window.playRandomSong = playRandomSong;
 });
 
   const randomBtn = document.querySelector('.random-btn');
