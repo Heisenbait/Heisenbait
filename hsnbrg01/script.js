@@ -53,9 +53,75 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: "4:16"
     },
     {
-      src: "archivos/Friends - Los Retros.mp3",
-      name: "Friends",
-      image: "archivos/Cover of Friends by Los Retros.jpg",
+      src: "archivos/Like You Do - Joji.mp3",
+      name: "Like You Do",
+      image: "archivos/Cover of Like You Do by Joji.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/American Boy - Estelle.mp3",
+      name: "American Boy",
+      image: "archivos/Cover of American Boy by Estelle, Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/505 - Arctic Monkeys.mp3",
+      name: "505",
+      image: "archivos/Cover of 505 by Arctic Monkeys.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Can't Tell Me Nothing - Kanye West.mp3",
+      name: "Can't Tell Me Nothing",
+      image: "archivos/Cover of I Wonder by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Champion - Kanye West.mp3",
+      name: "Champion",
+      image: "archivos/Cover of I Wonder by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Flashing Lights - Kanye West.mp3",
+      name: "Flashing Lights",
+      image: "archivos/Cover of I Wonder by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Violent Crimes - Kanye West.mp3",
+      name: "Violent Crimes",
+      image: "archivos/Ghost Town by Kanye West, PARTYNEXTDOOR.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Small Worlds - Mac Miller.mp3",
+      name: "Small Worlds",
+      image: "archivos/Cover of Small Worlds by Mac Miller.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/I Wonder - Kanye West.mp3",
+      name: "I Wonder",
+      image: "archivos/Cover of I Wonder by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Rhymes Like Dimes - MF DOOM.mp3",
+      name: "Rhymes Like Dimes",
+      image: "archivos/Cover of Gas Drawls by MF DOOM.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Rapp Snitch Knishes - MF DOOM.mp3",
+      name: "Rapp Snitch Knishes",
+      image: "archivos/Cover of One Beer by MF DOOM.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Runaway - Kanye West.mp3",
+      name: "Runaway",
+      image: "archivos/Cover of Runaway by Kanye West, Pusha T.jpg",
       duration: "2:39"
     },
     {
