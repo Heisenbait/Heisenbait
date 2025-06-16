@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
       image: "archivos/Cover of Someone To Spend Time With by Los Retros.jpg",
       duration: "2:53"
     }
-      
+    
   ];
 
   const audio = new Audio();
@@ -217,25 +217,50 @@ document.addEventListener('DOMContentLoaded', () => {
   const totalTimeEl = document.getElementById('total-time');
   const playPauseBtn = document.getElementById('playPauseBtn');
   const trackListEl = document.querySelector('.track-list');
+  
+  const songNameMobileEl = document.getElementById('songNameMobile');
+  const songImageMobileEl = document.getElementById('songImageMobile');
+  const progressMobileEl = document.getElementById('progressMobile');
+  const currentTimeMobileEl = document.getElementById('current-timeMobile');
+  const totalTimeMobileEl = document.getElementById('total-timeMobile');
+  const playPauseBtnMobile = document.getElementById('playPauseBtnMobile');
+  const trackListMobileEl = document.querySelector('.track-list-mobile');
+  
   const randomBtn = document.querySelector('.random-btn');
 
   function createTrackList() {
     trackListEl.innerHTML = '';
+    trackListMobileEl.innerHTML = '';
 
     songs.forEach((song, index) => {
+      
       const trackEl = document.createElement('div');
       trackEl.className = 'track';
       trackEl.dataset.index = index;
       trackEl.innerHTML = `
         <span class="number">${index + 1}</span>
         <div class="title">${song.name}</div>
-        <span class="time">${song.duration || '0:00'}</span> <!-- Usa duración pre-generada -->
+        <span class="time">${song.duration || '0:00'}</span>
       `;
       trackEl.addEventListener('click', () => {
         currentSongIndex = index;
         playSong(song);
       });
       trackListEl.appendChild(trackEl);
+      
+      const trackMobileEl = document.createElement('div');
+      trackMobileEl.className = 'track';
+      trackMobileEl.dataset.index = index;
+      trackMobileEl.innerHTML = `
+        <span class="number">${index + 1}</span>
+        <div class="title">${song.name}</div>
+        <span class="time">${song.duration || '0:00'}</span>
+      `;
+      trackMobileEl.addEventListener('click', () => {
+        currentSongIndex = index;
+        playSong(song);
+      });
+      trackListMobileEl.appendChild(trackMobileEl);
     });
   }
 
@@ -243,7 +268,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (audioInitialized) return;
     audioInitialized = true;
     createTrackList();
+    
     playPauseBtn.addEventListener('click', togglePlayPause);
+    playPauseBtnMobile.addEventListener('click', togglePlayPause);
     randomBtn.addEventListener('click', playRandomSong);
   }
 
@@ -252,15 +279,27 @@ document.addEventListener('DOMContentLoaded', () => {
     audio.play()
       .then(() => {
         isPlaying = true;
-        songNameEl.textContent = song.name;
-        songImageEl.src = song.image;
+        updatePlayerUI(song);
         updatePlayPauseButton();
       })
       .catch(error => console.error("Error al reproducir:", error));
   }
 
+  function updatePlayerUI(song) {
+    
+    songNameEl.textContent = song.name;
+    songImageEl.src = song.image;
+    totalTimeEl.textContent = song.duration;
+    
+    songNameMobileEl.textContent = song.name;
+    songImageMobileEl.src = song.image;
+    totalTimeMobileEl.textContent = song.duration;
+  }
+
   function updatePlayPauseButton() {
-    playPauseBtn.textContent = isPlaying ? '❚❚' : '▶';
+    const icon = isPlaying ? '❚❚' : '▶';
+    playPauseBtn.textContent = icon;
+    playPauseBtnMobile.textContent = icon;
   }
 
   function togglePlayPause() {
@@ -299,14 +338,28 @@ document.addEventListener('DOMContentLoaded', () => {
     if (audio.duration) {
       const progress = (audio.currentTime / audio.duration) * 100;
       progressEl.style.width = `${progress}%`;
-      currentTimeEl.textContent = formatTime(audio.currentTime);
-      totalTimeEl.textContent = formatTime(audio.duration);
+      progressMobileEl.style.width = `${progress}%`;
+      
+      const currentTime = formatTime(audio.currentTime);
+      currentTimeEl.textContent = currentTime;
+      currentTimeMobileEl.textContent = currentTime;
+      
+      const totalTime = formatTime(audio.duration);
+      totalTimeEl.textContent = totalTime;
+      totalTimeMobileEl.textContent = totalTime;
     }
   });
 
   audio.addEventListener('ended', nextSong);
 
-  document.querySelector('.progress-bar').addEventListener('click', (e) => {
+  document.querySelector('#progressBar').addEventListener('click', (e) => {
+    const width = e.currentTarget.offsetWidth;
+    const clickX = e.offsetX;
+    const duration = audio.duration;
+    audio.currentTime = (clickX / width) * duration;
+  });
+
+  document.querySelector('#progressBarMobile').addEventListener('click', (e) => {
     const width = e.currentTarget.offsetWidth;
     const clickX = e.offsetX;
     const duration = audio.duration;
@@ -317,6 +370,5 @@ document.addEventListener('DOMContentLoaded', () => {
   window.prevSong = prevSong;
   window.togglePlayPause = togglePlayPause;
 });
-
 
 
