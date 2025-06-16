@@ -56,61 +56,61 @@ document.addEventListener('DOMContentLoaded', () => {
       src: "archivos/One Beer - MF DOOM.mp3",
       name: "One Beer",
       image: "archivos/Cover of One Beer by MF DOOM.jpg",
-      duration: "2:39"
+      duration: "4:18"
     },
     {
       src: "archivos/PRIDE. - Kendrick Lamar.mp3",
       name: "PRIDE.",
       image: "archivos/Cover of PRIDE. by Kendrick Lamar.jpg",
-      duration: "2:39"
+      duration: "4:35"
     },
     {
       src: "archivos/Ghost Town - Kanye West.mp3",
       name: "Ghost Town",
-      image: "archivos/Cover of Ghost Town by Kanye West.jpg",
-      duration: "2:39"
+      image: "archivos/Ghost Town by Kanye West, PARTYNEXTDOOR.jpg",
+      duration: "4:31"
     },
     {
       src: "archivos/Gas Drawls - MF DOOM.mp3",
       name: "Gas Drawls",
       image: "archivos/Cover of Gas Drawls by MF DOOM.jpg",
-      duration: "2:39"
+      duration: "3:42"
     },
     {
       src: "archivos/20191012 Fooled By Love - Mac DeMarco.mp3",
       name: "20191012 Fooled By Love",
       image: "archivos/Cover of 20191012 Fooled By Love by Mac DeMarco.jpg",
-      duration: "2:39"
+      duration: "3:17"
     },
     {
       src: "archivos/Moonlight on the River - Mac DeMarco.mp3",
       name: "Moonlight on the River",
       image: "archivos/Cover of For the First Time by Mac DeMarco.jpg",
-      duration: "2:39"
+      duration: "7:02"
     },
     {
       src: "archivos/For the First Time - Mac DeMarco.mp3",
       name: "For the First Time",
       image: "archivos/Cover of For the First Time by Mac DeMarco.jpg",
-      duration: "2:39"
+      duration: "3:02"
     },
     {
       src: "archivos/My Kind of Woman - Mac DeMarco.mp3",
       name: "My Kind of Woman",
       image: "archivos/Cover of My Kind of Woman by Mac DeMarco.jpg",
-      duration: "2:39"
+      duration: "3:10"
     },
     {
       src: "archivos/Amtrak - Los Retros.mp3",
       name: "Amtrak",
       image: "archivos/Cover of Amtrak by Los Retros.jpg",
-      duration: "2:39"
+      duration: "2:56"
     },
     {
       src: "archivos/サマー・サンバ - Lisa Ono.mp3",
       name: "サマー・サンバ",
       image: "archivos/Cover of サマー・サンバ by Lisa Ono.jpg",
-      duration: "2:39"
+      duration: "2:14"
     },
     {
       src: "archivos/Garota de Ipanema - 2006 Version - Lisa Ono.mp3",
