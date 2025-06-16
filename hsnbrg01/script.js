@@ -114,9 +114,9 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       src: "archivos/Garota de Ipanema - 2006 Version - Lisa Ono.mp3",
-      name: "Garota de Ipanema - 2006 Version",
+      name: "Garota de Ipanema",
       image: "archivos/Cover of Garota de Ipanema - 2006 Version by Lisa Ono.jpg",
-      duration: "2:39"
+      duration: "4:39"
     },
     {
       src: "archivos/Friends - Los Retros.mp3",
