@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
       src: "archivos/Rhymes Like Dimes - MF DOOM.mp3",
       name: "Rhymes Like Dimes",
       image: "archivos/Cover of Gas Drawls by MF DOOM.jpg",
-      duration: "2:39"
+      duration: "4:18"
     },
     {
       src: "archivos/Rapp Snitch Knishes - MF DOOM.mp3",
