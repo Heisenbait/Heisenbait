@@ -239,7 +239,7 @@ img {
 .song-name {
   width: 100%;
   text-align: center;
-  margin: 15px 0;
+  margin: 0px 0;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 1.2rem;
 }
