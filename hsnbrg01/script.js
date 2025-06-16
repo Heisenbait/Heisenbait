@@ -59,6 +59,42 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: "2:39"
     },
     {
+      src: "archivos/For the First Time - Mac DeMarco.mp3",
+      name: "For the First Time",
+      image: "archivos/Cover of For the First Time by Mac DeMarco.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/My Kind of Woman - Mac DeMarco.mp3",
+      name: "My Kind of Woman",
+      image: "archivos/Cover of My Kind of Woman by Mac DeMarco.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Amtrak - Los Retros.mp3",
+      name: "Amtrak",
+      image: "archivos/Cover of Amtrak by Los Retros.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/サマー・サンバ - Lisa Ono.mp3",
+      name: "サマー・サンバ",
+      image: "archivos/Cover of サマー・サンバ by Lisa Ono.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Garota de Ipanema - 2006 Version - Lisa Ono.mp3",
+      name: "Garota de Ipanema - 2006 Version",
+      image: "archivos/Cover of Garota de Ipanema - 2006 Version by Lisa Ono.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Friends - Los Retros.mp3",
+      name: "Friends",
+      image: "archivos/Cover of Friends by Los Retros.jpg",
+      duration: "2:39"
+    },
+    {
       src: "archivos/Someone To Spend Time With - Los Retros.mp3",
       name: "Someone To Spend Time With",
       image: "archivos/Cover of Someone To Spend Time With by Los Retros.jpg",
