@@ -6,6 +6,7 @@ body {
     background: #1e1e1e;
     color: #e7e7e7;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 /* ===== BARRA DE NAVEGACIÓN ===== */
@@ -43,6 +44,8 @@ body {
     padding: 50px 20px;
     background: #ff0000;
     color: white;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .header h1 {
@@ -55,10 +58,18 @@ body {
     margin: 0px 0;
 }
 
+.header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
 /* ===== CONTENIDO PRINCIPAL ===== */
 .main {
     padding: 40px 20px;
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .main h2 {
@@ -77,13 +88,14 @@ body {
 /* ===== REPRODUCTOR DE MÚSICA ===== */
 #info-MSC {
     display: none;
-}
-
-/* Estructura base (igual para todos los dispositivos) */
-.spotify-layout {
     background-color: #121212;
 }
 
+.spotify-layout {
+    min-height: 100vh;
+}
+
+/* Álbum y controles */
 .album-cover {
     text-align: center;
     padding: 20px;
@@ -96,6 +108,7 @@ body {
     object-fit: cover;
 }
 
+/* Información de pistas */
 .track-info {
     padding: 20px;
 }
@@ -111,6 +124,7 @@ body {
     margin: 0 0 20px 0;
 }
 
+/* Lista de canciones */
 .track-list {
     display: flex;
     flex-direction: column;
@@ -123,6 +137,7 @@ body {
     gap: 20px;
     padding: 8px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .track:hover {
@@ -146,6 +161,7 @@ body {
     font-size: 12px;
 }
 
+/* Controles */
 .controls {
     display: flex;
     justify-content: center;
@@ -166,6 +182,7 @@ body {
     font-size: 30px;
 }
 
+/* Barra de progreso */
 .progress-bar {
     width: 100%;
     background-color: #888;
@@ -190,22 +207,25 @@ body {
     margin-top: 10px;
 }
 
+/* Botón Aleatorio (ajustado según lo solicitado) */
 .random-btn {
     font-family: 'IBM Plex Mono', monospace;
     border: none;
     color: #fff;
-    padding: 14px 16px;
+    padding: 8px 16px; /* Tamaño original */
     border-radius: 12px;
     cursor: pointer;
     margin-bottom: 30px;
-    font-size: 16px;
+    font-size: 14px;
+    background-color: #333; /* Color original */
+    white-space: nowrap;
+    display: inline-block;
 }
 
-/* ===== VERSIÓN ESCRITORIO (SOLO CAMBIA EL SCROLL) ===== */
+/* ===== VERSIÓN ESCRITORIO ===== */
 @media (min-width: 769px) {
     .spotify-layout {
         display: flex;
-        min-height: 100vh;
     }
 
     .album-cover {
@@ -214,10 +234,10 @@ body {
         width: 320px;
         height: 100vh;
         padding: 40px;
+        border-right: 1px solid #282828;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        border-right: 1px solid #282828;
     }
 
     .track-info {
@@ -228,8 +248,13 @@ body {
     }
 }
 
-/* ===== VERSIÓN MÓVIL (IGUAL A TU ORIGINAL) ===== */
+/* ===== VERSIÓN MÓVIL ===== */
 @media (max-width: 768px) {
+    body, .header, .main {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
     .header h1 {
         font-size: 40px;
     }
