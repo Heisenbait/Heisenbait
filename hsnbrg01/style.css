@@ -1,3 +1,4 @@
+/* ===== ESTILOS GENERALES ===== */
 body {
     font-family: 'IBM Plex Mono', sans-serif;
     margin: 0;
@@ -7,6 +8,7 @@ body {
     line-height: 1.6;
 }
 
+/* ===== BARRA DE NAVEGACIÓN ===== */
 .navbar {
     position: fixed;
     bottom: 20px;
@@ -35,6 +37,7 @@ body {
     border-radius: 5px;
 }
 
+/* ===== CABECERA ===== */
 .header {
     text-align: center;
     padding: 50px 20px;
@@ -52,6 +55,7 @@ body {
     margin: 0px 0;
 }
 
+/* ===== CONTENIDO PRINCIPAL ===== */
 .main {
     padding: 40px 20px;
     text-align: center;
@@ -70,39 +74,30 @@ body {
     white-space: pre-line;
 }
 
+/* ===== REPRODUCTOR DE MÚSICA ===== */
 #info-MSC {
     display: none;
 }
 
+/* Estructura base (igual para todos los dispositivos) */
 .spotify-layout {
-    display: flex;
-    min-height: 100vh;
     background-color: #121212;
 }
 
 .album-cover {
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    width: 320px;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-right: 1px solid #282828;
-}
-
-.track-info {
-    flex: 1;
-    padding: 40px;
-    overflow-y: auto;
-    height: 100vh;
+    text-align: center;
+    padding: 20px;
 }
 
 .album-cover img {
     width: 280px;
     height: 280px;
     border-radius: 8px;
+    object-fit: cover;
+}
+
+.track-info {
+    padding: 20px;
 }
 
 .track-info h1 {
@@ -206,25 +201,35 @@ body {
     font-size: 16px;
 }
 
-@media (max-width: 768px) {
+/* ===== VERSIÓN ESCRITORIO (SOLO CAMBIA EL SCROLL) ===== */
+@media (min-width: 769px) {
     .spotify-layout {
-        flex-direction: column;
-    }
-    
-    .album-cover {
-        position: relative;
-        height: auto;
-        width: 100%;
-        padding: 20px;
-        border-right: none;
-    }
-    
-    .track-info {
-        padding: 20px;
-        height: auto;
-        overflow-y: visible;
+        display: flex;
+        min-height: 100vh;
     }
 
+    .album-cover {
+        position: sticky;
+        top: 0;
+        width: 320px;
+        height: 100vh;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-right: 1px solid #282828;
+    }
+
+    .track-info {
+        flex: 1;
+        padding: 40px;
+        overflow-y: auto;
+        height: 100vh;
+    }
+}
+
+/* ===== VERSIÓN MÓVIL (IGUAL A TU ORIGINAL) ===== */
+@media (max-width: 768px) {
     .header h1 {
         font-size: 40px;
     }
