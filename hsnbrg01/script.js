@@ -53,9 +53,39 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: "4:16"
     },
     {
-      src: "archivos/Friends - Los Retros.mp3",
-      name: "Friends",
-      image: "archivos/Cover of Friends by Los Retros.jpg",
+      src: "archivos/One Beer - MF DOOM.mp3",
+      name: "One Beer",
+      image: "archivos/Cover of One Beer by MF DOOM.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/PRIDE. - Kendrick Lamar.mp3",
+      name: "PRIDE.",
+      image: "archivos/Cover of PRIDE. by Kendrick Lamar.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Ghost Town - Kanye West.mp3",
+      name: "Ghost Town",
+      image: "archivos/Cover of Ghost Town by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Gas Drawls - MF DOOM.mp3",
+      name: "Gas Drawls",
+      image: "archivos/Cover of Gas Drawls by MF DOOM.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/20191012 Fooled By Love - Mac DeMarco.mp3",
+      name: "20191012 Fooled By Love",
+      image: "archivos/Cover of 20191012 Fooled By Love by Mac DeMarco.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Moonlight on the River - Mac DeMarco.mp3",
+      name: "Moonlight on the River",
+      image: "archivos/Cover of For the First Time by Mac DeMarco.jpg",
       duration: "2:39"
     },
     {
