@@ -53,6 +53,12 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: "4:16"
     },
     {
+      src: "archivos/Friends - Los Retros.mp3",
+      name: "Friends",
+      image: "archivos/Cover of Friends by Los Retros.jpg",
+      duration: "2:39"
+    },
+    {
       src: "archivos/One Beer - MF DOOM.mp3",
       name: "One Beer",
       image: "archivos/Cover of One Beer by MF DOOM.jpg",
