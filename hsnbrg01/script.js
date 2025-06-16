@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
       src: "archivos/Gas Drawls - MF DOOM.mp3",
       name: "Gas Drawls",
       image: "archivos/Cover of Gas Drawls by MF DOOM.jpg",
-      duration: "3:42"
+      duration: "3:43"
     },
     {
       src: "archivos/20191012 Fooled By Love - Mac DeMarco.mp3",
