@@ -53,16 +53,16 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: "4:16"
     },
     {
-      src: "archivos/Someone To Spend Time With - Los Retros.mp3",
-      name: "Someone To Spend Time With",
-      image: "archivos/Cover of Someone To Spend Time With by Los Retros.jpg",
-      duration: "4:16"
-    },
-    {
       src: "archivos/Friends - Los Retros.mp3",
       name: "Friends",
       image: "archivos/Cover of Friends by Los Retros.jpg",
-      duration: "4:16"
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Someone To Spend Time With - Los Retros.mp3",
+      name: "Someone To Spend Time With",
+      image: "archivos/Cover of Someone To Spend Time With by Los Retros.jpg",
+      duration: "2:53"
     }
       
   ];
