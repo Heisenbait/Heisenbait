@@ -299,6 +299,11 @@ const songs = [
         src: 'https://cdn.glitch.global/70136650-6737-4d41-9ed6-3e4eb0e57f6b/A%20new%20one%20for%20all%2C%20All%20for%20the%20new%20one%20-%20ONE%20OK%20ROCK.mp3?v=1748122536909', 
         name: 'A new one for all, All for the new one - ONE OK ROCK', 
         image: 'https://cdn.glitch.global/70136650-6737-4d41-9ed6-3e4eb0e57f6b/Cover%20of%20A%20new%20one%20for%20all%2C%20All%20for%20the%20new%20one%20by%20ONE%20OK%20ROCK.jpg?v=1748122547990'
+    },
+    { 
+        src: 'https://cdn.glitch.global/70136650-6737-4d41-9ed6-3e4eb0e57f6b/%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%82%A8%E3%83%B3%E3%83%89%20-%20back%20number.mp3?v=1750220630440', 
+        name: 'ハッピーエンド - back number', 
+        image: 'https://cdn.glitch.global/70136650-6737-4d41-9ed6-3e4eb0e57f6b/Cover%20of%20%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E3%82%A8%E3%83%B3%E3%83%89%20by%20back%20number.jpg?v=1750220621357'
     }
 ];
 
