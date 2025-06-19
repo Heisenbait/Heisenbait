@@ -83,7 +83,7 @@ body {
 #info-nosotros, #info-planesAFuturo, #info-sorpresa {
     display: none;
     padding: 20px;
-    background: #3b3b3b;
+    background: white;
     margin: 20px auto;
     font-size: 18px;
     max-width: 800px;
