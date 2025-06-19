@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-    background-color: #ff7f24;
+    background-color: #f69100;
     backdrop-filter: blur(8px);
     overflow: hidden;
     display: flex;
