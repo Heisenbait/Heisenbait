@@ -264,25 +264,6 @@ function initPlayer() {
       songImageEl.src = song.image;
       songNameEl.textContent = song.name;
       audio.src = song.src;
-
-
-      
-
-
-   try {
-    const colorThief = new ColorThief();
-    const dominantColor = colorThief.getColor(img);
-    const gradient = `linear-gradient(to bottom, rgba(${dominantColor[0]}, ${dominantColor[1]}, ${dominantColor[2]}, 0.6), #121212)`;
-    document.getElementById('info-MSC').style.background = gradient;
-  } catch (error) {
-    console.warn("No se pudo obtener el color dominante:", error);
-    document.getElementById('info-MSC').style.background = '#121212';
-  }
-
-
-
-
-      
       audio.play()
         .then(() => {
           isPlaying = true;
