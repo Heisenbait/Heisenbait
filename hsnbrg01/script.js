@@ -261,8 +261,11 @@ function initPlayer() {
     const img = new Image();
     img.src = song.image;
     img.onload = () => {
+      songImageEl.src = song.image;
+      songNameEl.textContent = song.name;
+      audio.src = song.src;
 
-      
+
 
       const colorThief = new ColorThief();
       const bgColor = colorThief.getColor(img);
@@ -270,9 +273,6 @@ function initPlayer() {
 
 
       
-      songImageEl.src = song.image;
-      songNameEl.textContent = song.name;
-      audio.src = song.src;
       audio.play()
         .then(() => {
           isPlaying = true;
