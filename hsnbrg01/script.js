@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     mostrarMSC();
   });
 
-  function mostrarInicio() {
+   function mostrarInicio() {
     inicio.style.display = 'block';
     infoMSC.style.display = 'none';
     header.style.display = 'block';
@@ -239,24 +239,43 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  function initPlayer() {
+function initPlayer() {
     if (audioInitialized) return;
     audioInitialized = true;
+    songs.forEach(song => {
+      const img = new Image();
+      img.src = song.image;
+    });
     createTrackList();
     playPauseBtn.addEventListener('click', togglePlayPause);
     randomBtn.addEventListener('click', playRandomSong);
   }
 
   function playSong(song) {
-    audio.src = song.src;
-    audio.play()
-      .then(() => {
-        isPlaying = true;
-        songNameEl.textContent = song.name;
-        songImageEl.src = song.image;
-        updatePlayPauseButton();
-      })
-      .catch(error => console.error("Error al reproducir:", error));
+    const img = new Image();
+    img.src = song.image;
+    img.onload = () => {
+      songImageEl.src = song.image;
+      songNameEl.textContent = song.name;
+      audio.src = song.src;
+      audio.play()
+        .then(() => {
+          isPlaying = true;
+          updatePlayPauseButton();
+        })
+        .catch(err => console.error("Error al reproducir:", err));
+    };
+    img.onerror = () => {
+      console.warn("Error al cargar imagen:", song.image);
+      songNameEl.textContent = song.name;
+      audio.src = song.src;
+      audio.play()
+        .then(() => {
+          isPlaying = true;
+          updatePlayPauseButton();
+        })
+        .catch(err => console.error("Error al reproducir:", err));
+    };
   }
 
   function updatePlayPauseButton() {
