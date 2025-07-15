@@ -420,59 +420,6 @@ img {
 
 
 
-
-
-
-
-
-
-
-.volume-control {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 10px;
-  padding: 0 20px;
-}
-
-.volume-icon {
-  width: 24px;
-  height: 24px;
-}
-
-#volumeSlider {
-  flex: 1;
-  height: 4px;
-  background-color: #ccc;
-  border-radius: 4px;
-  appearance: none;
-  cursor: pointer;
-}
-
-#volumeSlider::-webkit-slider-thumb {
-  appearance: none;
-  width: 12px;
-  height: 12px;
-  background: #000;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-#volumeSlider::-moz-range-thumb {
-  width: 12px;
-  height: 12px;
-  background: #000;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-
-
-
-
-
-
-
 .ibm-plex-mono-thin {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 100;
