@@ -338,3 +338,15 @@ function initPlayer() {
 });
 
 
+
+
+
+
+
+
+
+const volumeSlider = document.getElementById('volumeSlider');
+
+volumeSlider.addEventListener('input', (e) => {
+  audio.volume = e.target.value;
+});
