@@ -53,6 +53,12 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: "4:16"
     },
     {
+      src: "archivos/You Know How We Do It - Ice Cube.mp3",
+      name: "You Know How We Do It",
+      image: "archivos/Cover of You Know How We Do It by Ice Cube.jpg",
+      duration: "2:39"
+    },
+    {
       src: "archivos/Like You Do - Joji.mp3",
       name: "Like You Do",
       image: "archivos/Cover of Like You Do by Joji.jpg",
