@@ -261,6 +261,15 @@ function initPlayer() {
     const img = new Image();
     img.src = song.image;
     img.onload = () => {
+
+      
+
+      const colorThief = new ColorThief();
+      const bgColor = colorThief.getColor(img);
+      document.body.style.background = `rgb(${bgColor[0]}, ${bgColor[1]}, ${bgColor[2]})`;
+
+
+      
       songImageEl.src = song.image;
       songNameEl.textContent = song.name;
       audio.src = song.src;
