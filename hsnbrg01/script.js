@@ -336,17 +336,3 @@ function initPlayer() {
   window.prevSong = prevSong;
   window.togglePlayPause = togglePlayPause;
 });
-
-
-
-
-
-
-
-
-
-const volumeSlider = document.getElementById('volumeSlider');
-
-volumeSlider.addEventListener('input', (e) => {
-  audio.volume = e.target.value;
-});
