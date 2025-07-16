@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: "2:39"
     },
     {
-      src: "archivos/On Sight- Kanye West.mp3",
+      src: "archivos/On Sight - Kanye West.mp3",
       name: "On Sight",
       image: "archivos/Cover of Bound 2 by Kanye West.jpg",
       duration: "2:39"
