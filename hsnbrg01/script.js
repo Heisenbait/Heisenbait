@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       src: "archivos/GONE, GONE _ THANK YOU - Tyler.mp3",
       name: "GONE, GONE _ THANK YOU",
-      image: "archivos/Cover of GONE, GONE _ THANK YOU - Tyler.jpg",
+      image: "archivos/Cover of GONE, GONE _ THANK YOU by Tyler, The Creator.jpg",
       duration: "2:39"
     },
     {
