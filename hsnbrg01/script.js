@@ -55,13 +55,13 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       src: "archivos/Homecoming - Kanye West.mp3",
       name: "Homecoming",
-      image: "archivos/Cover of Homecoming by Kanye West.jpg",
+      image: "archivos/Cover of I Wonder by Kanye West.jpg",
       duration: "2:39"
     },
     {
       src: "archivos/Everything I Am - Kanye West.mp3",
       name: "Everything I Am",
-      image: "archivos/Cover of Everything I Am by Kanye West.jpg",
+      image: "archivos/Cover of I Wonder by Kanye West.jpg",
       duration: "2:39"
     },
     {
