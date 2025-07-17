@@ -56,97 +56,97 @@ document.addEventListener('DOMContentLoaded', () => {
       src: "archivos/Homecoming - Kanye West.mp3",
       name: "Homecoming",
       image: "archivos/Cover of I Wonder by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:23"
     },
     {
       src: "archivos/Everything I Am - Kanye West.mp3",
       name: "Everything I Am",
       image: "archivos/Cover of I Wonder by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:47"
     },
     {
       src: "archivos/GONE, GONE _ THANK YOU - Tyler.mp3",
       name: "GONE, GONE | THANK YOU",
       image: "archivos/Cover of GONE GONE THANK YOU by Tyler.jpg",
-      duration: "2:39"
+      duration: "6:15"
     },
     {
       src: "archivos/Time Moves Slow - BADBADNOTGOOD.mp3",
       name: "Time Moves Slow",
       image: "archivos/Cover of Time Moves Slow by BADBADNOTGOOD, Samuel T. Herring.jpg",
-      duration: "2:39"
+      duration: "4:33"
     },
     {
       src: "archivos/All Caps - Madvillain.mp3",
       name: "All Caps",
       image: "archivos/Cover of All Caps by Madvillain, Madlib, MF DOOM.jpg",
-      duration: "2:39"
+      duration: "2:10"
     },
     {
       src: "archivos/20191009 I Like Her - Mac DeMarco.mp3",
       name: "20191009 I Like Her",
       image: "archivos/Cover of 20191012 Fooled by Love by Mac DeMarco.jpg",
-      duration: "2:39"
+      duration: "2:16"
     },
     {
       src: "archivos/Soundtrack for Your Backseat - sundiver ca.mp3",
       name: "Soundtrack for Your Backseat",
       image: "archivos/Cover of Soundtrack for Your Backseat by sundiver ca.jpg",
-      duration: "2:39"
+      duration: "2:42"
     },
     {
       src: "archivos/Devil In A New Dress - Kanye West.mp3",
       name: "Devil In A New Dress",
       image: "archivos/Cover of Devil In A New Dress by Kanye West, Rick Ross.jpg",
-      duration: "2:39"
+      duration: "5:51"
     },
     {
       src: "archivos/Somethin' Stupid - Frank Sinatra.mp3",
       name: "Somethin' Stupid",
       image: "archivos/Cover of Somethin' Stupid by Frank Sinatra, Nancy Sinatra.jpg",
-      duration: "2:39"
+      duration: "2:42"
     },
     {
       src: "archivos/Garota De Ipanema - Antônio Carlos Jobim.mp3",
       name: "Garota de Ipanema",
       image: "archivos/Cover of Garota De Ipanema by Antônio Carlos Jobim.jpg",
-      duration: "2:39"
+      duration: "4:02"
     },
     {
       src: "archivos/Lover Is a Day - Cuco.mp3",
       name: "Lover Is a Day",
       image: "archivos/Cover of Lover Is a Day by Cuco.jpg",
-      duration: "2:39"
+      duration: "7:36"
     },
     {
       src: "archivos/Hey Mama - Kanye West.mp3",
       name: "Hey Mama",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "2:39"
+      duration: "5:05"
     },
     {
       src: "archivos/Touch The Sky - Kanye West.mp3",
       name: "Touch The Sky",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:56"
     },
     {
       src: "archivos/On Sight - Kanye West.mp3",
       name: "On Sight",
       image: "archivos/Cover of Bound 2 by Kanye West.jpg",
-      duration: "2:39"
+      duration: "2:36"
     },
     {
       src: "archivos/Bound 2 - Kanye West.mp3",
       name: "Bound 2",
       image: "archivos/Cover of Bound 2 by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:49"
     },
     {
       src: "archivos/Big Poppa - 2005 Remaster - The Notorious B.I.G..mp3",
       name: "Big Poppa - 2005 Remaster",
       image: "archivos/Cover of Juicy - 2005 Remaster by The Notorious B.I.G..jpg",
-      duration: "2:39"
+      duration: "4:12"
     },
     {
       src: "archivos/You Know How We Do It - Ice Cube.mp3",
