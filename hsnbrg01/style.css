@@ -39,7 +39,7 @@ body {
 .header {
     text-align: center;
     padding: 50px 20px;
-    background: #ff0000;
+    background: linear-gradient(to bottom, #ff0000, #1e1e1e);
     color: white;
     position: relative;
 }
