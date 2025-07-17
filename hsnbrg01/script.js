@@ -73,13 +73,13 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       src: "archivos/Time Moves Slow - BADBADNOTGOOD.mp3",
       name: "Time Moves Slow",
-      image: "archivos/Cover of Time Moves Slow by BADBADNOTGOOD.jpg",
+      image: "archivos/Cover of Time Moves Slow by BADBADNOTGOOD, Samuel T. Herring.jpg",
       duration: "2:39"
     },
     {
       src: "archivos/All Caps - Madvillain.mp3",
       name: "All Caps",
-      image: "archivos/Cover of All Caps by Madvillain.jpg",
+      image: "archivos/Cover of All Caps by Madvillain, Madlib, MF DOOM.jpg",
       duration: "2:39"
     },
     {
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       src: "archivos/Lover Is a Day - Cuco.mp3",
       name: "Lover Is a Day",
-      image: "archivos/Lover Is a Day by Cuco.jpg",
+      image: "archivos/Cover of Lover Is a Day by Cuco.jpg",
       duration: "2:39"
     },
     {
