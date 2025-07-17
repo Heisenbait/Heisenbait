@@ -231,9 +231,12 @@ img {
 }
 
 #songImage {
-    width: 330px;
-    height: 330px;
-    border-radius: 30px;
+  width: 100%;
+  max-width: 330px;
+  height: auto;
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto;
 }
 
 .song-name {
