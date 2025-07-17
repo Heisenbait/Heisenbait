@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       src: "archivos/GONE, GONE _ THANK YOU - Tyler.mp3",
-      name: "GONE, GONE _ THANK YOU",
+      name: "GONE, GONE | THANK YOU",
       image: "archivos/Cover of GONE, GONE _ THANK YOU by Tyler, The Creator.jpg",
       duration: "2:39"
     },
@@ -97,13 +97,13 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       src: "archivos/Devil In A New Dress - Kanye West.mp3",
       name: "Devil In A New Dress",
-      image: "archivos/Cover of Devil In A New Dress by Kanye West.jpg",
+      image: "archivos/Cover of Devil In A New Dress by Kanye West, Rick Ross.jpg",
       duration: "2:39"
     },
     {
       src: "archivos/Somethin' Stupid - Frank Sinatra.mp3",
       name: "Somethin' Stupid",
-      image: "archivos/Cover of Somethin' Stupid by Frank Sinatra.jpg",
+      image: "archivos/Cover of Somethin' Stupid by Frank Sinatra, Nancy Sinatra.jpg",
       duration: "2:39"
     },
     {
