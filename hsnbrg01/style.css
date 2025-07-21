@@ -2,7 +2,7 @@ body {
     font-family: IBM Plex Mono, sans-serif;
     margin: 0;
     padding: 0;
-    background: #1e1e1e;
+    background: #121212;
     color: #e7e7e7;
     line-height: 1.6;
 }
@@ -39,7 +39,7 @@ body {
 .header {
     text-align: center;
     padding: 50px 20px;
-    background: linear-gradient(to bottom, #ff0000, #1e1e1e);
+    background: linear-gradient(to bottom, #ff0000, #121212);
     color: white;
     position: relative;
 }
@@ -363,7 +363,7 @@ img {
     align-items: center;
     gap: 20px;
     border-radius: 12px;
-    background-color: #1e1e1e;
+    background-color: #121212;
   }
 
   .album-cover img {
