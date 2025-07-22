@@ -385,8 +385,14 @@ function playSong(song) {
 
   const colorThief = new ColorThief();
   const [r, g, b] = colorThief.getColor(img);
-  const backgroundColor = `rgb(${r}, ${g}, ${b})`;
-  const darkerBg = `rgba(${r}, ${g}, ${b}, 0.7)`;
+
+  const darken = (value) => Math.max(0, value * 0.85);
+  const rD = Math.floor(darken(r));
+  const gD = Math.floor(darken(g));
+  const bD = Math.floor(darken(b));
+
+  const backgroundColor = `rgb(${rD}, ${gD}, ${bD})`;
+  const darkerBg = `rgba(${rD}, ${gD}, ${bD}, 0.8)`;
 
   infoMSC.style.backgroundColor = backgroundColor;
   const spotify = document.querySelector('.spotify-layout');
