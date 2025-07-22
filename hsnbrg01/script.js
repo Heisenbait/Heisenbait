@@ -379,23 +379,26 @@ function playSong(song) {
   img.src = song.image;
 
   img.onload = () => {
-    songImageEl.src = song.image;
-    songNameEl.textContent = song.name;
-    audio.src = song.src;
+  songImageEl.src = song.image;
+  songNameEl.textContent = song.name;
+  audio.src = song.src;
 
-    const colorThief = new ColorThief();
-    const dominantColor = colorThief.getColor(img);
-    const backgroundColor = `rgb(${dominantColor[0]}, ${dominantColor[1]}, ${dominantColor[2]})`;
+  const colorThief = new ColorThief();
+  const [r, g, b] = colorThief.getColor(img);
+  const backgroundColor = `rgb(${r}, ${g}, ${b})`;
+  const darkerBg = `rgba(${r}, ${g}, ${b}, 0.7)`;
 
-    document.getElementById("info-MSC").style.backgroundColor = backgroundColor;
-    document.getElementById("info-MSC").style.transition = "background-color 1s ease";
+  infoMSC.style.backgroundColor = backgroundColor;
+  const spotify = document.querySelector('.spotify-layout');
+  spotify.style.backgroundColor = darkerBg;
+  infoMSC.style.transition = spotify.style.transition = "background-color 1s ease";
 
-    audio.play()
-      .then(() => {
-        isPlaying = true;
-        updatePlayPauseButton();
-      })
-      .catch(err => console.error("Error al reproducir:", err));
+  audio.play()
+    .then(() => {
+      isPlaying = true;
+      updatePlayPauseButton();
+    })
+    .catch(err => console.error("Error al reproducir:", err));
   };
 }
 
