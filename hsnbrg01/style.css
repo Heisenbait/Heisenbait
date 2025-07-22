@@ -272,7 +272,9 @@ img {
 
 .random-btn {
     font-family: 'IBM Plex Mono', monospace;
-    background-color: #2a2a2a;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
     border: none;
     color: #fff;
     padding: 14px 16px;
@@ -282,7 +284,9 @@ img {
 }
 
 .random-btn:hover {
-    background-color: #333;
+    background: rgba(200, 200, 200, 0.1);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
 }
 
 
