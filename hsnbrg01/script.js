@@ -53,10 +53,10 @@ document.addEventListener('DOMContentLoaded', () => {
       duration: "4:16"
     },
     {
-      src: "archivos/Homecoming - Kanye West.mp3",
-      name: "Homecoming",
-      image: "archivos/Cover of I Wonder by Kanye West.jpg",
-      duration: "3:23"
+      src: "archivos/On the Level - Mac DeMarco.mp3",
+      name: "On the Level",
+      image: "archivos/Cover of For the First Time by Mac DeMarco.jpg",
+      duration: "3:48"
     },
     {
       src: "archivos/Everything I Am - Kanye West.mp3",
