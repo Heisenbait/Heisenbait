@@ -386,7 +386,7 @@ function playSong(song) {
   const colorThief = new ColorThief();
   const [r, g, b] = colorThief.getColor(img);
 
-  const darken = (value) => Math.max(0, value * 0.85);
+  const darken = (value) => Math.max(0, value * 0.78);
   const rD = Math.floor(darken(r));
   const gD = Math.floor(darken(g));
   const bD = Math.floor(darken(b));
