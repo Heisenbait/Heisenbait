@@ -5,12 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const inicio = document.getElementById('inicio');
   const infoMSC = document.getElementById('info-MSC');
   const header = document.querySelector('.header');
-
-
-
-
-
-
   const volumeSlider = document.getElementById('volumeSlider');
 
    volumeSlider.addEventListener('input', () => {
@@ -18,6 +12,32 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 
+
+
+
+  
+
+
+  const albumImage = document.querySelector('.album-cover img');
+
+albumImage.addEventListener('mousemove', (e) => {
+  const { offsetX, offsetY, target } = e;
+  const { offsetWidth, offsetHeight } = target;
+  const rotateX = ((offsetY / offsetHeight) - 0.5) * 10;
+  const rotateY = ((offsetX / offsetWidth) - 0.5) * 10;
+
+  albumImage.style.transform = `perspective(500px) rotateX(${-rotateX}deg) rotateY(${rotateY}deg) scale(1.05)`;
+});
+
+albumImage.addEventListener('mouseleave', () => {
+  albumImage.style.transform = 'rotateX(0deg) rotateY(0deg) scale(1)';
+});
+
+
+
+
+
+  
 
 
 
