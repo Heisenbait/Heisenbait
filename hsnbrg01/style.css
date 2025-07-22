@@ -304,11 +304,6 @@ img {
   will-change: transform;
 }
 
-.album-cover img:hover {
-  transform: scale(1.05) rotateX(1deg) rotateY(1deg);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-}
-
 .track-info {
   margin: 0;
   width: 100%;
