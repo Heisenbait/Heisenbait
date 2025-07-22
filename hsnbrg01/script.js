@@ -6,6 +6,23 @@ document.addEventListener('DOMContentLoaded', () => {
   const infoMSC = document.getElementById('info-MSC');
   const header = document.querySelector('.header');
 
+
+
+
+
+
+  const volumeSlider = document.getElementById('volumeSlider');
+
+   volumeSlider.addEventListener('input', () => {
+     audio.volume = volumeSlider.value;
+  });
+
+
+
+
+
+
+
   mostrarInicio();
 
   inicioBtn.addEventListener('click', (e) => {
