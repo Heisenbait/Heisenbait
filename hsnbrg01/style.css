@@ -440,6 +440,46 @@ img {
 
 
 
+
+  margin-top: 15px;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#volumeSlider {
+  width: 100%;
+  appearance: none;
+  height: 6px;
+  background: #888;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+#volumeSlider::-webkit-slider-thumb {
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#volumeSlider::-webkit-slider-thumb:hover {
+  background: #ccc;
+}
+
+
+
+
+
+
+
+
+
 .ibm-plex-mono-thin {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 100;
