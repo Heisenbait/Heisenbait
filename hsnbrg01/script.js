@@ -11,13 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
      audio.volume = volumeSlider.value;
   });
 
-
-
-
-
-  
-
-
   const albumImage = document.querySelector('.album-cover img');
 
 albumImage.addEventListener('mousemove', (e) => {
@@ -32,16 +25,6 @@ albumImage.addEventListener('mousemove', (e) => {
 albumImage.addEventListener('mouseleave', () => {
   albumImage.style.transform = 'rotateX(0deg) rotateY(0deg) scale(1)';
 });
-
-
-
-
-
-  
-
-
-
-
 
   mostrarInicio();
 
@@ -390,32 +373,31 @@ function initPlayer() {
     randomBtn.addEventListener('click', playRandomSong);
   }
 
-  function playSong(song) {
-    const img = new Image();
-    img.src = song.image;
-    img.onload = () => {
-      songImageEl.src = song.image;
-      songNameEl.textContent = song.name;
-      audio.src = song.src;
-      audio.play()
-        .then(() => {
-          isPlaying = true;
-          updatePlayPauseButton();
-        })
-        .catch(err => console.error("Error al reproducir:", err));
-    };
-    img.onerror = () => {
-      console.warn("Error al cargar imagen:", song.image);
-      songNameEl.textContent = song.name;
-      audio.src = song.src;
-      audio.play()
-        .then(() => {
-          isPlaying = true;
-          updatePlayPauseButton();
-        })
-        .catch(err => console.error("Error al reproducir:", err));
-    };
-  }
+function playSong(song) {
+  const img = new Image();
+  img.crossOrigin = "Anonymous";
+  img.src = song.image;
+
+  img.onload = () => {
+    songImageEl.src = song.image;
+    songNameEl.textContent = song.name;
+    audio.src = song.src;
+
+    const colorThief = new ColorThief();
+    const dominantColor = colorThief.getColor(img);
+    const backgroundColor = `rgb(${dominantColor[0]}, ${dominantColor[1]}, ${dominantColor[2]})`;
+
+    document.getElementById("info-MSC").style.backgroundColor = backgroundColor;
+    document.getElementById("info-MSC").style.transition = "background-color 1s ease";
+
+    audio.play()
+      .then(() => {
+        isPlaying = true;
+        updatePlayPauseButton();
+      })
+      .catch(err => console.error("Error al reproducir:", err));
+  };
+}
 
   function updatePlayPauseButton() {
     playPauseBtn.textContent = isPlaying ? '❚❚' : '▶';
