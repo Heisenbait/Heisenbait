@@ -466,9 +466,7 @@ img {
   width: 14px;
   height: 14px;
   border-radius: 36%;
-  background: rgba(200, 200, 200, 0.1);
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background: white;
   cursor: pointer;
   transition: background 0.3s;
 }
