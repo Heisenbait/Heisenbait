@@ -196,8 +196,11 @@ img {
 .control-btn {
     flex: 1;
     text-align: center;
-    background-color: transparent;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
     border: none;
+    border-radius: 38px;
     color: white;
     font-size: 30px;
     margin: 0 15px;
@@ -205,7 +208,9 @@ img {
 }
 
 .control-btn:hover {
-    background-color: #393939;
+    background: rgba(200, 200, 200, 0.1);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
 }
 
 .song-list {
@@ -249,7 +254,9 @@ img {
 
 .progress-bar {
     width: 100%;
-    background-color: #888;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
     height: 8px;
     border-radius: 5px;
     margin-top: 10px;
@@ -323,7 +330,7 @@ img {
 }
 
 .album-meta {
-  color: #b3b3b3;
+  color: white;
   margin: 5px 0 20px;
 }
 
@@ -342,14 +349,17 @@ img {
 }
 
 .track:hover {
-  background-color: #2a2a2a;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
   border-radius: 12px;
 }
 
 .track .number {
   width: 20px;
   text-align: right;
-  color: #b3b3b3;
+  color: rgba(200, 200, 200, 0.6);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
 }
 
 .track .title {
@@ -358,7 +368,7 @@ img {
 }
 
 .track .time {
-  color: #777;
+  color: white;
   font-size: 12px;
 }
 
@@ -414,7 +424,7 @@ img {
 
 #playPauseBtn {
   background-color: white;
-  color: black;
+  color: white;
   border-radius: 38%;
   width: 60px;
   height: 60px;
@@ -439,21 +449,13 @@ img {
   padding-bottom: 100px;
 }
 
-
-
-
-
-
-
-
-
-
-
 #volumeSlider {
   width: 100%;
   appearance: none;
   height: 8px;
-  background: #543528;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
   border-radius: 3px;
   outline: none;
   cursor: pointer;
@@ -464,7 +466,9 @@ img {
   width: 14px;
   height: 14px;
   border-radius: 36%;
-  background: #ca8a71;
+  background: rgba(200, 200, 200, 0.1);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
   cursor: pointer;
   transition: background 0.3s;
 }
