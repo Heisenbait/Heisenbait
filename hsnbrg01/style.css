@@ -196,11 +196,7 @@ img {
 .control-btn {
     flex: 1;
     text-align: center;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
     border: none;
-    border-radius: 38px;
     color: white;
     font-size: 30px;
     margin: 0 15px;
