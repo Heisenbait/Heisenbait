@@ -73,9 +73,15 @@ albumImage.addEventListener('mouseleave', () => {
       duration: "4:16"
     },
     {
-      src: "archivos/Homecoming - Kanye West.mp3",
-      name: "Homecoming",
-      image: "archivos/Cover of Homecoming by Kanye West.jpg",
+      src: "archivos/BURN - Kanye West.mp3",
+      name: "BURN",
+      image: "archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Father Stretch My Hands Pt. 1 - Kanye West.mp3",
+      name: "Father Stretch My Hands Pt. 1",
+      image: "archivos/Cover of Father Stretch My Hands Pt. 1 by Kanye West.jpg",
       duration: "2:39"
     },
     {
