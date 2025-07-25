@@ -82,19 +82,19 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Moon - Kanye West.mp3",
       name: "Moon",
       image: "archivos/Cover of Moon by Kanye West.jpg",
-      duration: "2:39"
+      duration: "2:36"
     },
     {
       src: "archivos/Count Me Out - Kendrick Lamar.mp3",
       name: "Count Me Out",
       image: "archivos/Cover of Count Me Out by Kendrick Lamar.jpg",
-      duration: "2:39"
+      duration: "4:43"
     },
     {
       src: "archivos/Facts (Charlie Heat Version) - Kanye West.mp3",
       name: "Facts",
       image: "archivos/Cover of Father Stretch My Hands Pt. 1 by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:20"
     },
     {
       src: "archivos/BEST INTEREST - Tyler.mp3",
@@ -106,19 +106,19 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Dontmakemefallinlove - Cuco.mp3",
       name: "Dontmakemefallinlove",
       image: "archivos/Cover of Dontmakemefallinlove by Cuco.jpg",
-      duration: "2:39"
+      duration: "3:27"
     },
     {
       src: "archivos/Know Yourself - Drake.mp3",
       name: "Know Yourself",
       image: "archivos/Cover of Know Yourself by Drake.jpg",
-      duration: "2:39"
+      duration: "4:35"
     },
     {
       src: "archivos/Estrelar - Marcos Valle.mp3",
       name: "Estrelar",
       image: "archivos/Cover of Estrelar by Marcos Valle.jpg",
-      duration: "2:39"
+      duration: "5:13"
     },
     {
       src: "archivos/DUCKWORTH. - Kendrick Lamar.mp3",
@@ -130,25 +130,25 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Tristes Ojos - Ramona.mp3",
       name: "Tristes Ojos",
       image: "archivos/Cover of Tristes Ojos by Ramona.jpg",
-      duration: "2:39"
+      duration: "3:19"
     },
     {
       src: "archivos/Looking Out for You - Joy Again.mp3",
       name: "Looking Out for You",
       image: "archivos/Cover of Looking Out for You by Joy Again.jpg",
-      duration: "2:39"
+      duration: "2:59"
     },
     {
       src: "archivos/Melting - Kali Uchis.mp3",
       name: "Melting",
       image: "archivos/Cover of Melting by Kali Uchis.jpg",
-      duration: "2:39"
+      duration: "3:28"
     },
     {
       src: "archivos/Do Better - Cuco.mp3",
       name: "Do Better",
       image: "archivos/Cover of Do Better by Cuco.jpg",
-      duration: "2:39"
+      duration: "3:31"
     },
     {
       src: "archivos/BURN - Kanye West.mp3",
