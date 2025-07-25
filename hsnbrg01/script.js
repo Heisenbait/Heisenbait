@@ -123,7 +123,7 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/DUCKWORTH. - Kendrick Lamar.mp3",
       name: "DUCKWORTH.",
-      image: "archivos/Cover of DUCKWORTH. by Kendrick Lamar.jpg",
+      image: "archivos/Cover of PRIDE. by Kendrick Lamar.jpg",
       duration: "2:39"
     },
     {
