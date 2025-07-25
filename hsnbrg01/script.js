@@ -73,6 +73,48 @@ albumImage.addEventListener('mouseleave', () => {
       duration: "4:16"
     },
     {
+      src: "archivos/God Is - Kanye West.mp3",
+      name: "God Is",
+      image: "archivos/Cover of God Is by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/BACK TO ME - Kanye West.mp3",
+      name: "BACK TO ME",
+      image: "archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Hoe Cakes - MF DOOM.mp3",
+      name: "Hoe Cakes",
+      image: "archivos/Cover of Hoe Cakes by MF DOOM.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/PAPERWORK - Kanye West.mp3",
+      name: "PAPERWORK",
+      image: "archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Sweet Honey - Los Retros.mp3",
+      name: "Sweet Honey",
+      image: "archivos/Cover of Sweet Honey by Los Retros.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Me and Your Mama - Childish Gambino.mp3",
+      name: "Me and Your Mama",
+      image: "archivos/Cover of Me and Your Mama by Childish Gambino.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/No Other Heart - Mac DeMarco.mp3",
+      name: "No Other Heart",
+      image: "archivos/Cover of No Other Heart by Mac DeMarco.jpg",
+      duration: "2:39"
+    },
+    {
       src: "archivos/On the Level - Mac DeMarco.mp3",
       name: "On the Level",
       image: "archivos/Cover of For the First Time by Mac DeMarco.jpg",
