@@ -55,6 +55,12 @@ albumImage.addEventListener('mouseleave', () => {
 
   const songs = [
     {
+      src: "archivos/In God's Country - Kanye West.mp3",
+      name: "In God's Country",
+      image: "archivos/Cover of Donda with childs.jpg",
+      duration: "2:39"
+    },
+    {
       src: "archivos/Eazy - The Game, Kanye West.mp3",
       name: "Eazy",
       image: "archivos/Cover of Eazy by The Game, Kanye West (1).jpg",
