@@ -100,7 +100,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/BEST INTEREST - Tyler.mp3",
       name: "BEST INTEREST",
       image: "archivos/Cover of BEST INTEREST by Tyler,  The Creator.jpg",
-      duration: "2:39"
+      duration: "2:07"
     },
     {
       src: "archivos/Dontmakemefallinlove - Cuco.mp3",
