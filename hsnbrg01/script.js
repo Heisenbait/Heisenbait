@@ -76,55 +76,55 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/BURN - Kanye West.mp3",
       name: "BURN",
       image: "archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
-      duration: "2:39"
+      duration: "1:51"
     },
     {
       src: "archivos/Father Stretch My Hands Pt. 1 - Kanye West.mp3",
       name: "Father Stretch My Hands Pt. 1",
       image: "archivos/Cover of Father Stretch My Hands Pt. 1 by Kanye West.jpg",
-      duration: "2:39"
+      duration: "2:15"
     },
     {
       src: "archivos/God Is - Kanye West.mp3",
       name: "God Is",
       image: "archivos/Cover of God Is by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:23"
     },
     {
       src: "archivos/BACK TO ME - Kanye West.mp3",
       name: "BACK TO ME",
       image: "archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
-      duration: "2:39"
+      duration: "4:55"
     },
     {
       src: "archivos/Hoe Cakes - MF DOOM.mp3",
       name: "Hoe Cakes",
       image: "archivos/Cover of Hoe Cakes by MF DOOM.jpg",
-      duration: "2:39"
+      duration: "3:54"
     },
     {
       src: "archivos/PAPERWORK - Kanye West.mp3",
       name: "PAPERWORK",
       image: "archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
-      duration: "2:39"
+      duration: "2:25"
     },
     {
       src: "archivos/Sweet Honey - Los Retros.mp3",
       name: "Sweet Honey",
       image: "archivos/Cover of Sweet Honey by Los Retros.jpg",
-      duration: "2:39"
+      duration: "3:26"
     },
     {
       src: "archivos/Me and Your Mama - Childish Gambino.mp3",
       name: "Me and Your Mama",
       image: "archivos/Cover of Me and Your Mama by Childish Gambino.jpg",
-      duration: "2:39"
+      duration: "6:20"
     },
     {
       src: "archivos/No Other Heart - Mac DeMarco.mp3",
       name: "No Other Heart",
       image: "archivos/Cover of No Other Heart by Mac DeMarco.jpg",
-      duration: "2:39"
+      duration: "2:53"
     },
     {
       src: "archivos/On the Level - Mac DeMarco.mp3",
