@@ -99,7 +99,7 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/BEST INTEREST - Tyler.mp3",
       name: "BEST INTEREST",
-      image: "archivos/Cover of BEST INTEREST by Tyler, The Creator.jpg",
+      image: "archivos/Cover of Homecoming by Kanye West.jpg",
       duration: "2:39"
     },
     {
