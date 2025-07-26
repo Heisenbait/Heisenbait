@@ -26,28 +26,6 @@ albumImage.addEventListener('mouseleave', () => {
   albumImage.style.transform = 'rotateX(0deg) rotateY(0deg) scale(1)';
 });
 
-
-
-
-
-
-
-    const trackElements = document.querySelectorAll(".track");
-    trackElements.forEach(track => {
-    track.addEventListener("click", () => {
-      
-      trackElements.forEach(el => el.classList.remove("active"));
-
-      track.classList.add("active");
-      });
-   });
-
-
-
-
-
-
-  
   mostrarInicio();
 
   inicioBtn.addEventListener('click', (e) => {
@@ -527,6 +505,35 @@ function initPlayer() {
     randomBtn.addEventListener('click', playRandomSong);
   }
 
+
+
+
+
+
+
+
+
+
+    const trackEls = document.querySelectorAll('.track');
+  trackEls.forEach(track => {
+    track.addEventListener('click', () => {
+      trackEls.forEach(t => t.classList.remove('active'));
+      track.classList.add('active');
+    });
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+  
 function playSong(song) {
   const img = new Image();
   img.crossOrigin = "Anonymous";
