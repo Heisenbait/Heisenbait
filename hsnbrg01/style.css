@@ -298,6 +298,8 @@ img {
   background-color: #121212;
   color: white;
   font-family: 'IBM Plex Mono', sans-serif;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .album-cover img {
@@ -474,6 +476,43 @@ img {
 }
 
 
+
+
+
+
+
+.static-panel {
+  width: 360px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 40px;
+  align-self: flex-start;
+  max-height: calc(100vh - 80px);
+  overflow: hidden;
+}
+
+.scrollable-tracks {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 100%;
+  padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .spotify-layout {
+    flex-direction: column;
+    height: auto;
+    overflow: visible;
+  }
+
+  .static-panel,
+  .scrollable-tracks {
+    width: 100%;
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
+}
 
 
 
