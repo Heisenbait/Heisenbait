@@ -479,38 +479,6 @@ img {
 
 
 
-.album-column {
-  position: sticky;
-  top: 40px;
-  flex-shrink: 0;
-  width: 330px;
-  align-self: flex-start;
-}
-
-.track-column {
-  flex: 1;
-  max-height: calc(100vh - 100px);
-  overflow-y: auto;
-  padding-right: 10px;
-}
-
-body, html {
-  overflow-y: auto;
-}
-
-
-  .album-column,
-  .track-column {
-    position: static;
-    max-height: none;
-    overflow: visible;
-    width: 100%;
-  }
-}
-
-
-
-
 
 
 
