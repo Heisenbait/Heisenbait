@@ -53,6 +53,25 @@ albumImage.addEventListener('mouseleave', () => {
     initPlayer();
   }
 
+
+
+
+
+
+   const trackElements = document.querySelectorAll(".track");
+    trackElements.forEach(track => {
+    track.addEventListener("click", () => {
+      
+      trackElements.forEach(el => el.classList.remove("active"));
+
+      track.classList.add("active");
+
+
+
+
+  
+
+  
   const songs = [
     {
       src: "archivos/In God's Country - Kanye West.mp3",
