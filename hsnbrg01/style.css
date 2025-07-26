@@ -481,6 +481,38 @@ img {
 
 
 
+.player-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(18, 18, 18, 0.95);
+  backdrop-filter: blur(20px);
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.track-info {
+  padding-top: 420px;
+}
+
+@media (max-width: 768px) {
+  .player-sticky {
+    position: static;
+    padding: 10px;
+  }
+  
+  .track-info {
+    padding-top: 0;
+  }
+}
+
+
+
+
+
+
+
+
 
 .ibm-plex-mono-thin {
   font-family: "IBM Plex Mono", monospace;
