@@ -162,6 +162,10 @@ img {
     margin: 0 auto;
     text-align: center;
     color: #fff;
+    position: sticky;
+    top: 40px;
+    align-self: flex-start;
+    z-index: 100;
 }
 
 .music-player h3 {
