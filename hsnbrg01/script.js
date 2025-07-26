@@ -49,13 +49,9 @@ albumImage.addEventListener('mouseleave', () => {
     inicio.style.display = 'none';
     infoMSC.style.display = 'block';
     header.style.display = 'none';
-  
-  if (window.innerWidth > 768) {
     window.scrollTo(0, 0);
+    initPlayer();
   }
-  
-  initPlayer();
-}
 
   const songs = [
     {
