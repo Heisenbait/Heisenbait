@@ -6,6 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const infoMSC = document.getElementById('info-MSC');
   const header = document.querySelector('.header');
   const volumeSlider = document.getElementById('volumeSlider');
+  
+  const trackElements = document.querySelectorAll(".track");
+    trackElements.forEach(track => {
+    track.addEventListener("click", () => {
+      
+      trackElements.forEach(el => el.classList.remove("active"));
+
+      track.classList.add("active");
 
    volumeSlider.addEventListener('input', () => {
      audio.volume = volumeSlider.value;
