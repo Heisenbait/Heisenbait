@@ -504,35 +504,6 @@ function initPlayer() {
     playPauseBtn.addEventListener('click', togglePlayPause);
     randomBtn.addEventListener('click', playRandomSong);
   }
-
-
-
-
-
-
-
-
-
-
-    const trackEls = document.querySelectorAll('.track');
-  trackEls.forEach(track => {
-    track.addEventListener('click', () => {
-      trackEls.forEach(t => t.classList.remove('active'));
-      track.classList.add('active');
-    });
-  });
-
-
-
-
-
-
-
-
-
-
-
-
   
 function playSong(song) {
   const img = new Image();
