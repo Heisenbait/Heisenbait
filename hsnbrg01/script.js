@@ -7,19 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const header = document.querySelector('.header');
   const volumeSlider = document.getElementById('volumeSlider');
 
-  
-  const trackElements = document.querySelectorAll(".track");
-    trackElements.forEach(track => {
-    track.addEventListener("click", () => {
-      
-      trackElements.forEach(el => el.classList.remove("active"));
-
-      track.classList.add("active");
-      });
-   });
-
-      
-
    volumeSlider.addEventListener('input', () => {
      audio.volume = volumeSlider.value;
   });
@@ -39,6 +26,28 @@ albumImage.addEventListener('mouseleave', () => {
   albumImage.style.transform = 'rotateX(0deg) rotateY(0deg) scale(1)';
 });
 
+
+
+
+
+
+
+    const trackElements = document.querySelectorAll(".track");
+    trackElements.forEach(track => {
+    track.addEventListener("click", () => {
+      
+      trackElements.forEach(el => el.classList.remove("active"));
+
+      track.classList.add("active");
+      });
+   });
+
+
+
+
+
+
+  
   mostrarInicio();
 
   inicioBtn.addEventListener('click', (e) => {
