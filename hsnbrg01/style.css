@@ -141,7 +141,7 @@ img {
 
     .album-cover {
         width: 350px;
-        padding: 40px;
+        padding: 40px 30px;
         box-sizing: border-box;
         position: sticky;
         top: 0;
