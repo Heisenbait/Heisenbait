@@ -82,55 +82,55 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/All Falls Down - Kanye West.mp3",
       name: "All Falls Down",
       image: "archivos/Cover of All Falls Down by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:43"
     },
     {
       src: "archivos/19 Dias y 500 Noches - Joaquín Sabina.mp3",
       name: "19 Dias y 500 Noches",
       image: "archivos/Cover of 19 Dias y 500 Noches by Joaquín Sabina.jpg",
-      duration: "2:39"
+      duration: "4:43"
     },
     {
       src: "archivos/Brillas - León Larregui.mp3",
       name: "Brillas",
       image: "archivos/Cover of Brillas by León Larregui.jpg",
-      duration: "2:39"
+      duration: "3:44"
     },
     {
       src: "archivos/My Sweet Lord (2014 Remaster) - George Harrison.mp3",
       name: "My Sweet Lord (2014 Remaster)",
       image: "archivos/Cover of My Sweet Lord (2014 Remaster) by George Harrison.jpg",
-      duration: "2:39"
+      duration: "4:41"
     },
     {
       src: "archivos/Solo Tú - Los Retros.mp3",
       name: "Solo Tú",
       image: "archivos/Cover of Solo Tú by Los Retros.jpg",
-      duration: "2:39"
+      duration: "4:41"
     },
     {
       src: "archivos/Bound - The Ponderosa Twins Plus One.mp3",
       name: "Bound",
       image: "archivos/Cover of Bound by The Ponderosa Twins Plus One.jpg",
-      duration: "2:39"
+      duration: "3:16"
     },
     {
       src: "archivos/Hell Of A Life - Kanye West.mp3",
       name: "Hell Of A Life",
       image: "archivos/Cover of Runaway by Kanye West, Pusha T.jpg",
-      duration: "2:39"
+      duration: "5:27"
     },
     {
       src: "archivos/Infrunami - Steve Lacy.mp3",
       name: "Infrunami",
       image: "archivos/Cover of Infrunami by Steve Lacy.jpg",
-      duration: "2:39"
+      duration: "2:58"
     },
     {
       src: "archivos/LOVE. FEAT. ZACARI. - Kendrick Lamar.mp3",
       name: "LOVE. FEAT. ZACARI.",
       image: "archivos/Cover of PRIDE. by Kendrick Lamar.jpg",
-      duration: "2:39"
+      duration: "3:33"
     },
     {
       src: "archivos/Moon - Kanye West.mp3",
