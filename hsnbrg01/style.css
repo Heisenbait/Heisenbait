@@ -141,7 +141,7 @@ img {
 
     .album-cover {
         width: 350px;
-        padding: 40px 30px;
+        padding: 40px 20px 40px 30px;
         box-sizing: border-box;
         position: sticky;
         top: 0;
@@ -298,7 +298,7 @@ img {
   display: flex;
   height: 100vh;
   overflow: hidden;
-  padding: 40px;
+  gap: 40px;
   background-color: #121212;
   color: white;
   font-family: 'IBM Plex Mono', sans-serif;
