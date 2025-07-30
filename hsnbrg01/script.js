@@ -79,6 +79,12 @@ albumImage.addEventListener('mouseleave', () => {
       duration: "4:16"
     },
     {
+      src: "archivos/Homecoming - Kanye West.mp3",
+      name: "Homecoming",
+      image: "archivos/Cover of PRIDE. by Kendrick Lamar.jpg",
+      duration: "2:39"
+    },
+    {
       src: "archivos/Moon - Kanye West.mp3",
       name: "Moon",
       image: "archivos/Cover of Moon by Kanye West.jpg",
