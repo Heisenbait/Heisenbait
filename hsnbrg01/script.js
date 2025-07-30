@@ -79,8 +79,32 @@ albumImage.addEventListener('mouseleave', () => {
       duration: "4:16"
     },
     {
-      src: "archivos/Homecoming - Kanye West.mp3",
-      name: "Homecoming",
+      src: "archivos/Solo Tú - Los Retros.mp3",
+      name: "Solo Tú",
+      image: "archivos/Cover of Solo Tú by Los Retros.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Bound - The Ponderosa Twins Plus One.mp3",
+      name: "Bound",
+      image: "archivos/Cover of Bound by The Ponderosa Twins Plus One.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Hell Of A Life - Kanye West.mp3",
+      name: "Hell Of A Life",
+      image: "archivos/Cover of Runaway by Kanye West, Pusha T.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Infrunami - Steve Lacy.mp3",
+      name: "Infrunami",
+      image: "archivos/Cover of Infrunami by Steve Lacy.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/LOVE. FEAT. ZACARI. - Kendrick Lamar.mp3",
+      name: "LOVE. FEAT. ZACARI.",
       image: "archivos/Cover of PRIDE. by Kendrick Lamar.jpg",
       duration: "2:39"
     },
