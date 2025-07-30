@@ -140,11 +140,14 @@ img {
     }
 
     .album-cover {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+        width: 350px;
+        padding: 40px;
+        box-sizing: border-box;
+        position: sticky;
+        top: 0;
+        align-self: flex-start;
+        height: 100vh;
+        overflow: hidden;
     }
 }
 
@@ -293,8 +296,9 @@ img {
 
 .spotify-layout {
   display: flex;
-  gap: 40px;
-  padding: 40px;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
   background-color: #121212;
   color: white;
   font-family: 'IBM Plex Mono', sans-serif;
@@ -310,11 +314,11 @@ img {
 }
 
 .track-info {
-  margin: 0;
-  width: 100%;
   flex: 1;
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 40px;
+  box-sizing: border-box;
 }
 
 .track-info h1 {
