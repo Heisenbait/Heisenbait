@@ -49,6 +49,7 @@ albumImage.addEventListener('mouseleave', () => {
    function mostrarInicio() {
     inicio.style.display = 'block';
     infoMSC.style.display = 'none';
+    infoICFRD.style.display = 'none';
     header.style.display = 'block';
     window.scrollTo(0, 0);
   }
@@ -56,10 +57,20 @@ albumImage.addEventListener('mouseleave', () => {
    function mostrarMSC() {
     inicio.style.display = 'none';
     infoMSC.style.display = 'block';
+    infoICFRD.style.display = 'none';
     header.style.display = 'none';
     window.scrollTo(0, 0);
     initPlayer();
   }
+
+   function mostrarICFRD() {
+    inicio.style.display = 'none';
+    infoMSC.style.display = 'none';
+    infoICFRD.style.display = 'block';
+    header.style.display = 'none';
+    window.scrollTo(0, 0);
+  }
+
 
   const songs = [
     {
