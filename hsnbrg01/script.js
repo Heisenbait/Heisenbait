@@ -40,6 +40,12 @@ albumImage.addEventListener('mouseleave', () => {
     mostrarMSC();
   });
 
+  icfrdBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    mostrarICFRD();
+  });
+
+
    function mostrarInicio() {
     inicio.style.display = 'block';
     infoMSC.style.display = 'none';
