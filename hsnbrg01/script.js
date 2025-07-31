@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const mscBtn = document.getElementById('mscBtn');
   const inicio = document.getElementById('inicio');
   const infoMSC = document.getElementById('info-MSC');
+  const icfrdBtn = document.getElementById('icfrdBtn');
+  const infoICFRD = document.getElementById('info-ICFRD');
   const header = document.querySelector('.header');
   const volumeSlider = document.getElementById('volumeSlider');
 
