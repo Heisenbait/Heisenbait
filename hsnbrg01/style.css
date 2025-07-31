@@ -156,9 +156,9 @@ img {
 
 
 .icfrd-content {
-  padding: 60px 30px;
   text-align: center;
-  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+  padding: 50px 20px;
+  background: linear-gradient(to bottom, #3D2418, #121212);
   color: white;
   font-family: 'IBM Plex Mono', monospace;
 }
