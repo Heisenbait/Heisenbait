@@ -119,12 +119,12 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Oro De Ley - Luis Miguel.mp3",
       name: "Oro De Ley",
       image: "archivos/Cover of Oro De Ley by Luis Miguel.jpg",
-      duration: "2:39"
+      duration: "3:58"
     },
     {
       src: "archivos/HOT WIND BLOWS (feat. Lil Wayne) - Tyler.mp3",
       name: "HOT WIND BLOWS (feat. Lil Wayne)",
-      image: "archivos/Cover of HOT WIND BLOWS (feat. Lil Wayne) - Tyler,  The Creator, Lil Wayne.jpg",
+      image: "archivos/Cover of HOT WIND BLOWS (feat. Lil Wayne) by Tyler, The Creator, Lil Wayne.jpg",
       duration: "2:39"
     },
     {
