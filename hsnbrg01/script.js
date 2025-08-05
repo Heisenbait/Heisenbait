@@ -98,6 +98,84 @@ albumImage.addEventListener('mouseleave', () => {
       duration: "4:16"
     },
     {
+      src: "archivos/I Love It (& Lil Pump) - Kanye West.mp3",
+      name: "I Love It (& Lil Pump)",
+      image: "archivos/Cover of I Love It (& Lil Pump) by Kanye West, Lil Pump.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/HYPNOTIC DATA - Slowed & Reverbed - ODEOCRE.mp3",
+      name: "HYPNOTIC DATA",
+      image: "archivos/Cover of HYPNOTIC DATA - Slowed & Reverbed by ODECORE.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/MILLION DOLLAR BABY - Tommy Richman.mp3",
+      name: "MILLION DOLLAR BABY",
+      image: "archivos/Cover of MILLION DOLLAR BABY by Tommy Richman.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Oro De Ley - Luis Miguel.mp3",
+      name: "Oro De Ley",
+      image: "archivos/Cover of Oro De Ley by Luis Miguel.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/HOT WIND BLOWS (feat. Lil Wayne) - Tyler.mp3",
+      name: "HOT WIND BLOWS (feat. Lil Wayne)",
+      image: "archivos/Cover of HOT WIND BLOWS (feat. Lil Wayne) - Tyler,  The Creator, Lil Wayne.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/More Than A Woman - Bee Gees.mp3",
+      name: "More Than A Woman",
+      image: "archivos/Cover of More Than A Woman by Bee.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Live And Let Die - 2018 Remaster - Wings.mp3",
+      name: "Live And Let Die - 2018 Remaster",
+      image: "archivos/Cover of Live And Let Die - 2018 Remaster by Wings.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/A Bird's Last Look - Macabre Plaza.mp3",
+      name: "A Bird's Last Look",
+      image: "archivos/Cover of A Bird's Last Look by Macabre Plaza.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Chamber Of Reflection - Mac DeMarco.mp3",
+      name: "Chamber Of Reflection",
+      image: "archivos/Cover of Chamber Of Reflection by Mac DeMarco.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/ARE WE STILL FRIENDS_ - Tyler.mp3",
+      name: "ARE WE STILL FRIENDS?",
+      image: "archivos/Cover of ARE WE STILL FRIENDS_ by Tyler,  The Creator.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/ALMA DINAMITA - WOS.mp3",
+      name: "ALMA DINAMITA",
+      image: "archivos/Cover of ALMA DINAMITA by WOS.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Poison - Bell Biv DeVoe.mp3",
+      name: "Poison",
+      image: "archivos/Cover of Poison by Bell Biv DeVoe.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Dark Red - Steve Lacy.mp3",
+      name: "Dark Red",
+      image: "archivos/Cover of Dark Red by Steve Lacy.jpg",
+      duration: "2:39"
+    },
+    {
       src: "archivos/All Falls Down - Kanye West.mp3",
       name: "All Falls Down",
       image: "archivos/Cover of All Falls Down by Kanye West.jpg",
