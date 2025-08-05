@@ -104,7 +104,7 @@ albumImage.addEventListener('mouseleave', () => {
       duration: "2:07"
     },
     {
-      src: "archivos/HYPNOTIC DATA - Slowed & Reverbed - ODEOCRE.mp3",
+      src: "archivos/HYPNOTIC DATA - Slowed & Reverbed - ODECORE.mp3",
       name: "HYPNOTIC DATA",
       image: "archivos/Cover of HYPNOTIC DATA - Slowed & Reverbed by ODECORE, Odetari.jpg",
       duration: "2:39"
