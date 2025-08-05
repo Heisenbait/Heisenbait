@@ -123,7 +123,7 @@ albumImage.addEventListener('mouseleave', () => {
     },
     {
       src: "archivos/HOT WIND BLOWS (feat. Lil Wayne) - Tyler.mp3",
-      name: "HOT WIND BLOWS (feat. Lil Wayne)",
+      name: "HOT WIND BLOWS",
       image: "archivos/Cover of HOT WIND BLOWS (feat. Lil Wayne) by Tyler.jpg",
       duration: "2:39"
     },
@@ -135,7 +135,7 @@ albumImage.addEventListener('mouseleave', () => {
     },
     {
       src: "archivos/Live And Let Die - 2018 Remaster - Wings.mp3",
-      name: "Live And Let Die - 2018 Remaster",
+      name: "Live And Let Die",
       image: "archivos/Cover of Live And Let Die - 2018 Remaster by Wings.jpg",
       duration: "3:12"
     },
@@ -195,7 +195,7 @@ albumImage.addEventListener('mouseleave', () => {
     },
     {
       src: "archivos/My Sweet Lord (2014 Remaster) - George Harrison.mp3",
-      name: "My Sweet Lord (2014 Remaster)",
+      name: "My Sweet Lord",
       image: "archivos/Cover of My Sweet Lord (2014 Remaster) by George Harrison.jpg",
       duration: "4:41"
     },
