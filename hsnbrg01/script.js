@@ -717,8 +717,12 @@ if (activeTrack) {
   }
 
   function nextSong() {
-    currentSongIndex = (currentSongIndex + 1) % songs.length;
-    playSong(songs[currentSongIndex]);
+    if (isShuffleOn) {
+      playRandomSong();
+    } else {
+      currentSongIndex = (currentSongIndex + 1) % songs.length;
+      playSong(songs[currentSongIndex]);
+    }
   }
 
   function prevSong() {
