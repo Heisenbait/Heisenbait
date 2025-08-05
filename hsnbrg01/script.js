@@ -101,19 +101,19 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/I Love It (& Lil Pump) - Kanye West.mp3",
       name: "I Love It (& Lil Pump)",
       image: "archivos/Cover of I Love It (& Lil Pump) by Kanye West, Lil Pump.jpg",
-      duration: "2:39"
+      duration: "2:07"
     },
     {
       src: "archivos/HYPNOTIC DATA - Slowed & Reverbed - ODEOCRE.mp3",
       name: "HYPNOTIC DATA",
-      image: "archivos/Cover of HYPNOTIC DATA - Slowed & Reverbed by ODECORE.jpg",
+      image: "archivos/Cover of HYPNOTIC DATA - Slowed & Reverbed by ODECORE, Odetari.jpg",
       duration: "2:39"
     },
     {
       src: "archivos/MILLION DOLLAR BABY - Tommy Richman.mp3",
       name: "MILLION DOLLAR BABY",
       image: "archivos/Cover of MILLION DOLLAR BABY by Tommy Richman.jpg",
-      duration: "2:39"
+      duration: "2:35"
     },
     {
       src: "archivos/Oro De Ley - Luis Miguel.mp3",
