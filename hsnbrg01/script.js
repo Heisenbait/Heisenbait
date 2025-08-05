@@ -130,7 +130,7 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/More Than A Woman - Bee Gees.mp3",
       name: "More Than A Woman",
-      image: "archivos/Cover of More Than A Woman by Bee.jpg",
+      image: "archivos/Cover of More Than A Woman by Bee Gees.jpg",
       duration: "2:39"
     },
     {
