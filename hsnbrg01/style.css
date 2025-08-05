@@ -305,6 +305,24 @@ img {
 }
 
 
+
+
+
+
+
+
+.random-btn.active {
+  background: rgba(200, 200, 200, 0.3);
+  color: #ccc;
+}
+
+
+
+
+
+
+
+
 .spotify-layout {
   display: flex;
   gap: 40px;
