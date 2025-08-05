@@ -71,6 +71,16 @@ albumImage.addEventListener('mouseleave', () => {
     window.scrollTo(0, 0);
   }
 
+  function toggleShuffle() {
+  isShuffleOn = !isShuffleOn;
+  randomBtn.classList.toggle('active', isShuffleOn);
+
+  if (isShuffleOn) {
+    playRandomSong();
+  }
+}
+
+
 
   const songs = [
     {
