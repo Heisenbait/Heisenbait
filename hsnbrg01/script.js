@@ -666,12 +666,6 @@ function playSong(song) {
   songNameEl.textContent = song.name;
   audio.src = song.src;
 
-
-
-
-
-
-
 document.querySelectorAll('.track').forEach(track => {
   track.classList.remove('active');
 });
@@ -680,13 +674,6 @@ const activeTrack = document.querySelector(`.track[data-index="${currentSongInde
 if (activeTrack) {
   activeTrack.classList.add('active');
 }
-
-
-
-
-
-
-
 
   const colorThief = new ColorThief();
   const [r, g, b] = colorThief.getColor(img);
