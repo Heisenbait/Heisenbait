@@ -137,43 +137,43 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Live And Let Die - 2018 Remaster - Wings.mp3",
       name: "Live And Let Die - 2018 Remaster",
       image: "archivos/Cover of Live And Let Die - 2018 Remaster by Wings.jpg",
-      duration: "2:39"
+      duration: "3:12"
     },
     {
       src: "archivos/A Bird's Last Look - Macabre Plaza.mp3",
       name: "A Bird's Last Look",
       image: "archivos/Cover of A Bird's Last Look by Macabre Plaza.jpg",
-      duration: "2:39"
+      duration: "1:09"
     },
     {
       src: "archivos/Chamber Of Reflection - Mac DeMarco.mp3",
       name: "Chamber Of Reflection",
       image: "archivos/Cover of Chamber Of Reflection by Mac DeMarco.jpg",
-      duration: "2:39"
+      duration: "3:51"
     },
     {
       src: "archivos/ARE WE STILL FRIENDS_ - Tyler.mp3",
       name: "ARE WE STILL FRIENDS?",
       image: "archivos/Cover of ARE WE STILL FRIENDS_ by Tyler,  The Creator.jpg",
-      duration: "2:39"
+      duration: "4:25"
     },
     {
       src: "archivos/ALMA DINAMITA - WOS.mp3",
       name: "ALMA DINAMITA",
       image: "archivos/Cover of ALMA DINAMITA by WOS.jpg",
-      duration: "2:39"
+      duration: "2:53"
     },
     {
       src: "archivos/Poison - Bell Biv DeVoe.mp3",
       name: "Poison",
       image: "archivos/Cover of Poison by Bell Biv DeVoe.jpg",
-      duration: "2:39"
+      duration: "4:19"
     },
     {
       src: "archivos/Dark Red - Steve Lacy.mp3",
       name: "Dark Red",
       image: "archivos/Cover of Dark Red by Steve Lacy.jpg",
-      duration: "2:39"
+      duration: "2:53"
     },
     {
       src: "archivos/All Falls Down - Kanye West.mp3",
