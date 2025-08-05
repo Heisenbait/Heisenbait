@@ -124,7 +124,7 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/HOT WIND BLOWS (feat. Lil Wayne) - Tyler.mp3",
       name: "HOT WIND BLOWS (feat. Lil Wayne)",
-      image: "archivos/Cover of HOT WIND BLOWS (feat. Lil Wayne) by Tyler, The Creator, Lil Wayne.jpg",
+      image: "archivos/Cover of HOT WIND BLOWS (feat. Lil Wayne) by Tyler.jpg",
       duration: "2:39"
     },
     {
