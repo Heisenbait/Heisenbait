@@ -107,7 +107,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/HYPNOTIC DATA - Slowed & Reverbed - ODECORE.mp3",
       name: "HYPNOTIC DATA",
       image: "archivos/Cover of HYPNOTIC DATA - Slowed & Reverbed by ODECORE, Odetari.jpg",
-      duration: "2:39"
+      duration: "2:38"
     },
     {
       src: "archivos/MILLION DOLLAR BABY - Tommy Richman.mp3",
@@ -131,7 +131,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/More Than A Woman - Bee Gees.mp3",
       name: "More Than A Woman",
       image: "archivos/Cover of More Than A Woman by Bee Gees.jpg",
-      duration: "2:39"
+      duration: "3:17"
     },
     {
       src: "archivos/Live And Let Die - 2018 Remaster - Wings.mp3",
