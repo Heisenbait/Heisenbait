@@ -613,6 +613,7 @@ albumImage.addEventListener('mouseleave', () => {
   const audio = new Audio();
   let currentSongIndex = 0;
   let isPlaying = false;
+  let isShuffleOn = false;
   let audioInitialized = false;
 
   const songNameEl = document.getElementById('songName');
