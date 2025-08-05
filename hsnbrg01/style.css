@@ -304,24 +304,10 @@ img {
     -webkit-backdrop-filter: blur(20px) saturate(180%);
 }
 
-
-
-
-
-
-
-
 .random-btn.active {
   background: rgba(200, 200, 200, 0.3);
   color: #ccc;
 }
-
-
-
-
-
-
-
 
 .spotify-layout {
   display: flex;
