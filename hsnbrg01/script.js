@@ -727,7 +727,11 @@ if (activeTrack) {
   }
 
   function playRandomSong() {
-    currentSongIndex = Math.floor(Math.random() * songs.length);
+    let newIndex;
+    do {
+      newIndex = Math.floor(Math.random() * songs.length);
+    } while (newIndex === currentSongIndex && songs.length > 1);
+    currentSongIndex = newIndex;
     playSong(songs[currentSongIndex]);
   }
 
