@@ -654,7 +654,7 @@ function initPlayer() {
     });
     createTrackList();
     playPauseBtn.addEventListener('click', togglePlayPause);
-    randomBtn.addEventListener('click', playRandomSong);
+    randomBtn.addEventListener('click', toggleShuffle);
   }
   
 function playSong(song) {
