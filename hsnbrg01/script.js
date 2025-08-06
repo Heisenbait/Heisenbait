@@ -624,6 +624,8 @@ albumImage.addEventListener('mouseleave', () => {
   let currentSongIndex = 0;
   let isPlaying = false;
   let isShuffleOn = false;
+  let shuffleQueue = [];
+  let shuffleIndex = 0;
   let audioInitialized = false;
 
   const songNameEl = document.getElementById('songName');
