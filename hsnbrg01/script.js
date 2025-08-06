@@ -72,13 +72,27 @@ albumImage.addEventListener('mouseleave', () => {
   }
 
   function toggleShuffle() {
-  isShuffleOn = !isShuffleOn;
-  randomBtn.classList.toggle('active', isShuffleOn);
+    isShuffleOn = !isShuffleOn;
+    randomBtn.classList.toggle('active', isShuffleOn);
 
-  if (isShuffleOn) {
-    playRandomSong();
+    if (isShuffleOn) {
+      generateShuffleQueue();
+      playRandomSong();
+    }
   }
-}
+
+
+  function generateShuffleQueue() {
+  shuffleQueue = songs.map((_, index) => index);
+
+  for (let i = shuffleQueue.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffleQueue[i], shuffleQueue[j]] = [shuffleQueue[j], shuffleQueue[i]];
+  }
+
+  shuffleIndex = 0;
+  }
+
 
 
 
@@ -743,11 +757,12 @@ if (activeTrack) {
   }
 
   function playRandomSong() {
-    let newIndex;
-    do {
-      newIndex = Math.floor(Math.random() * songs.length);
-    } while (newIndex === currentSongIndex && songs.length > 1);
-    currentSongIndex = newIndex;
+    if (shuffleQueue.length === 0 || shuffleIndex >= shuffleQueue.length) {
+      generateShuffleQueue();
+    }
+
+    currentSongIndex = shuffleQueue[shuffleIndex];
+    shuffleIndex++;
     playSong(songs[currentSongIndex]);
   }
 
