@@ -81,7 +81,6 @@ albumImage.addEventListener('mouseleave', () => {
     }
   }
 
-
   function generateShuffleQueue() {
   shuffleQueue = songs.map((_, index) => index);
 
@@ -92,9 +91,6 @@ albumImage.addEventListener('mouseleave', () => {
 
   shuffleIndex = 0;
   }
-
-
-
 
   const songs = [
     {
@@ -120,6 +116,54 @@ albumImage.addEventListener('mouseleave', () => {
       name: "Juicy - 2005 Remaster",
       image: "archivos/Cover of Juicy - 2005 Remaster by The Notorious B.I.G..jpg",
       duration: "4:16"
+    },
+    {
+      src: "archivos/90210 (feat. Kacy Hill) - Travis Scott.mp3",
+      name: "90210 (feat. Kacy Hill)",
+      image: "archivos/Cover of 90210 (feat. Kacy Hill) by Travis Scott, Kacy Hill.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/EARFQUAKE - Tyler.mp3",
+      name: "EARFQUAKE",
+      image: "archivos/Cover of Cover of GONE GONE THANK YOU by Tyler.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Red and Gold - MF DOOM.mp3",
+      name: "Red and Gold",
+      image: "archivos/Cover of Red and Gold by MF DOOM.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Feel The Fiyaaaah (with A$AP Rocky & feat. Takeoff) - Metro Boomin.mp3",
+      name: "Feel The Fiyaaaah",
+      image: "archivos/Cover of Feel The Fiyaaaah (with A$AP Rocky & feat. Takeoff) by Metro Boomin, A$AP Rocky, Takeoff.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/This Is America - Childish Gambino.mp3",
+      name: "This Is America",
+      image: "archivos/Cover of This Is America by Childish Gambino.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Hoy El Aire Huele a Ti - Luis Miguel.mp3",
+      name: "Hoy El Aire Huele a Ti",
+      image: "archivos/Cover of Cover of Oro De Ley by Luis Miguel.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/DNA. - Kendrick Lamar.mp3",
+      name: "DNA.",
+      image: "archivos/Cover of PRIDE. by Kendrick Lamar.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Southern Nights - Glen Campbell.mp3",
+      name: "Southern Nights",
+      image: "archivos/Cover of Southern Nights by Glen Campbell.jpg",
+      duration: "2:39"
     },
     {
       src: "archivos/I Love It (& Lil Pump) - Kanye West.mp3",
