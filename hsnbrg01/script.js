@@ -126,7 +126,7 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/EARFQUAKE - Tyler.mp3",
       name: "EARFQUAKE",
-      image: "archivos/Cover of Cover of GONE GONE THANK YOU by Tyler.jpg",
+      image: "archivos/Cover of GONE GONE THANK YOU by Tyler.jpg",
       duration: "2:39"
     },
     {
