@@ -150,20 +150,20 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/Hoy El Aire Huele a Ti - Luis Miguel.mp3",
       name: "Hoy El Aire Huele a Ti",
-      image: "archivos/Cover of Cover of Oro De Ley by Luis Miguel.jpg",
+      image: "archivos/Cover of Oro De Ley by Luis Miguel.jpg",
       duration: "2:39"
     },
     {
       src: "archivos/DNA. - Kendrick Lamar.mp3",
       name: "DNA.",
       image: "archivos/Cover of PRIDE. by Kendrick Lamar.jpg",
-      duration: "2:39"
+      duration: "3:05"
     },
     {
       src: "archivos/Southern Nights - Glen Campbell.mp3",
       name: "Southern Nights",
       image: "archivos/Cover of Southern Nights by Glen Campbell.jpg",
-      duration: "2:39"
+      duration: "3:00"
     },
     {
       src: "archivos/I Love It (& Lil Pump) - Kanye West.mp3",
