@@ -127,7 +127,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/EARFQUAKE - Tyler.mp3",
       name: "EARFQUAKE",
       image: "archivos/Cover of GONE GONE THANK YOU by Tyler.jpg",
-      duration: "2:39"
+      duration: "3:10"
     },
     {
       src: "archivos/Red and Gold - MF DOOM.mp3",
@@ -151,7 +151,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Hoy El Aire Huele a Ti - Luis Miguel.mp3",
       name: "Hoy El Aire Huele a Ti",
       image: "archivos/Cover of Hoy El Aire Huele a Ti by Luis Miguel.jpg",
-      duration: "2:39"
+      duration: "3:45"
     },
     {
       src: "archivos/DNA. - Kendrick Lamar.mp3",
