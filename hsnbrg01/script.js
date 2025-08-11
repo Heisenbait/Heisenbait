@@ -148,9 +148,9 @@ albumImage.addEventListener('mouseleave', () => {
       duration: "2:39"
     },
     {
-      src: "archivos/Hoy El Aire Huele a Ti - Luis Miguel.mp3",
-      name: "Hoy El Aire Huele a Ti",
-      image: "archivos/Cover of Oro De Ley by Luis Miguel.jpg",
+      src: "archivos/Homecoming - Kanye West.mp3",
+      name: "Homecoming",
+      image: "archivos/Cover of Homecoming by Kanye West.jpg",
       duration: "2:39"
     },
     {
