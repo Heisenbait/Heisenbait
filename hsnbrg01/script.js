@@ -121,7 +121,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/90210 (feat. Kacy Hill) - Travis Scott.mp3",
       name: "90210 (feat. Kacy Hill)",
       image: "archivos/Cover of 90210 (feat. Kacy Hill) by Travis Scott, Kacy Hill.jpg",
-      duration: "2:39"
+      duration: "5:39"
     },
     {
       src: "archivos/EARFQUAKE - Tyler.mp3",
@@ -132,20 +132,20 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/Red and Gold - MF DOOM.mp3",
       name: "Red and Gold",
-      image: "archivos/Cover of Red and Gold by MF DOOM.jpg",
+      image: "archivos/Cover of Gas Drawls by MF DOOM.jpg",
       duration: "2:39"
     },
     {
       src: "archivos/Feel The Fiyaaaah (with A$AP Rocky & feat. Takeoff) - Metro Boomin.mp3",
       name: "Feel The Fiyaaaah",
       image: "archivos/Cover of Feel The Fiyaaaah (with A$AP Rocky & feat. Takeoff) by Metro Boomin, A$AP Rocky, Takeoff.jpg",
-      duration: "2:39"
+      duration: "3:09"
     },
     {
       src: "archivos/This Is America - Childish Gambino.mp3",
       name: "This Is America",
       image: "archivos/Cover of This Is America by Childish Gambino.jpg",
-      duration: "2:39"
+      duration: "3:45"
     },
     {
       src: "archivos/Hoy El Aire Huele a Ti - Luis Miguel.mp3",
