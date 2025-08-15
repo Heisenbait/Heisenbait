@@ -87,6 +87,8 @@ body {
     max-width: 100%;
     border-radius: 0;
     box-shadow: none;
+    height: calc(100vh - 60px); 
+    overflow: hidden;  
 }
 
 
@@ -139,11 +141,9 @@ img {
     }
 
     .album-cover {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
+      width: 100%;
+      position: relative;
+      padding: 20px;
     }
 }
 
@@ -311,11 +311,23 @@ img {
 
 .spotify-layout {
   display: flex;
-  gap: 40px;
+  height: 100%;
+  position: relative;
+  padding: 0;
+}
+
+.album-cover {
+  width: 400px;
+  height: 100%;
+  position: sticky;
+  top: 0;
   padding: 40px;
-  background-color: #121212;
-  color: white;
-  font-family: 'IBM Plex Mono', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: none;
 }
 
 .album-cover img {
@@ -328,11 +340,11 @@ img {
 }
 
 .track-info {
-  margin: 0;
-  width: 100%;
   flex: 1;
-  display: flex;
-  flex-direction: column;
+  overflow-y: auto;
+  padding: 40px 40px 40px 20px;
+  height: 100%;
+  margin: 0;
 }
 
 .track-info h1 {
@@ -406,6 +418,11 @@ img {
     height: auto;
     max-width: 300px;
     border-radius: 12px;
+  }
+
+  .track-info {
+    padding: 20px;
+    overflow-y: visible;
   }
 
   .track-info h1 {
