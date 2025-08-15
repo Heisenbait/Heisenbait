@@ -318,6 +318,18 @@ img {
   font-family: 'IBM Plex Mono', sans-serif;
 }
 
+.album-cover {
+  position: fixed;
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
 .album-cover img {
   width: 320px;
   height: 320px;
