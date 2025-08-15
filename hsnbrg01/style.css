@@ -121,30 +121,81 @@ img {
 }
 
 @media (max-width: 768px) {
-    .header h1 {
+  .header h1 {
         font-size: 40px;
     }
 
-    .main h2 {
+  .main h2 {
         font-size: 28px;
     }
 
-    .main p {
+  .main p {
         font-size: 16px;
         padding: 0 10px;
     }
 
-    #info-MSC {
+  #info-MSC {
         max-width: 100%;
         padding: 15px;
         margin: 10px auto;
     }
 
-    .album-cover {
+  .album-cover {
       width: 100%;
       position: relative;
       padding: 20px;
     }
+
+  .spotify-layout {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 12px;
+    background-color: #121212;
+  }
+
+  .album-cover img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 12px;
+  }
+
+  .track-info {
+    padding: 20px;
+    overflow-y: visible;
+  }
+
+  .track-info h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .album-meta {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .track {
+    gap: 12px;
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .track .number {
+    width: 16px;
+  }
+
+  .random-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .controls {
+    max-width: 100%;
+    padding: 20px;
+  }
 }
 
 .icfrd-content {
@@ -401,61 +452,6 @@ img {
 .track .time {
   color: white;
   font-size: 12px;
-}
-
-@media (max-width: 768px) {
-  .spotify-layout {
-    flex-direction: column;
-    padding: 20px;
-    align-items: center;
-    gap: 20px;
-    border-radius: 12px;
-    background-color: #121212;
-  }
-
-  .album-cover img {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
-    border-radius: 12px;
-  }
-
-  .track-info {
-    padding: 20px;
-    overflow-y: visible;
-  }
-
-  .track-info h1 {
-    font-size: 24px;
-    text-align: center;
-  }
-
-  .album-meta {
-    font-size: 14px;
-    text-align: center;
-  }
-
-  .track {
-    gap: 12px;
-    font-size: 14px;
-    padding: 6px;
-  }
-
-  .track .number {
-    width: 16px;
-  }
-
-  .random-btn {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 768px) {
-  .controls {
-    max-width: 100%;
-    padding: 20px;
-  }
 }
 
 #playPauseBtn {
