@@ -319,15 +319,11 @@ img {
 }
 
 .album-cover {
-  position: fixed;
-  width: 40%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 40px;
-  box-sizing: border-box;
+  justify-content: center;
+  width: 100%;
 }
 
 .album-cover img {
