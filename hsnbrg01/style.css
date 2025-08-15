@@ -139,13 +139,11 @@ img {
     }
 
     .album-cover {
-      position: sticky;
-      top: 0;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding-bottom: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
 }
 
@@ -318,8 +316,6 @@ img {
   background-color: #121212;
   color: white;
   font-family: 'IBM Plex Mono', sans-serif;
-  height: calc(100vh - 80px);
-  overflow: hidden;
 }
 
 .album-cover img {
@@ -332,10 +328,11 @@ img {
 }
 
 .track-info {
+  margin: 0;
+  width: 100%;
   flex: 1;
-  overflow-y: auto;
-  height: 100%;
-  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .track-info h1 {
