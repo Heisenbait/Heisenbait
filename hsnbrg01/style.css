@@ -165,6 +165,7 @@ img {
   .track-info {
     padding: 20px;
     overflow-y: visible;
+    width: 100%;
   }
 
   .track-info h1 {
