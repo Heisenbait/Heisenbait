@@ -139,9 +139,11 @@ img {
     }
 
   .album-cover {
-      width: 100%;
-      position: relative;
-      padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
 
   .spotify-layout {
