@@ -120,55 +120,52 @@ img {
 
 @media (max-width: 768px) {
   .header h1 {
-    font-size: 40px;
-  }
+        font-size: 40px;
+    }
 
   .main h2 {
-    font-size: 28px;
-  }
+        font-size: 28px;
+    }
 
   .main p {
-    font-size: 16px;
-    padding: 0 10px;
-  }
+        font-size: 16px;
+        padding: 0 10px;
+    }
 
   #info-MSC {
-    padding: 0;
-    margin: 0;
-  }
-
-  .spotify-layout {
-    flex-direction: column;
-    padding: 10px;
-    gap: 10px;
-  }
+        max-width: 100%;
+        padding: 15px;
+        margin: 10px auto;
+    }
 
   .album-cover {
     position: relative;
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px;
     height: auto;
     top: 0;
-    display: flex;
+  }
+
+  .spotify-layout {
     flex-direction: column;
+    padding: 20px;
     align-items: center;
+    gap: 20px;
+    border-radius: 12px;
+    background-color: #121212;
   }
 
   .album-cover img {
-    width: 80%;
-    max-width: 300px;
-    height: auto;
-  }
-
-  .controls {
     width: 100%;
+    height: auto;
     max-width: 300px;
-    margin: 15px auto;
+    border-radius: 12px;
   }
 
   .track-info {
+    padding: 20px;
+    overflow-y: visible;
     width: 100%;
-    padding: 0 10px;
   }
 
   .track-info h1 {
@@ -177,31 +174,28 @@ img {
   }
 
   .album-meta {
+    font-size: 14px;
     text-align: center;
-    margin-bottom: 15px;
-  }
-
-  .random-btn {
-    display: block;
-    width: 80%;
-    max-width: 200px;
-    margin: 0 auto 20px;
-    padding: 12px;
   }
 
   .track {
     gap: 12px;
-    padding: 8px 5px;
+    font-size: 14px;
+    padding: 6px;
   }
 
   .track .number {
-    width: 20px;
+    width: 16px;
   }
 
-  #playPauseBtn {
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
+  .random-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .controls {
+    max-width: 100%;
+    padding: 20px;
   }
 }
 
