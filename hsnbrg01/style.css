@@ -118,7 +118,10 @@ img {
     border-radius: 15px;
 }
 
+
+
 @media (max-width: 768px) {
+    
   .header h1 {
         font-size: 40px;
     }
@@ -139,10 +142,10 @@ img {
     }
 
   .album-cover {
-    position: relative;
-    width: 100%;
-    padding: 20px;
-    height: auto;
+    position: relative !important;
+    width: 100% !important;
+    padding: 20px !important;
+    height: auto !important;
     top: 0;
   }
 
