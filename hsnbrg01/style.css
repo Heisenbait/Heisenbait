@@ -151,7 +151,7 @@ img {
 
   .spotify-layout {
     flex-direction: column;
-    padding: 20px;
+    padding: 20px !important;
     align-items: center;
     gap: 20px !important;
     border-radius: 12px;
