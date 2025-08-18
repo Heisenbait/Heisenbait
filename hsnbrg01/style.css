@@ -118,12 +118,6 @@ img {
     border-radius: 15px;
 }
 
-
-
-
-
-
-
 .icfrd-content {
   text-align: center;
   padding: 50px 20px;
@@ -438,11 +432,6 @@ img {
 #volumeSlider::-webkit-slider-thumb:hover {
   background: #ccc;
 }
-
-
-
-
-
 
 @media (max-width: 768px) {
     
