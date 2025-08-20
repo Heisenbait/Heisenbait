@@ -827,19 +827,11 @@ if (activeTrack) {
 
   audio.addEventListener('ended', nextSong);
 
+  
 const progressBar = document.querySelector('.progress-bar');
 let isProgressBarActive = false;
-let isUserInteracting = false;
-let progressBeforeInteraction = 0; 
 
-function updateProgressBar(clickX, width) {
-  if (isUserInteracting) {
-    const progressPercentage = (clickX / width) * 100;
-    progressEl.style.width = `${progressPercentage}%`;
-  }
-}
-
-function handleProgressBarInteraction(e) {
+function handleProgressBarClick(e) {
   const rect = progressBar.getBoundingClientRect();
   const width = rect.width;
   
@@ -852,69 +844,43 @@ function handleProgressBarInteraction(e) {
   
   clickX = Math.max(0, Math.min(clickX, width));
   
-  updateProgressBar(clickX, width);
-  
-  if (e.type === 'click' || e.type === 'touchend') {
-    const duration = audio.duration;
-    if (duration && !isNaN(duration)) {
-      audio.currentTime = (clickX / width) * duration;
-    }
+  const duration = audio.duration;
+  if (duration && !isNaN(duration)) {
+    audio.currentTime = (clickX / width) * duration;
   }
 }
 
-progressBar.addEventListener('mousedown', (e) => {
+progressBar.addEventListener('click', handleProgressBarClick);
+progressBar.addEventListener('mousedown', () => {
   isProgressBarActive = true;
-  isUserInteracting = true;
-  progressBeforeInteraction = progressEl.style.width;
   progressBar.style.height = '14px';
-  handleProgressBarInteraction(e);
 });
 
 progressBar.addEventListener('touchstart', (e) => {
   isProgressBarActive = true;
-  isUserInteracting = true;
-  progressBeforeInteraction = progressEl.style.width;
   progressBar.style.height = '14px';
-  handleProgressBarInteraction(e);
+  handleProgressBarClick(e);
 });
 
-document.addEventListener('mouseup', (e) => {
+progressBar.addEventListener('touchmove', (e) => {
   if (isProgressBarActive) {
-    isProgressBarActive = false;
-    isUserInteracting = false;
-    progressBar.style.height = '10px';
-    handleProgressBarInteraction(e);
+    handleProgressBarClick(e);
   }
 });
 
-document.addEventListener('touchend', (e) => {
-  if (isProgressBarActive) {
-    isProgressBarActive = false;
-    isUserInteracting = false;
-    progressBar.style.height = '10px';
-    handleProgressBarInteraction(e);
-  }
-});
-
-document.addEventListener('mouseup', (e) => {
+document.addEventListener('mouseup', () => {
   if (isProgressBarActive) {
     isProgressBarActive = false;
     progressBar.style.height = '10px';
-    handleProgressBarInteraction(e);
   }
 });
 
-document.addEventListener('touchend', (e) => {
+document.addEventListener('touchend', () => {
   if (isProgressBarActive) {
     isProgressBarActive = false;
     progressBar.style.height = '10px';
-    handleProgressBarInteraction(e);
   }
 });
-
-progressBar.addEventListener('touchstart', (e) => {
-  if (e.cancelable) e.preventDefault();
-}, { passive: false });
 
   
   window.nextSong = nextSong;
