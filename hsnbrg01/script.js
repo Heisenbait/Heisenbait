@@ -827,12 +827,71 @@ if (activeTrack) {
 
   audio.addEventListener('ended', nextSong);
 
-  document.querySelector('.progress-bar').addEventListener('click', (e) => {
-    const width = e.currentTarget.offsetWidth;
-    const clickX = e.offsetX;
-    const duration = audio.duration;
+  //document.querySelector('.progress-bar').addEventListener('click', (e) => {
+    //const width = e.currentTarget.offsetWidth;
+    //const clickX = e.offsetX;
+    //const duration = audio.duration;
+    //audio.currentTime = (clickX / width) * duration;
+  //});
+
+
+
+
+
+
+
+
+
+
+  // Mejor control de la barra de progreso
+const progressBar = document.querySelector('.progress-bar');
+let isProgressBarActive = false;
+
+progressBar.addEventListener('click', (e) => {
+  const width = progressBar.offsetWidth;
+  const clickX = e.offsetX;
+  const duration = audio.duration;
+  
+  if (duration) {
     audio.currentTime = (clickX / width) * duration;
-  });
+  }
+});
+
+// Efecto visual al presionar
+progressBar.addEventListener('mousedown', () => {
+  isProgressBarActive = true;
+  progressBar.style.height = '14px';
+});
+
+document.addEventListener('mouseup', () => {
+  if (isProgressBarActive) {
+    isProgressBarActive = false;
+    progressBar.style.height = '10px';
+  }
+});
+
+// Para versión móvil
+progressBar.addEventListener('touchstart', () => {
+  isProgressBarActive = true;
+  progressBar.style.height = '14px';
+});
+
+document.addEventListener('touchend', () => {
+  if (isProgressBarActive) {
+    isProgressBarActive = false;
+    progressBar.style.height = '10px';
+  }
+});
+
+
+
+
+
+
+
+
+
+
 
   window.nextSong = nextSong;
   window.prevSong = prevSong;
