@@ -118,6 +118,24 @@ albumImage.addEventListener('mouseleave', () => {
       duration: "4:16"
     },
     {
+      src: "archivos/SMUCKERS (feat. Lil Wayne & Kanye West) - Tyler.mp3",
+      name: "SMUCKERS",
+      image: "archivos/Cover of SMUCKERS (feat. Lil Wayne & Kanye West) by Tyler,  The Creator, Lil Wayne, Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Feel The Love - KIDS SEE GHOSTS.mp3",
+      name: "Feel The Love",
+      image: "archivos/Cover of Feel The Love by KIDS SEE GHOSTS, Pusha T.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Through The Wire - Kanye West.mp3",
+      name: "Through The Wire",
+      image: "archivos/Cover of Through The Wire by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
       src: "archivos/Gold Digger - Kanye West.mp3",
       name: "Gold Digger",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
