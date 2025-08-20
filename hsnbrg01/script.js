@@ -118,6 +118,12 @@ albumImage.addEventListener('mouseleave', () => {
       duration: "4:16"
     },
     {
+      src: "archivos/Famous - Kanye West.mp3",
+      name: "Famous",
+      image: "archivos/Cover of Father Stretch My Hands Pt. 1 by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
       src: "archivos/彼女に言って (Diz A Ela) - Lisa Ono.mp3",
       name: "彼女に言って",
       image: "archivos/Cover of サマー・サンバ by Lisa Ono.jpg",
