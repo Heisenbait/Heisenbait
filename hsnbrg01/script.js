@@ -139,7 +139,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Gold Digger - Kanye West.mp3",
       name: "Gold Digger",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:27"
     },
     {
       src: "archivos/Paranoid - Kanye West.mp3",
@@ -151,25 +151,25 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Lift Yourself - Kanye West.mp3",
       name: "Lift Yourself",
       image: "archivos/Cover of Lift Yourself by Kanye West.jpg",
-      duration: "2:39"
+      duration: "2:27"
     },
     {
       src: "archivos/24 - Kanye West.mp3",
       name: "24",
       image: "archivos/Cover of Moon by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:17"
     },
     {
       src: "archivos/Famous - Kanye West.mp3",
       name: "Famous",
       image: "archivos/Cover of Father Stretch My Hands Pt. 1 by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:16"
     },
     {
       src: "archivos/彼女に言って (Diz A Ela) - Lisa Ono.mp3",
       name: "彼女に言って",
       image: "archivos/Cover of サマー・サンバ by Lisa Ono.jpg",
-      duration: "2:39"
+      duration: "3:48"
     },
     {
       src: "archivos/90210 (feat. Kacy Hill) - Travis Scott.mp3",
