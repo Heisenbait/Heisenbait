@@ -118,6 +118,12 @@ albumImage.addEventListener('mouseleave', () => {
       duration: "4:16"
     },
     {
+      src: "archivos/Lift Yourself - Kanye West.mp3",
+      name: "Lift Yourself",
+      image: "archivos/Cover of Lift Yourself by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
       src: "archivos/24 - Kanye West.mp3",
       name: "24",
       image: "archivos/Cover of Moon by Kanye West.jpg",
