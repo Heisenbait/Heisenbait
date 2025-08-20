@@ -121,19 +121,19 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/SMUCKERS (feat. Lil Wayne & Kanye West) - Tyler.mp3",
       name: "SMUCKERS",
       image: "archivos/Cover of SMUCKERS (feat. Lil Wayne & Kanye West) by Tyler,  The Creator, Lil Wayne, Kanye West.jpg",
-      duration: "2:39"
+      duration: "5:34"
     },
     {
       src: "archivos/Feel The Love - KIDS SEE GHOSTS.mp3",
       name: "Feel The Love",
       image: "archivos/Cover of Feel The Love by KIDS SEE GHOSTS, Pusha T.jpg",
-      duration: "2:39"
+      duration: "2:45"
     },
     {
       src: "archivos/Through The Wire - Kanye West.mp3",
       name: "Through The Wire",
       image: "archivos/Cover of Through The Wire by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:41"
     },
     {
       src: "archivos/Gold Digger - Kanye West.mp3",
@@ -145,7 +145,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Paranoid - Kanye West.mp3",
       name: "Paranoid",
       image: "archivos/Cover of Paranoid by Kanye West, Mr Hudson.jpg",
-      duration: "2:39"
+      duration: "4:37"
     },
     {
       src: "archivos/Lift Yourself - Kanye West.mp3",
