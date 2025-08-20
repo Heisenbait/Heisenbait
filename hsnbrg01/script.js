@@ -827,24 +827,63 @@ if (activeTrack) {
 
   audio.addEventListener('ended', nextSong);
 
+js:
+// Control de barra de progreso para desktop y móvil
 const progressBar = document.querySelector('.progress-bar');
-const progressEl = document.getElementById('progress');
 let isProgressBarActive = false;
 
-function updateProgressBar(clickX, width) {
-  const progressPercentage = (clickX / width) * 100;
-  progressEl.style.width = ${progressPercentage}%;
-}
-
-function handleProgressBarInteraction(e) {
+// Función para manejar el clic/touch
+function handleProgressBarClick(e) {
   const rect = progressBar.getBoundingClientRect();
   const width = rect.width;
   
+  // Obtener posición X (para click y touch)
   let clickX;
   if (e.type === 'touchstart' || e.type === 'touchmove') {
     clickX = e.touches[0].clientX - rect.left;
   } else {
-    clickX = e.offsetX
+    clickX = e.offsetX;
+  }
+  
+  clickX = Math.max(0, Math.min(clickX, width));
+  
+  const duration = audio.duration;
+  if (duration && !isNaN(duration)) {
+    audio.currentTime = (clickX / width) * duration;
+  }
+}
+
+progressBar.addEventListener('click', handleProgressBarClick);
+progressBar.addEventListener('mousedown', () => {
+  isProgressBarActive = true;
+  progressBar.style.height = '14px';
+});
+
+progressBar.addEventListener('touchstart', (e) => {
+  isProgressBarActive = true;
+  progressBar.style.height = '14px';
+  handleProgressBarClick(e);
+});
+
+progressBar.addEventListener('touchmove', (e) => {
+  if (isProgressBarActive) {
+    handleProgressBarClick(e);
+  }
+});
+
+document.addEventListener('mouseup', () => {
+  if (isProgressBarActive) {
+    isProgressBarActive = false;
+    progressBar.style.height = '10px';
+  }
+});
+
+document.addEventListener('touchend', () => {
+  if (isProgressBarActive) {
+    isProgressBarActive = false;
+    progressBar.style.height = '10px';
+  }
+});
 
   window.nextSong = nextSong;
   window.prevSong = prevSong;
