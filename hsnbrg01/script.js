@@ -118,6 +118,12 @@ albumImage.addEventListener('mouseleave', () => {
       duration: "4:16"
     },
     {
+      src: "archivos/彼女に言って (Diz A Ela) - Lisa Ono.mp3",
+      name: "彼女に言って",
+      image: "archivos/Cover of サマー・サンバ by Lisa Ono.jpg",
+      duration: "2:39"
+    },
+    {
       src: "archivos/90210 (feat. Kacy Hill) - Travis Scott.mp3",
       name: "90210 (feat. Kacy Hill)",
       image: "archivos/Cover of 90210 (feat. Kacy Hill) by Travis Scott, Kacy Hill.jpg",
