@@ -310,8 +310,8 @@ img {
   object-fit: cover;
   transition: transform 0.15s ease, box-shadow 0.3s ease;
   will-change: transform;
-  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.7), 
-              0 6px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 44px rgba(0, 0, 0, 0.7), 
+              0 6px 22px rgba(0, 0, 0, 0.1);
 }
 
 .track-info {
