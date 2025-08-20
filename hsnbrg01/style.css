@@ -240,6 +240,12 @@ img {
     border-radius: 5px;
     margin-top: 10px;
     position: relative;
+    cursor: pointer;
+    transition: height 0.2s ease;
+}
+
+.progress-bar:active {
+    height: 18px;
 }
 
 .progress {
