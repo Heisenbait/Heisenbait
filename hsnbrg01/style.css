@@ -345,6 +345,7 @@ img {
   gap: 20px;
   padding: 8px;
   background-color: transparent;
+  cursor: default;
 }
 
 .track:hover {
