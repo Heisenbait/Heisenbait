@@ -903,7 +903,7 @@ document.addEventListener('touchend', (e) => {
 progressBar.addEventListener('touchstart', (e) => {
   e.preventDefault();
 }, { passive: false });
-
+//22222222222222222222222222222222222222222222222222222222222222
   window.nextSong = nextSong;
   window.prevSong = prevSong;
   window.togglePlayPause = togglePlayPause;
