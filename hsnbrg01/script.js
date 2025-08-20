@@ -817,7 +817,7 @@ if (activeTrack) {
   }
 
   audio.addEventListener('timeupdate', () => {
-  if (audio.duration && !isUserInteracting) {
+  if (audio.duration) {
     const progress = (audio.currentTime / audio.duration) * 100;
     progressEl.style.width = `${progress}%`;
     currentTimeEl.textContent = formatTime(audio.currentTime);
