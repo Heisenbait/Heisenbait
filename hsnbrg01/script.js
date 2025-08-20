@@ -144,7 +144,7 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/Paranoid - Kanye West.mp3",
       name: "Paranoid",
-      image: "archivos/Cover of Paranoid by Kanye West.jpg",
+      image: "archivos/Cover of Paranoid by Kanye West, Mr Hudson.jpg",
       duration: "2:39"
     },
     {
