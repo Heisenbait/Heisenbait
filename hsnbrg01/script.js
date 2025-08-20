@@ -817,22 +817,26 @@ if (activeTrack) {
   }
 
   audio.addEventListener('timeupdate', () => {
-    if (audio.duration) {
-      const progress = (audio.currentTime / audio.duration) * 100;
-      progressEl.style.width = `${progress}%`;
-      currentTimeEl.textContent = formatTime(audio.currentTime);
-      totalTimeEl.textContent = formatTime(audio.duration);
-    }
-  });
+  if (audio.duration && !isUserInteracting) {
+    const progress = (audio.currentTime / audio.duration) * 100;
+    progressEl.style.width = `${progress}%`;
+    currentTimeEl.textContent = formatTime(audio.currentTime);
+    totalTimeEl.textContent = formatTime(audio.duration);
+  }
+});
 
   audio.addEventListener('ended', nextSong);
 
 const progressBar = document.querySelector('.progress-bar');
 let isProgressBarActive = false;
+let isUserInteracting = false;
+let progressBeforeInteraction = 0; 
 
 function updateProgressBar(clickX, width) {
-  const progressPercentage = (clickX / width) * 100;
-  progressEl.style.width = `${progressPercentage}%`;
+  if (isUserInteracting) {
+    const progressPercentage = (clickX / width) * 100;
+    progressEl.style.width = `${progressPercentage}%`;
+  }
 }
 
 function handleProgressBarInteraction(e) {
@@ -858,27 +862,36 @@ function handleProgressBarInteraction(e) {
   }
 }
 
-progressBar.addEventListener('click', handleProgressBarInteraction);
 progressBar.addEventListener('mousedown', (e) => {
   isProgressBarActive = true;
+  isUserInteracting = true;
+  progressBeforeInteraction = progressEl.style.width;
   progressBar.style.height = '14px';
   handleProgressBarInteraction(e);
-});
-
-progressBar.addEventListener('mousemove', (e) => {
-  if (isProgressBarActive) {
-    handleProgressBarInteraction(e);
-  }
 });
 
 progressBar.addEventListener('touchstart', (e) => {
   isProgressBarActive = true;
+  isUserInteracting = true;
+  progressBeforeInteraction = progressEl.style.width;
   progressBar.style.height = '14px';
   handleProgressBarInteraction(e);
 });
 
-progressBar.addEventListener('touchmove', (e) => {
+document.addEventListener('mouseup', (e) => {
   if (isProgressBarActive) {
+    isProgressBarActive = false;
+    isUserInteracting = false;
+    progressBar.style.height = '10px';
+    handleProgressBarInteraction(e);
+  }
+});
+
+document.addEventListener('touchend', (e) => {
+  if (isProgressBarActive) {
+    isProgressBarActive = false;
+    isUserInteracting = false;
+    progressBar.style.height = '10px';
     handleProgressBarInteraction(e);
   }
 });
