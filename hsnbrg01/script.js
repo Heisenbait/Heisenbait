@@ -828,41 +828,23 @@ if (activeTrack) {
   audio.addEventListener('ended', nextSong);
 
 const progressBar = document.querySelector('.progress-bar');
+const progressEl = document.getElementById('progress');
 let isProgressBarActive = false;
 
-progressBar.addEventListener('click', (e) => {
-  const width = progressBar.offsetWidth;
-  const clickX = e.offsetX;
-  const duration = audio.duration;
+function updateProgressBar(clickX, width) {
+  const progressPercentage = (clickX / width) * 100;
+  progressEl.style.width = ${progressPercentage}%;
+}
+
+function handleProgressBarInteraction(e) {
+  const rect = progressBar.getBoundingClientRect();
+  const width = rect.width;
   
-  if (duration) {
-    audio.currentTime = (clickX / width) * duration;
-  }
-});
-
-progressBar.addEventListener('mousedown', () => {
-  isProgressBarActive = true;
-  progressBar.style.height = '14px';
-});
-
-document.addEventListener('mouseup', () => {
-  if (isProgressBarActive) {
-    isProgressBarActive = false;
-    progressBar.style.height = '10px';
-  }
-});
-
-progressBar.addEventListener('touchstart', () => {
-  isProgressBarActive = true;
-  progressBar.style.height = '14px';
-});
-
-document.addEventListener('touchend', () => {
-  if (isProgressBarActive) {
-    isProgressBarActive = false;
-    progressBar.style.height = '10px';
-  }
-});
+  let clickX;
+  if (e.type === 'touchstart' || e.type === 'touchmove') {
+    clickX = e.touches[0].clientX - rect.left;
+  } else {
+    clickX = e.offsetX
 
   window.nextSong = nextSong;
   window.prevSong = prevSong;
