@@ -117,6 +117,7 @@ albumImage.addEventListener('mouseleave', () => {
       image: "archivos/Cover of Juicy - 2005 Remaster by The Notorious B.I.G..jpg",
       duration: "4:16"
     },
+    
     {
       src: "archivos/Lift Yourself - Kanye West.mp3",
       name: "Lift Yourself",
