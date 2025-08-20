@@ -828,12 +828,11 @@ if (activeTrack) {
   audio.addEventListener('ended', nextSong);
 
 const progressBar = document.querySelector('.progress-bar');
-const progressEl = document.getElementById('progress');
 let isProgressBarActive = false;
 
 function updateProgressBar(clickX, width) {
   const progressPercentage = (clickX / width) * 100;
-  progressEl.style.width = ${progressPercentage}%;
+  progressEl.style.width = `${progressPercentage}%`;
 }
 
 function handleProgressBarInteraction(e) {
@@ -901,9 +900,10 @@ document.addEventListener('touchend', (e) => {
 });
 
 progressBar.addEventListener('touchstart', (e) => {
-  e.preventDefault();
+  if (e.cancelable) e.preventDefault();
 }, { passive: false });
-//22222222222222222222222222222222222222222222222222222222222222
+
+  
   window.nextSong = nextSong;
   window.prevSong = prevSong;
   window.togglePlayPause = togglePlayPause;
