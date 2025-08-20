@@ -117,7 +117,18 @@ albumImage.addEventListener('mouseleave', () => {
       image: "archivos/Cover of Juicy - 2005 Remaster by The Notorious B.I.G..jpg",
       duration: "4:16"
     },
-    
+    {
+      src: "archivos/Gold Digger - Kanye West.mp3",
+      name: "Gold Digger",
+      image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Paranoid - Kanye West.mp3",
+      name: "Paranoid",
+      image: "archivos/Cover of Paranoid by Kanye West.jpg",
+      duration: "2:39"
+    },
     {
       src: "archivos/Lift Yourself - Kanye West.mp3",
       name: "Lift Yourself",
