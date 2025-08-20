@@ -827,23 +827,6 @@ if (activeTrack) {
 
   audio.addEventListener('ended', nextSong);
 
-  //document.querySelector('.progress-bar').addEventListener('click', (e) => {
-    //const width = e.currentTarget.offsetWidth;
-    //const clickX = e.offsetX;
-    //const duration = audio.duration;
-    //audio.currentTime = (clickX / width) * duration;
-  //});
-
-
-
-
-
-
-
-
-
-
-  // Mejor control de la barra de progreso
 const progressBar = document.querySelector('.progress-bar');
 let isProgressBarActive = false;
 
@@ -857,7 +840,6 @@ progressBar.addEventListener('click', (e) => {
   }
 });
 
-// Efecto visual al presionar
 progressBar.addEventListener('mousedown', () => {
   isProgressBarActive = true;
   progressBar.style.height = '14px';
@@ -870,7 +852,6 @@ document.addEventListener('mouseup', () => {
   }
 });
 
-// Para versión móvil
 progressBar.addEventListener('touchstart', () => {
   isProgressBarActive = true;
   progressBar.style.height = '14px';
@@ -882,16 +863,6 @@ document.addEventListener('touchend', () => {
     progressBar.style.height = '10px';
   }
 });
-
-
-
-
-
-
-
-
-
-
 
   window.nextSong = nextSong;
   window.prevSong = prevSong;
