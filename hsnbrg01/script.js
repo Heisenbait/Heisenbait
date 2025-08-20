@@ -150,7 +150,7 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/Lift Yourself - Kanye West.mp3",
       name: "Lift Yourself",
-      image: "archivos/Cover of Lift Yourself by Kanye West.jpg",
+      image: "archivos/Cover of Paranoid by Kanye West, Mr Hudson.jpg",
       duration: "2:27"
     },
     {
