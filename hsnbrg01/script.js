@@ -643,7 +643,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Homecoming - Kanye West.mp3",
       name: "Homecoming",
       image: "archivos/Cover of I Wonder by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:23"
     },
     {
       src: "archivos/Everything I Am - Kanye West.mp3",
