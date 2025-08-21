@@ -343,7 +343,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Red and Gold - MF DOOM.mp3",
       name: "Red and Gold",
       image: "archivos/Cover of Gas Drawls by MF DOOM.jpg",
-      duration: "2:39"
+      duration: "4:42"
     },
     {
       src: "archivos/Feel The Fiyaaaah (with A$AP Rocky & feat. Takeoff) - Metro Boomin.mp3",
@@ -403,7 +403,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/HOT WIND BLOWS (feat. Lil Wayne) - Tyler.mp3",
       name: "HOT WIND BLOWS",
       image: "archivos/Cover of HOT WIND BLOWS (feat. Lil Wayne) by Tyler.jpg",
-      duration: "2:39"
+      duration: "2:35"
     },
     {
       src: "archivos/More Than A Woman - Bee Gees.mp3",
@@ -553,7 +553,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/DUCKWORTH. - Kendrick Lamar.mp3",
       name: "DUCKWORTH.",
       image: "archivos/Cover of PRIDE. by Kendrick Lamar.jpg",
-      duration: "2:39"
+      duration: "4:08"
     },
     {
       src: "archivos/Tristes Ojos - Ramona.mp3",
