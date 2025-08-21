@@ -118,6 +118,84 @@ albumImage.addEventListener('mouseleave', () => {
       duration: "4:16"
     },
     {
+      src: "archivos/Addiction - Kanye West.mp3",
+      name: "Addiction",
+      image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Heard 'Em Say - Kanye West.mp3",
+      name: "Heard 'Em Say",
+      image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/California Love - Original Version - 2Pac.mp3",
+      name: "California Love",
+      image: "archivos/Cover of California Love - Original Version by 2Pac, Roger, Dr. Dre.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/No. 1 Party Anthem - Arctic Monkeys.mp3",
+      name: "No. 1 Party Anthem",
+      image: "archivos/Cover of No. 1 Party Anthem by Arctic Monkeys.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Imagine - Remastered 2010 - John Lennon.mp3",
+      name: "Imagine",
+      image: "archivos/Cover of Imagine - Remastered 2010 by John Lennon.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Beanie - Chezile.mp3",
+      name: "Beanie",
+      image: "archivos/Beanie by Chezile.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Noid - Tyler.mp3",
+      name: "Noid",
+      image: "archivos/Cover of St. Chroma (feat. Daniel Caesar) by Tyler.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/St. Chroma (feat. Daniel Caesar) - Tyler.mp3",
+      name: "St. Chroma",
+      image: "archivos/Cover of St. Chroma (feat. Daniel Caesar) by Tyler.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Slow Jamz - Twista.mp3",
+      name: "Slow Jamz",
+      image: "archivos/Cover of Through The Wire by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Roses - Kanye West.mp3",
+      name: "Roses",
+      image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/1 Thing - Amerie.mp3",
+      name: "1 Thing",
+      image: "archivos/Cover of 1 Thing by Amerie.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/We Major - Kanye West.mp3",
+      name: "We Major",
+      image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/4_44 - JAY-Z.mp3",
+      name: "4:44",
+      image: "archivos/Cover of 4_44 by JAY-Z.jpg",
+      duration: "4:44"
+    },
+    {
       src: "archivos/SMUCKERS (feat. Lil Wayne & Kanye West) - Tyler.mp3",
       name: "SMUCKERS",
       image: "archivos/Cover of SMUCKERS (feat. Lil Wayne & Kanye West) by Tyler,  The Creator, Lil Wayne, Kanye West.jpg",
