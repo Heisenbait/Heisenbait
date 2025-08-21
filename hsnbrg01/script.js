@@ -228,44 +228,44 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/Beanie - Chezile.mp3",
       name: "Beanie",
-      image: "archivos/Beanie by Chezile.jpg",
+      image: "archivos/Cover of Beanie by Chezile.jpg",
       duration: "2:39"
     },
     {
       src: "archivos/Noid - Tyler.mp3",
       name: "Noid",
       image: "archivos/Cover of St. Chroma (feat. Daniel Caesar) by Tyler.jpg",
-      duration: "2:39"
+      duration: "4:44"
     },
     {
       src: "archivos/St. Chroma (feat. Daniel Caesar) - Tyler.mp3",
       name: "St. Chroma",
       image: "archivos/Cover of St. Chroma (feat. Daniel Caesar) by Tyler.jpg",
-      duration: "2:39"
+      duration: "3:17"
     },
     {
       src: "archivos/Slow Jamz - Twista.mp3",
       name: "Slow Jamz",
       image: "archivos/Cover of Through The Wire by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:32"
     },
     {
       src: "archivos/Roses - Kanye West.mp3",
       name: "Roses",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "2:39"
+      duration: "4:05"
     },
     {
       src: "archivos/1 Thing - Amerie.mp3",
       name: "1 Thing",
       image: "archivos/Cover of 1 Thing by Amerie.jpg",
-      duration: "2:39"
+      duration: "3:58"
     },
     {
       src: "archivos/We Major - Kanye West.mp3",
       name: "We Major",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "2:39"
+      duration: "7:28"
     },
     {
       src: "archivos/4_44 - JAY-Z.mp3",
