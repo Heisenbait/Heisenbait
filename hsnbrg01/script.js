@@ -121,7 +121,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Why I Love You - JAY-Z.mp3",
       name: "Why I Love You",
       image: "archivos/Cover of Why I Love You by JAY-Z, Kanye West.jpg",
-      duration: "2:39"
+      duration: "1:39"
     },
     {
       src: "archivos/Good Life - Kanye West.mp3",
