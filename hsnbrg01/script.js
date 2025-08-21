@@ -118,6 +118,84 @@ albumImage.addEventListener('mouseleave', () => {
       duration: "4:16"
     },
     {
+      src: "archivos/Why I Love You - JAY-Z.mp3",
+      name: "Why I Love You",
+      image: "archivos/Cover of Why I Love You by JAY-Z, Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Good Life - Kanye West.mp3",
+      name: "Good Life",
+      image: "archivos/Cover of Homecoming by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/School Spirit - Kanye West.mp3",
+      name: "School Spirit",
+      image: "archivos/Cover of Through The Wire by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Spaceship - Kanye West.mp3",
+      name: "Spaceship",
+      image: "archivos/Cover of Through The Wire by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Follow God - Kanye West.mp3",
+      name: "Follow God",
+      image: "archivos/Cover of God Is by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Black Skinhead - Kanye West.mp3",
+      name: "Black Skinhead",
+      image: "archivos/Cover of Bound 2 by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/IFHY (feat. Pharrell) - Tyler.mp3",
+      name: "IFHY",
+      image: "archivos/Cover of IFHY (feat. Pharrell) by Tyler.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/We Don't Care - Kanye West.mp3",
+      name: "We Don't Care",
+      image: "archivos/Cover of Through The Wire by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Hypnotize - 2014 Remaster - The Notorious B.I.G..mp3",
+      name: "Hypnotize",
+      image: "archivos/Cover of Hypnotize - 2014 Remaster by The Notorious B.I.G..jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Creep by Radiohead.mp3",
+      name: "Creep",
+      image: "archivos/Cover of Creep by Radiohead.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Last Day On Earth - Los Retros.mp3",
+      name: "Last Day On Earth",
+      image: "archivos/Cover of Last Day On Earth by Los Retros.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Borderline - Tame Impala.mp3",
+      name: "Borderline",
+      image: "archivos/Cover of Borderline by Tame Impala.jpg",
+      duration: "2:39"
+    },
+    {
+      src: "archivos/Celebration - Kanye West.mp3",
+      name: "Celebration",
+      image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
+      duration: "2:39"
+    },
+    {
       src: "archivos/Addiction - Kanye West.mp3",
       name: "Addiction",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
