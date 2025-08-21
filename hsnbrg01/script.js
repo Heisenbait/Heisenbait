@@ -121,7 +121,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Why I Love You - JAY-Z.mp3",
       name: "Why I Love You",
       image: "archivos/Cover of Why I Love You by JAY-Z, Kanye West.jpg",
-      duration: "1:39"
+      duration: "3:20"
     },
     {
       src: "archivos/Good Life - Kanye West.mp3",
@@ -133,7 +133,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/School Spirit - Kanye West.mp3",
       name: "School Spirit",
       image: "archivos/Cover of Through The Wire by Kanye West.jpg",
-      duration: "2:39"
+      duration: "3:02"
     },
     {
       src: "archivos/Spaceship - Kanye West.mp3",
