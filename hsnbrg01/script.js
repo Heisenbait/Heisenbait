@@ -175,7 +175,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Creep - Radiohead.mp3",
       name: "Creep",
       image: "archivos/Cover of Creep by Radiohead.jpg",
-      duration: "2:39"
+      duration: "3:58"
     },
     {
       src: "archivos/Last Day On Earth - Los Retros.mp3",
