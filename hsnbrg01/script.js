@@ -229,7 +229,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Beanie - Chezile.mp3",
       name: "Beanie",
       image: "archivos/Cover of Beanie by Chezile.jpg",
-      duration: "2:39"
+      duration: "2:12"
     },
     {
       src: "archivos/Noid - Tyler.mp3",
