@@ -126,7 +126,7 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/Good Life - Kanye West.mp3",
       name: "Good Life",
-      image: "archivos/Cover of Homecoming by Kanye West.jpg",
+      image: "archivos/Cover of I Wonder by Kanye West.jpg",
       duration: "2:39"
     },
     {
