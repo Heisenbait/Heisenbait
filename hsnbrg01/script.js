@@ -98,73 +98,84 @@ albumImage.addEventListener('mouseleave', () => {
       name: "In God's Country",
       image: "archivos/Cover of Donda with childs.jpg",
       duration: "3:05",
-      text: "Kanye West, Justin Bieber, Common"
+      text: "Kanye West, Justin Bieber"
     },
     {
       src: "archivos/Eazy - The Game, Kanye West.mp3",
       name: "Eazy",
       image: "archivos/Cover of Eazy by The Game, Kanye West (1).jpg",
-      duration: "3:54"
+      duration: "3:54",
+      text: "Kanye West, The Game"
     },
     {
       src: "archivos/Master Of Puppets - Metallica.mp3",
       name: "Master Of Puppets",
       image: "archivos/Cover of Master Of Puppets by Metallica.jpg",
-      duration: "8:35"
+      duration: "8:35",
+      text: "Metallica"
     },
     {
       src: "archivos/Juicy - 2005 Remaster - The Notorious B.I.G..mp3",
       name: "Juicy - 2005 Remaster",
       image: "archivos/Cover of Juicy - 2005 Remaster by The Notorious B.I.G..jpg",
-      duration: "4:16"
+      duration: "4:16",
+      text: "The Notorious B.I.G."
     },
     {
       src: "archivos/Why I Love You - JAY-Z.mp3",
       name: "Why I Love You",
       image: "archivos/Cover of Why I Love You by JAY-Z, Kanye West.jpg",
-      duration: "3:20"
+      duration: "3:20",
+      text: "Kanye West, Jay Z"
     },
     {
       src: "archivos/Good Life - Kanye West.mp3",
       name: "Good Life",
       image: "archivos/Cover of I Wonder by Kanye West.jpg",
-      duration: "3:27"
+      duration: "3:27",
+      text: "Kanye West, Pusha T"
     },
     {
       src: "archivos/School Spirit - Kanye West.mp3",
       name: "School Spirit",
       image: "archivos/Cover of Through The Wire by Kanye West.jpg",
-      duration: "3:02"
+      duration: "3:02",
+      text: "Kanye West"
     },
     {
       src: "archivos/Spaceship - Kanye West.mp3",
       name: "Spaceship",
       image: "archivos/Cover of Through The Wire by Kanye West.jpg",
-      duration: "5:24"
+      duration: "5:24",
+      text: "Kanye West"
     },
     {
       src: "archivos/Follow God - Kanye West.mp3",
       name: "Follow God",
       image: "archivos/Cover of God Is by Kanye West.jpg",
-      duration: "1:44"
+      duration: "1:44",
+      text: "Kanye West"
     },
     {
       src: "archivos/Black Skinhead - Kanye West.mp3",
       name: "Black Skinhead",
       image: "archivos/Cover of Bound 2 by Kanye West.jpg",
-      duration: "3:08"
+      duration: "3:08",
+      text: "Kanye West"
     },
     {
       src: "archivos/IFHY (feat. Pharrell) - Tyler.mp3",
       name: "IFHY",
       image: "archivos/Cover of IFHY (feat. Pharrell) by Tyler.jpg",
-      duration: "5:19"
+      duration: "5:19",
+      text: "Tyler, The Creator"
     },
     {
       src: "archivos/We Don't Care - Kanye West.mp3",
       name: "We Don't Care",
       image: "archivos/Cover of Through The Wire by Kanye West.jpg",
-      duration: "3:59"
+      duration: "3:59",
+      text: "Kanye West"
     },
     {
       src: "archivos/Hypnotize - 2014 Remaster - The Notorious B.I.G..mp3",
