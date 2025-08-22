@@ -342,7 +342,6 @@ img {
 .track-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
 .track {
