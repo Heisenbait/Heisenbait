@@ -920,11 +920,14 @@ albumImage.addEventListener('mouseleave', () => {
       trackEl.className = 'track';
       trackEl.dataset.index = index;
       trackEl.innerHTML = `
-        <span class="number">${index + 1}</span>
-        <div class="title">${song.name}</div>
-        <span class="time">${song.duration || '0:00'}</span>
-        <div class="song-text">${song.text}</div>
-      `;
+  <span class="number">${index + 1}</span>
+  <div class="title-container">
+    <div class="title">${song.name}</div>
+    <div class="song-text">${song.text}</div>
+  </div>
+  <span class="time">${song.duration || '0:00'}</span>
+`;
+
       trackEl.addEventListener('click', () => {
         currentSongIndex = index;
         playSong(song);
