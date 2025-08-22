@@ -391,7 +391,7 @@ img {
 .track .song-text {
   color: rgba(200, 200, 200, 0.6);
   font-size: 16px;
-  margin-top: 2px;
+  margin-top: -4px;
 }
 
 #playPauseBtn {
