@@ -94,6 +94,13 @@ albumImage.addEventListener('mouseleave', () => {
 
   const songs = [
     {
+      src: "archivos/Building - Kanye West.mp3",
+      name: "Building",
+      image: "archivos/Cover of Building by Kanye West.jpg",
+      duration: "3:08",
+      text: "Kanye West, JAY-Z"
+    },
+    {
       src: "archivos/In God's Country - Kanye West.mp3",
       name: "In God's Country",
       image: "archivos/Cover of Donda with childs.jpg",
@@ -126,7 +133,7 @@ albumImage.addEventListener('mouseleave', () => {
       name: "Why I Love You",
       image: "archivos/Cover of Why I Love You by JAY-Z, Kanye West.jpg",
       duration: "3:20",
-      text: "Kanye West, Jay Z"
+      text: "Kanye West, JAY-Z"
     },
     {
       src: "archivos/Good Life - Kanye West.mp3",
