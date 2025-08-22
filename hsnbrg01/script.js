@@ -98,7 +98,7 @@ albumImage.addEventListener('mouseleave', () => {
       name: "In God's Country",
       image: "archivos/Cover of Donda with childs.jpg",
       duration: "3:05",
-      text: "DONDA UNRLSD"
+      text: "Kanye West · DONDA unrlsd"
     },
     {
       src: "archivos/Eazy - The Game, Kanye West.mp3",
