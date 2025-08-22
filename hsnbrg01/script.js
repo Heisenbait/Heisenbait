@@ -921,7 +921,8 @@ albumImage.addEventListener('mouseleave', () => {
       trackEl.innerHTML = `
         <span class="number">${index + 1}</span>
         <div class="title">${song.name}</div>
-        <span class="time">${song.duration || '0:00'}</span> <!-- Usa duración pre-generada -->
+        <span class="time">${song.duration || '0:00'}</span>
+        <div class="song-text">${song.text}</div>
       `;
       trackEl.addEventListener('click', () => {
         currentSongIndex = index;
