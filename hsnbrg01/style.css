@@ -357,14 +357,14 @@ img {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
-  border-radius: 22px;
+  border-radius: 19px;
 }
 
 .track.active {
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
-  border-radius: 22px;
+  border-radius: 19px;
 }
 
 .track .number {
