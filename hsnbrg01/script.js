@@ -321,187 +321,218 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Feel The Love - KIDS SEE GHOSTS.mp3",
       name: "Feel The Love",
       image: "archivos/Cover of Feel The Love by KIDS SEE GHOSTS, Pusha T.jpg",
-      duration: "2:45"
+      duration: "2:45",
+      text: "KID SEE GHOSTS"
     },
     {
       src: "archivos/Through The Wire - Kanye West.mp3",
       name: "Through The Wire",
       image: "archivos/Cover of Through The Wire by Kanye West.jpg",
-      duration: "3:41"
+      duration: "3:41",
+      text: "Kanye West"
     },
     {
       src: "archivos/Gold Digger - Kanye West.mp3",
       name: "Gold Digger",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "3:27"
+      duration: "3:27",
+      text: "Gold Digger"
     },
     {
       src: "archivos/Paranoid - Kanye West.mp3",
       name: "Paranoid",
       image: "archivos/Cover of Paranoid by Kanye West, Mr Hudson.jpg",
-      duration: "4:37"
+      duration: "4:37",
+      text: "Kanye West"
     },
     {
       src: "archivos/Lift Yourself - Kanye West.mp3",
       name: "Lift Yourself",
       image: "archivos/Cover of Paranoid by Kanye West, Mr Hudson.jpg",
-      duration: "2:27"
+      duration: "2:27",
+      text: "Kanye West"
     },
     {
       src: "archivos/24 - Kanye West.mp3",
       name: "24",
       image: "archivos/Cover of Moon by Kanye West.jpg",
-      duration: "3:17"
+      duration: "3:17",
+      text: "Kanye West"
     },
     {
       src: "archivos/Famous - Kanye West.mp3",
       name: "Famous",
       image: "archivos/Cover of Father Stretch My Hands Pt. 1 by Kanye West.jpg",
-      duration: "3:16"
+      duration: "3:16",
+      text: "Kanye West"
     },
     {
       src: "archivos/彼女に言って (Diz A Ela) - Lisa Ono.mp3",
       name: "彼女に言って",
       image: "archivos/Cover of サマー・サンバ by Lisa Ono.jpg",
-      duration: "3:48"
+      duration: "3:48",
+      text: "Lisa Ono"
     },
     {
       src: "archivos/90210 (feat. Kacy Hill) - Travis Scott.mp3",
       name: "90210 (feat. Kacy Hill)",
       image: "archivos/Cover of 90210 (feat. Kacy Hill) by Travis Scott, Kacy Hill.jpg",
-      duration: "5:39"
+      duration: "5:39",
+      text: "Travis Scott"
     },
     {
       src: "archivos/EARFQUAKE - Tyler.mp3",
       name: "EARFQUAKE",
       image: "archivos/Cover of GONE GONE THANK YOU by Tyler.jpg",
-      duration: "3:10"
+      duration: "3:10",
+      text: "Tyler, The Creator"
     },
     {
       src: "archivos/Red and Gold - MF DOOM.mp3",
       name: "Red and Gold",
       image: "archivos/Cover of Gas Drawls by MF DOOM.jpg",
-      duration: "4:42"
+      duration: "4:42",
+      text: "MF DOOM"
     },
     {
       src: "archivos/Feel The Fiyaaaah (with A$AP Rocky & feat. Takeoff) - Metro Boomin.mp3",
       name: "Feel The Fiyaaaah",
       image: "archivos/Cover of Feel The Fiyaaaah (with A$AP Rocky & feat. Takeoff) by Metro Boomin, A$AP Rocky, Takeoff.jpg",
-      duration: "3:09"
+      duration: "3:09",
+      text: "Metro Boomin, A$AP Rocky"
     },
     {
       src: "archivos/This Is America - Childish Gambino.mp3",
       name: "This Is America",
       image: "archivos/Cover of This Is America by Childish Gambino.jpg",
-      duration: "3:45"
+      duration: "3:45",
+      text: "Childish Gambino"
     },
     {
       src: "archivos/Hoy El Aire Huele a Ti - Luis Miguel.mp3",
       name: "Hoy El Aire Huele a Ti",
       image: "archivos/Cover of Hoy El Aire Huele a Ti by Luis Miguel.jpg",
-      duration: "3:45"
+      duration: "3:45",
+      text: "Luis Miguel"
     },
     {
       src: "archivos/DNA. - Kendrick Lamar.mp3",
       name: "DNA.",
       image: "archivos/Cover of PRIDE. by Kendrick Lamar.jpg",
-      duration: "3:05"
+      duration: "3:05",
+      text: "Kendrick Lamar"
     },
     {
       src: "archivos/Southern Nights - Glen Campbell.mp3",
       name: "Southern Nights",
       image: "archivos/Cover of Southern Nights by Glen Campbell.jpg",
-      duration: "3:00"
+      duration: "3:00",
+      text: "Glen Campbell"
     },
     {
       src: "archivos/I Love It (& Lil Pump) - Kanye West.mp3",
       name: "I Love It (& Lil Pump)",
       image: "archivos/Cover of I Love It (& Lil Pump) by Kanye West, Lil Pump.jpg",
-      duration: "2:07"
+      duration: "2:07",
+      text: "Kanye West, Lil Pump"
     },
     {
       src: "archivos/HYPNOTIC DATA - Slowed & Reverbed - ODECORE.mp3",
       name: "HYPNOTIC DATA",
       image: "archivos/Cover of HYPNOTIC DATA - Slowed & Reverbed by ODECORE, Odetari.jpg",
-      duration: "2:38"
+      duration: "2:38",
+      text: "ODECORE"
     },
     {
       src: "archivos/MILLION DOLLAR BABY - Tommy Richman.mp3",
       name: "MILLION DOLLAR BABY",
       image: "archivos/Cover of MILLION DOLLAR BABY by Tommy Richman.jpg",
-      duration: "2:35"
+      duration: "2:35",
+      text: "Tommy Richman"
     },
     {
       src: "archivos/Oro De Ley - Luis Miguel.mp3",
       name: "Oro De Ley",
       image: "archivos/Cover of Oro De Ley by Luis Miguel.jpg",
-      duration: "3:58"
+      duration: "3:58",
+      text: "Luis Miguel"
     },
     {
       src: "archivos/HOT WIND BLOWS (feat. Lil Wayne) - Tyler.mp3",
       name: "HOT WIND BLOWS",
       image: "archivos/Cover of HOT WIND BLOWS (feat. Lil Wayne) by Tyler.jpg",
-      duration: "2:35"
+      duration: "2:35",
+      text: "Tyler, The Creator, Lil Wayne"
     },
     {
       src: "archivos/More Than A Woman - Bee Gees.mp3",
       name: "More Than A Woman",
       image: "archivos/Cover of More Than A Woman by Bee Gees.jpg",
-      duration: "3:17"
+      duration: "3:17",
+      text: "Bee Gees"
     },
     {
       src: "archivos/Live And Let Die - 2018 Remaster - Wings.mp3",
       name: "Live And Let Die",
       image: "archivos/Cover of Live And Let Die - 2018 Remaster by Wings.jpg",
-      duration: "3:12"
+      duration: "3:12",
+      text: "Wings"
     },
     {
       src: "archivos/A Bird's Last Look - Macabre Plaza.mp3",
       name: "A Bird's Last Look",
       image: "archivos/Cover of A Bird's Last Look by Macabre Plaza.jpg",
-      duration: "1:09"
+      duration: "1:09",
+      text: "Macabre Plaza"
     },
     {
       src: "archivos/Chamber Of Reflection - Mac DeMarco.mp3",
       name: "Chamber Of Reflection",
       image: "archivos/Cover of Chamber Of Reflection by Mac DeMarco.jpg",
-      duration: "3:51"
+      duration: "3:51",
+      text: "Mac DeMarco" 
     },
     {
       src: "archivos/ARE WE STILL FRIENDS_ - Tyler.mp3",
       name: "ARE WE STILL FRIENDS?",
       image: "archivos/Cover of ARE WE STILL FRIENDS_ by Tyler,  The Creator.jpg",
-      duration: "4:25"
+      duration: "4:25",
+      text: "Tyler, The Creator"
     },
     {
       src: "archivos/ALMA DINAMITA - WOS.mp3",
       name: "ALMA DINAMITA",
       image: "archivos/Cover of ALMA DINAMITA by WOS.jpg",
-      duration: "2:53"
+      duration: "2:53",
+      text: "WOS"
     },
     {
       src: "archivos/Poison - Bell Biv DeVoe.mp3",
       name: "Poison",
       image: "archivos/Cover of Poison by Bell Biv DeVoe.jpg",
-      duration: "4:19"
+      duration: "4:19",
+      text: "Bell Biv DeVoe"
     },
     {
       src: "archivos/Dark Red - Steve Lacy.mp3",
       name: "Dark Red",
       image: "archivos/Cover of Dark Red by Steve Lacy.jpg",
-      duration: "2:53"
+      duration: "2:53",
+      text: "Steve Lacy"
     },
     {
       src: "archivos/All Falls Down - Kanye West.mp3",
       name: "All Falls Down",
       image: "archivos/Cover of All Falls Down by Kanye West.jpg",
-      duration: "3:43"
+      duration: "3:43",
+      text: "All Falls Down"
     },
     {
       src: "archivos/19 Dias y 500 Noches - Joaquín Sabina.mp3",
       name: "19 Dias y 500 Noches",
       image: "archivos/Cover of 19 Dias y 500 Noches by Joaquín Sabina.jpg",
-      duration: "4:43"
+      duration: "4:43",
+      text: "Joaquin Sabina"
     },
     {
       src: "archivos/Brillas - León Larregui.mp3",
