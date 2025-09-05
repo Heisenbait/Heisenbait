@@ -132,21 +132,21 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Blood On The Leaves - Kanye West.mp3",
       name: "Blood On The Leaves",
       image: "archivos/Cover of Bound 2 by Kanye West.jpg",
-      duration: "2:39",
+      duration: "5:59",
       text: "Kanye West"
     },
     {
       src: "archivos/POWER - Kanye West.mp3",
       name: "POWER",
       image: "archivos/Cover of Runaway by Kanye West, Pusha T.jpg",
-      duration: "2:39",
+      duration: "4:52",
       text: "Kanye West"
     },
     {
       src: "archivos/All Mine - Kanye West.mp3",
       name: "All Mine",
       image: "archivos/Ghost Town by Kanye West, PARTYNEXTDOOR.jpg",
-      duration: "2:39",
+      duration: "2:25",
       text: "Kanye West"
     },
     {
