@@ -336,7 +336,7 @@ albumImage.addEventListener('mouseleave', () => {
       name: "SMUCKERS",
       image: "archivos/Cover of SMUCKERS (feat. Lil Wayne & Kanye West) by Tyler,  The Creator, Lil Wayne, Kanye West.jpg",
       duration: "5:34",
-      text: "Tyler, The Creator, Kanye West, Lil Wayne"
+      text: "Tyler, Kanye West, Lil Wayne"
     },
     {
       src: "archivos/Feel The Love - KIDS SEE GHOSTS.mp3",
