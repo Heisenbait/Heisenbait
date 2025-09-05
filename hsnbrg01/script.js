@@ -286,31 +286,36 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Roses - Kanye West.mp3",
       name: "Roses",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "4:05"
+      duration: "4:05",
+      text: "Kanye West"
     },
     {
       src: "archivos/1 Thing - Amerie.mp3",
       name: "1 Thing",
       image: "archivos/Cover of 1 Thing by Amerie.jpg",
-      duration: "3:58"
+      duration: "3:58",
+      text: "Amerie"
     },
     {
       src: "archivos/We Major - Kanye West.mp3",
       name: "We Major",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "7:28"
+      duration: "7:28",
+      text: "We Major"
     },
     {
       src: "archivos/4_44 - JAY-Z.mp3",
       name: "4:44",
       image: "archivos/Cover of 4_44 by JAY-Z.jpg",
-      duration: "4:44"
+      duration: "4:44",
+      text: "JAY-Z"
     },
     {
       src: "archivos/SMUCKERS (feat. Lil Wayne & Kanye West) - Tyler.mp3",
       name: "SMUCKERS",
       image: "archivos/Cover of SMUCKERS (feat. Lil Wayne & Kanye West) by Tyler,  The Creator, Lil Wayne, Kanye West.jpg",
-      duration: "5:34"
+      duration: "5:34",
+      text: "Tyler, The Creator, Kanye West, Lil Wayne"
     },
     {
       src: "archivos/Feel The Love - KIDS SEE GHOSTS.mp3",
