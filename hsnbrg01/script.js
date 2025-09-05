@@ -188,85 +188,99 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Hypnotize - 2014 Remaster - The Notorious B.I.G..mp3",
       name: "Hypnotize",
       image: "archivos/Cover of Hypnotize - 2014 Remaster by The Notorious B.I.G..jpg",
-      duration: "3:49"
+      duration: "3:49",
+      text: "The Notorious B.I.G."
     },
     {
       src: "archivos/Creep - Radiohead.mp3",
       name: "Creep",
       image: "archivos/Cover of Creep by Radiohead.jpg",
-      duration: "3:58"
+      duration: "3:58",
+      text: "Radiohead"
     },
     {
       src: "archivos/Last Day On Earth - Los Retros.mp3",
       name: "Last Day On Earth",
       image: "archivos/Cover of Last Day On Earth by Los Retros.jpg",
-      duration: "3:42"
+      duration: "3:42",
+      text: "Los Retros"
     },
     {
       src: "archivos/Borderline - Tame Impala.mp3",
       name: "Borderline",
       image: "archivos/Cover of Borderline by Tame Impala.jpg",
-      duration: "3:57"
+      duration: "3:57",
+      text: "Tame Impala"
     },
     {
       src: "archivos/Celebration - Kanye West.mp3",
       name: "Celebration",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "3:18"
+      duration: "3:18",
+      text: "Kanye West"
     },
     {
       src: "archivos/Addiction - Kanye West.mp3",
       name: "Addiction",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "4:27"
+      duration: "4:27",
+      text: "Kanye West"
     },
     {
       src: "archivos/Heard 'Em Say - Kanye West.mp3",
       name: "Heard 'Em Say",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "3:23"
+      duration: "3:23",
+      text: "Kanye West, Adam Levine"
     },
     {
       src: "archivos/California Love - Original Version - 2Pac.mp3",
       name: "California Love",
       image: "archivos/Cover of California Love - Original Version by 2Pac, Roger, Dr. Dre.jpg",
-      duration: "4:44"
+      duration: "4:44",
+      text: "2Pac"
     },
     {
       src: "archivos/No. 1 Party Anthem - Arctic Monkeys.mp3",
       name: "No. 1 Party Anthem",
       image: "archivos/Cover of No. 1 Party Anthem by Arctic Monkeys.jpg",
-      duration: "4:03"
+      duration: "4:03",
+      text: "Artic Monkeys"
     },
     {
       src: "archivos/Imagine - Remastered 2010 - John Lennon.mp3",
       name: "Imagine",
       image: "archivos/Cover of Imagine - Remastered 2010 by John Lennon.jpg",
-      duration: "3:07"
+      duration: "3:07",
+      text: "John Lennon"
     },
     {
       src: "archivos/Beanie - Chezile.mp3",
       name: "Beanie",
       image: "archivos/Cover of Beanie by Chezile.jpg",
-      duration: "2:12"
+      duration: "2:12",
+      text: "Chezile"
     },
     {
       src: "archivos/Noid - Tyler.mp3",
       name: "Noid",
       image: "archivos/Cover of St. Chroma (feat. Daniel Caesar) by Tyler.jpg",
-      duration: "4:44"
+      duration: "4:44",
+      text: "Tyler, The Creator"
     },
     {
       src: "archivos/St. Chroma (feat. Daniel Caesar) - Tyler.mp3",
       name: "St. Chroma",
       image: "archivos/Cover of St. Chroma (feat. Daniel Caesar) by Tyler.jpg",
-      duration: "3:17"
+      duration: "3:17",
+      text: "Tyler, The Creator"
     },
     {
       src: "archivos/Slow Jamz - Twista.mp3",
       name: "Slow Jamz",
       image: "archivos/Cover of Through The Wire by Kanye West.jpg",
-      duration: "3:32"
+      duration: "3:32",
+      text: "Kanye West, Jamie Foxx"
     },
     {
       src: "archivos/Roses - Kanye West.mp3",
