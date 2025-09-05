@@ -129,6 +129,27 @@ albumImage.addEventListener('mouseleave', () => {
       text: "The Notorious B.I.G."
     },
     {
+      src: "archivos/Blood On The Leaves - Kanye West.mp3",
+      name: "Blood On The Leaves",
+      image: "archivos/Cover of Bound 2 by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/POWER - Kanye West.mp3",
+      name: "POWER",
+      image: "archivos/Cover of Runaway by Kanye West, Pusha T.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/All Mine - Kanye West.mp3",
+      name: "All Mine",
+      image: "archivos/Ghost Town by Kanye West, PARTYNEXTDOOR.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
       src: "archivos/Why I Love You - JAY-Z.mp3",
       name: "Why I Love You",
       image: "archivos/Cover of Why I Love You by JAY-Z, Kanye West.jpg",
