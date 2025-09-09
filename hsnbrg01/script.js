@@ -94,6 +94,34 @@ albumImage.addEventListener('mouseleave', () => {
 
   const songs = [
     {
+      src: "archivos/Run Your Mouth - The Marías.mp3",
+      name: "Run Your Mouth",
+      image: "archivos/Cover of Run Your Mouth by The Marías.jpg",
+      duration: "2:39",
+      text: "The Marías"
+    },
+    {
+      src: "archivos/Deja Vu - Gustavo Cerati.mp3",
+      name: "Deja Vu",
+      image: "archivos/Cover of Deja Vu by Gustavo Cerati.jpg",
+      duration: "2:39",
+      text: "Gustavo Cerati"
+    },
+    {
+      src: "archivos/fue mejor (feat. SZA) - Kali Uchis.mp3",
+      name: "fue mejor (feat. SZA)",
+      image: "archivos/Cover of fue mejor (feat. SZA) by Kali Uchis, SZA.jpg",
+      duration: "2:39",
+      text: "Kali Uchis, SZA"
+    },
+    {
+      src: "archivos/THE GREATEST - Billie Eilish.mp3",
+      name: "THE GREATEST",
+      image: "archivos/Cover of THE GREATEST by Billie Eilish.jpg",
+      duration: "2:39",
+      text: "Billie Eilish"
+    },
+    {
       src: "archivos/Building - Kanye West.mp3",
       name: "Building",
       image: "archivos/Cover of Building by Kanye West.jpg",
