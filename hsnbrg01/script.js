@@ -98,7 +98,7 @@ albumImage.addEventListener('mouseleave', () => {
       name: "Run Your Mouth",
       image: "archivos/Cover of Run Your Mouth by The Marías.jpg",
       duration: "2:39",
-      text: "The Marías"
+      text: "The Marías" 
     },
     {
       src: "archivos/Deja Vu - Gustavo Cerati.mp3",
