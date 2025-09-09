@@ -97,28 +97,28 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Run Your Mouth - The Marías.mp3",
       name: "Run Your Mouth",
       image: "archivos/Cover of Run Your Mouth by The Marías.jpg",
-      duration: "2:39",
+      duration: "2:40",
       text: "The Marías" 
     },
     {
       src: "archivos/Deja Vu - Gustavo Cerati.mp3",
       name: "Deja Vu",
       image: "archivos/Cover of Deja Vu by Gustavo Cerati.jpg",
-      duration: "2:39",
+      duration: "3:24",
       text: "Gustavo Cerati"
     },
     {
       src: "archivos/fue mejor (feat. SZA) - Kali Uchis.mp3",
       name: "fue mejor (feat. SZA)",
       image: "archivos/Cover of fue mejor (feat. SZA) by Kali Uchis, SZA.jpg",
-      duration: "2:39",
+      duration: "3:51",
       text: "Kali Uchis, SZA"
     },
     {
       src: "archivos/THE GREATEST - Billie Eilish.mp3",
       name: "THE GREATEST",
       image: "archivos/Cover of THE GREATEST by Billie Eilish.jpg",
-      duration: "2:39",
+      duration: "4:53",
       text: "Billie Eilish"
     },
     {
