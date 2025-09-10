@@ -157,6 +157,34 @@ albumImage.addEventListener('mouseleave', () => {
       text: "The Notorious B.I.G."
     },
     {
+      src: "archivos/TALKING - ¥$.mp3",
+      name: "TALKING",
+      image: "archivos/Cover of Homecoming by Kanye West.jpg",
+      duration: "2:39",
+      text: ""
+    },
+    {
+      src: "archivos/Closed On Sunday - Kanye West.mp3",
+      name: "Closed On Sunday",
+      image: "archivos/Cover of God Is by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/No Mistakes - Kanye West.mp3",
+      name: "No Mistakes",
+      image: "archivos/Ghost Town by Kanye West, PARTYNEXTDOOR.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/Drop It Like It's Hot - Snoop Dogg.mp3",
+      name: "Drop It Like It's Hot",
+      image: "archivos/Cover of Drop It Like It's Hot by Snoop Dogg, Pharrell Williams.jpg",
+      duration: "2:39",
+      text: "Snoop Dogg, Pharrell Williams"
+    },
+    {
       src: "archivos/Blood On The Leaves - Kanye West.mp3",
       name: "Blood On The Leaves",
       image: "archivos/Cover of Bound 2 by Kanye West.jpg",
