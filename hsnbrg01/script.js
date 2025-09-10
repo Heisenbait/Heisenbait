@@ -157,11 +157,25 @@ albumImage.addEventListener('mouseleave', () => {
       text: "The Notorious B.I.G."
     },
     {
+      src: "archivos/Late - Kanye West.mp3",
+      name: "Late",
+      image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/Wheels Fall Off (feat. Ye) - Ty Dolla $ign.mp3",
+      name: "Wheels Fall Off (feat. Ye)",
+      image: "archivos/Cover of Wheels Fall Off (feat. Ye) by Ty Dolla $ign, Yé.jpg",
+      duration: "2:39",
+      text: "Ty Dolla $ign, Kanye West"
+    },
+    {
       src: "archivos/TALKING - ¥$.mp3",
       name: "TALKING",
-      image: "archivos/Cover of Homecoming by Kanye West.jpg",
+      image: "archivos/hsnbrg01/archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
       duration: "2:39",
-      text: ""
+      text: "Kanye West, Ty Dolla $ign"
     },
     {
       src: "archivos/Closed On Sunday - Kanye West.mp3",
