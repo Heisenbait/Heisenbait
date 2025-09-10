@@ -160,42 +160,42 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Late - Kanye West.mp3",
       name: "Late",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "2:39",
+      duration: "3:50",
       text: "Kanye West"
     },
     {
       src: "archivos/Wheels Fall Off (feat. Ye) - Ty Dolla $ign.mp3",
       name: "Wheels Fall Off (feat. Ye)",
       image: "archivos/Cover of Wheels Fall Off (feat. Ye) by Ty Dolla $ign, Yé.jpg",
-      duration: "2:39",
+      duration: "2:01",
       text: "Ty Dolla $ign, Kanye West"
     },
     {
       src: "archivos/TALKING - ¥$.mp3",
       name: "TALKING",
       image: "archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
-      duration: "2:39",
+      duration: "3:05",
       text: "Kanye West, Ty Dolla $ign"
     },
     {
       src: "archivos/Closed On Sunday - Kanye West.mp3",
       name: "Closed On Sunday",
       image: "archivos/Cover of God Is by Kanye West.jpg",
-      duration: "2:39",
+      duration: "2:31",
       text: "Kanye West"
     },
     {
       src: "archivos/No Mistakes - Kanye West.mp3",
       name: "No Mistakes",
       image: "archivos/Ghost Town by Kanye West, PARTYNEXTDOOR.jpg",
-      duration: "2:39",
+      duration: "2:03",
       text: "Kanye West"
     },
     {
       src: "archivos/Drop It Like It's Hot - Snoop Dogg.mp3",
       name: "Drop It Like It's Hot",
       image: "archivos/Cover of Drop It Like It's Hot by Snoop Dogg, Pharrell Williams.jpg",
-      duration: "2:39",
+      duration: "4:26",
       text: "Snoop Dogg, Pharrell Williams"
     },
     {
