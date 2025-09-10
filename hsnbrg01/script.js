@@ -173,7 +173,7 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/TALKING - ¥$.mp3",
       name: "TALKING",
-      image: "archivos/hsnbrg01/archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
+      image: "archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
       duration: "2:39",
       text: "Kanye West, Ty Dolla $ign"
     },
