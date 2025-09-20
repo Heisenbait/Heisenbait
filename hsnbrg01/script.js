@@ -122,6 +122,13 @@ albumImage.addEventListener('mouseleave', () => {
       text: "Billie Eilish"
     },
     {
+      src: "archivos/MY HOOD - Kanye West.mp3",
+      name: "MY HOOD",
+      image: "archivos/Bully-edit.jpeg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
       src: "archivos/Building - Kanye West.mp3",
       name: "Building",
       image: "archivos/Cover of Building by Kanye West.jpg",
