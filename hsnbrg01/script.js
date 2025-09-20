@@ -202,13 +202,13 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Wouldn't Leave - Kanye West.mp3",
       name: "Wouldn't Leave",
       image: "archivos/Ghost Town by Kanye West, PARTYNEXTDOOR.jpg",
-      duration: "2:39",
+      duration: "3:25",
       text: "Kanye West"
     },
     {
       src: "archivos/NO HAGO TRAP - Milo j.mp3",
       name: "NO HAGO TRAP",
-      image: "archivos/NO HAGO TRAP - Milo j.jpg",
+      image: "archivos/NO HAGO TRAP by Milo j.jpg",
       duration: "2:39",
       text: "Milo j"
     },
