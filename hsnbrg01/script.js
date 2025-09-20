@@ -216,14 +216,14 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/LIFESTYLE - ¥$.mp3",
       name: "LIFESTYLE",
       image: "archivos/Cover of PROMOTION by ¥$, Kanye West, Ty Dolla $ign.jpg",
-      duration: "2:39",
+      duration: "5:51",
       text: "¥$, Ty Dolla $ign, Kanye West"
     },
     {
       src: "archivos/F L Y - Spectrum.mp3",
       name: "F L Y",
       image: "archivos/Cover of F L Y by Spectrum.jpg",
-      duration: "2:39",
+      duration: "3:30",
       text: "Spectrum"
     },
     {
