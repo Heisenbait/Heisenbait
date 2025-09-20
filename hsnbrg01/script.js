@@ -164,6 +164,69 @@ albumImage.addEventListener('mouseleave', () => {
       text: "The Notorious B.I.G."
     },
     {
+      src: "archivos/Hurricane - Kanye West.mp3",
+      name: "Hurricane",
+      image: "archivos/Cover of Moon by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/Everything We Need - Kanye West.mp3",
+      name: "Everything We Need",
+      image: "archivos/Cover of God Is by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West, Ty Dolla $ign, Ant Clemons"
+    },
+    {
+      src: "archivos/On God - Kanye West.mp3",
+      name: "On God",
+      image: "archivos/Cover of God Is by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/RIVER - ¥$.mp3",
+      name: "RIVER",
+      image: "archivos/Cover of PROMOTION by ¥$, Kanye West, Ty Dolla $ign.jpg",
+      duration: "2:39",
+      text: "¥$, Kanye West, Ty Dolla $ign"
+    },
+    {
+      src: "archivos/Homecoming - Kanye West.mp3",
+      name: "Waves",
+      image: "archivos/Cover of Father Stretch My Hands Pt. 1 by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/Wouldn't Leave - Kanye West.mp3",
+      name: "Wouldn't Leave",
+      image: "archivos/Ghost Town by Kanye West, PARTYNEXTDOOR.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/NO HAGO TRAP - Milo j.mp3",
+      name: "NO HAGO TRAP",
+      image: "archivos/NO HAGO TRAP - Milo j.jpg",
+      duration: "2:39",
+      text: "Milo j"
+    },
+    {
+      src: "archivos/LIFESTYLE - ¥$.mp3",
+      name: "LIFESTYLE",
+      image: "archivos/Cover of PROMOTION by ¥$, Kanye West, Ty Dolla $ign.jpg",
+      duration: "2:39",
+      text: "¥$, Ty Dolla $ign, Kanye West"
+    },
+    {
+      src: "archivos/F L Y - Spectrum.mp3",
+      name: "F L Y",
+      image: "archivos/Cover of F L Y by Spectrum.jpg",
+      duration: "2:39",
+      text: "Spectrum"
+    },
+    {
       src: "archivos/Late - Kanye West.mp3",
       name: "Late",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
@@ -175,14 +238,14 @@ albumImage.addEventListener('mouseleave', () => {
       name: "Wheels Fall Off (feat. Ye)",
       image: "archivos/Cover of Wheels Fall Off (feat. Ye) by Ty Dolla $ign, Yé.jpg",
       duration: "2:01",
-      text: "Ty Dolla $ign, Kanye West"
+      text: "¥$, Ty Dolla $ign, Kanye West"
     },
     {
       src: "archivos/TALKING - ¥$.mp3",
       name: "TALKING",
       image: "archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
       duration: "3:05",
-      text: "Kanye West, Ty Dolla $ign"
+      text: "¥$, Kanye West, Ty Dolla $ign"
     },
     {
       src: "archivos/Closed On Sunday - Kanye West.mp3",
