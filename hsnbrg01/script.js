@@ -636,427 +636,498 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Brillas - León Larregui.mp3",
       name: "Brillas",
       image: "archivos/Cover of Brillas by León Larregui.jpg",
-      duration: "3:44"
+      duration: "3:44",
+      text: "León Larregui"
     },
     {
       src: "archivos/My Sweet Lord (2014 Remaster) - George Harrison.mp3",
       name: "My Sweet Lord",
       image: "archivos/Cover of My Sweet Lord (2014 Remaster) by George Harrison.jpg",
-      duration: "4:41"
+      duration: "4:41",
+      text: "George Harrison"
     },
     {
       src: "archivos/Solo Tú - Los Retros.mp3",
       name: "Solo Tú",
       image: "archivos/Cover of Solo Tú by Los Retros.jpg",
-      duration: "4:41"
+      duration: "4:41",
+      text: "Los Retros"
     },
     {
       src: "archivos/Bound - The Ponderosa Twins Plus One.mp3",
       name: "Bound",
       image: "archivos/Cover of Bound by The Ponderosa Twins Plus One.jpg",
-      duration: "3:16"
+      duration: "3:16",
+      text: "The Ponderosa Twins Plus One"
     },
     {
       src: "archivos/Hell Of A Life - Kanye West.mp3",
       name: "Hell Of A Life",
       image: "archivos/Cover of Runaway by Kanye West, Pusha T.jpg",
-      duration: "5:27"
+      duration: "5:27",
+      text: "Kanye West, Pusha T"
     },
     {
       src: "archivos/Infrunami - Steve Lacy.mp3",
       name: "Infrunami",
       image: "archivos/Cover of Infrunami by Steve Lacy.jpg",
-      duration: "2:58"
+      duration: "2:58",
+      text: "Steve Lacy"
     },
     {
       src: "archivos/LOVE. FEAT. ZACARI. - Kendrick Lamar.mp3",
       name: "LOVE. FEAT. ZACARI.",
       image: "archivos/Cover of PRIDE. by Kendrick Lamar.jpg",
-      duration: "3:33"
+      duration: "3:33",
+      text: "Kendrick Lamar"
     },
     {
       src: "archivos/Moon - Kanye West.mp3",
       name: "Moon",
       image: "archivos/Cover of Moon by Kanye West.jpg",
-      duration: "2:36"
+      duration: "2:36",
+      text: "Kanye West"
     },
     {
       src: "archivos/Count Me Out - Kendrick Lamar.mp3",
       name: "Count Me Out",
       image: "archivos/Cover of Count Me Out by Kendrick Lamar.jpg",
-      duration: "4:43"
+      duration: "4:43",
+      text: "Kendrick Lamar"
     },
     {
       src: "archivos/Facts (Charlie Heat Version) - Kanye West.mp3",
       name: "Facts",
       image: "archivos/Cover of Father Stretch My Hands Pt. 1 by Kanye West.jpg",
-      duration: "3:20"
+      duration: "3:20",
+      text: "Kanye West"
     },
     {
       src: "archivos/BEST INTEREST - Tyler.mp3",
       name: "BEST INTEREST",
       image: "archivos/Cover of BEST INTEREST by Tyler,  The Creator.jpg",
-      duration: "2:07"
+      duration: "2:07",
+      text: "Tyler, The Creator"
     },
     {
       src: "archivos/Dontmakemefallinlove - Cuco.mp3",
       name: "Dontmakemefallinlove",
       image: "archivos/Cover of Dontmakemefallinlove by Cuco.jpg",
-      duration: "3:27"
+      duration: "3:27",
+      text: "Cuco"
     },
     {
       src: "archivos/Know Yourself - Drake.mp3",
       name: "Know Yourself",
       image: "archivos/Cover of Know Yourself by Drake.jpg",
-      duration: "4:35"
+      duration: "4:35",
+      text: "Drake"
     },
     {
       src: "archivos/Estrelar - Marcos Valle.mp3",
       name: "Estrelar",
       image: "archivos/Cover of Estrelar by Marcos Valle.jpg",
-      duration: "5:13"
+      duration: "5:13",
+      text: "Marcos Valle"
     },
     {
       src: "archivos/DUCKWORTH. - Kendrick Lamar.mp3",
       name: "DUCKWORTH.",
       image: "archivos/Cover of PRIDE. by Kendrick Lamar.jpg",
-      duration: "4:08"
+      duration: "4:08",
+      text: "Kendrick Lamar"
     },
     {
       src: "archivos/Tristes Ojos - Ramona.mp3",
       name: "Tristes Ojos",
       image: "archivos/Cover of Tristes Ojos by Ramona.jpg",
-      duration: "3:19"
+      duration: "3:19",
+      text: "Ramona"
     },
     {
       src: "archivos/Looking Out for You - Joy Again.mp3",
       name: "Looking Out for You",
       image: "archivos/Cover of Looking Out for You by Joy Again.jpg",
-      duration: "2:59"
+      duration: "2:59",
+      text: "Joy Again"
     },
     {
       src: "archivos/Melting - Kali Uchis.mp3",
       name: "Melting",
       image: "archivos/Cover of Melting by Kali Uchis.jpg",
-      duration: "3:28"
+      duration: "3:28",
+      text: "Kali Uchis"
     },
     {
       src: "archivos/Do Better - Cuco.mp3",
       name: "Do Better",
       image: "archivos/Cover of Do Better by Cuco.jpg",
-      duration: "3:31"
+      duration: "3:31",
+      text: "Cuco"
     },
     {
       src: "archivos/BURN - Kanye West.mp3",
       name: "BURN",
       image: "archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
-      duration: "1:51"
+      duration: "1:51",
+      text: "¥$, Kanye West, Ty Dolla $ign"
     },
     {
       src: "archivos/Father Stretch My Hands Pt. 1 - Kanye West.mp3",
       name: "Father Stretch My Hands Pt. 1",
       image: "archivos/Cover of Father Stretch My Hands Pt. 1 by Kanye West.jpg",
-      duration: "2:15"
+      duration: "2:15",
+      text: "Kanye West"
     },
     {
       src: "archivos/God Is - Kanye West.mp3",
       name: "God Is",
       image: "archivos/Cover of God Is by Kanye West.jpg",
-      duration: "3:23"
+      duration: "3:23",
+      text: "Kanye West"
     },
     {
       src: "archivos/BACK TO ME - Kanye West.mp3",
       name: "BACK TO ME",
       image: "archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
-      duration: "4:55"
+      duration: "4:55",
+      text: "¥$, Kanye West, Ty Dolla $ign"
     },
     {
       src: "archivos/Hoe Cakes - MF DOOM.mp3",
       name: "Hoe Cakes",
       image: "archivos/Cover of Hoe Cakes by MF DOOM.jpg",
-      duration: "3:54"
+      duration: "3:54",
+      text: "MF DOOM"
     },
     {
       src: "archivos/PAPERWORK - Kanye West.mp3",
       name: "PAPERWORK",
       image: "archivos/Cover of PAPERWORK by Kanye West, Ty Dolla $ign.jpg",
-      duration: "2:25"
+      duration: "2:25",
+      text: "¥$, Kanye West, Ty Dolla $ign"
     },
     {
       src: "archivos/Sweet Honey - Los Retros.mp3",
       name: "Sweet Honey",
       image: "archivos/Cover of Sweet Honey by Los Retros.jpg",
-      duration: "3:26"
+      duration: "3:26",
+      text: "Los Retros"
     },
     {
       src: "archivos/Me and Your Mama - Childish Gambino.mp3",
       name: "Me and Your Mama",
       image: "archivos/Cover of Me and Your Mama by Childish Gambino.jpg",
-      duration: "6:20"
+      duration: "6:20",
+      text: "Childish Gambino"
     },
     {
       src: "archivos/No Other Heart - Mac DeMarco.mp3",
       name: "No Other Heart",
       image: "archivos/Cover of No Other Heart by Mac DeMarco.jpg",
-      duration: "2:53"
+      duration: "2:53",
+      text: "Mac DeMarco"
     },
     {
       src: "archivos/On the Level - Mac DeMarco.mp3",
       name: "On the Level",
       image: "archivos/Cover of For the First Time by Mac DeMarco.jpg",
-      duration: "3:48"
+      duration: "3:48",
+      text: "Mac DeMarco"
     },
     {
       src: "archivos/Homecoming - Kanye West.mp3",
       name: "Homecoming",
       image: "archivos/Cover of I Wonder by Kanye West.jpg",
-      duration: "3:23"
+      duration: "3:23",
+      text: "Kanye West"
     },
     {
       src: "archivos/Everything I Am - Kanye West.mp3",
       name: "Everything I Am",
       image: "archivos/Cover of I Wonder by Kanye West.jpg",
-      duration: "3:47"
+      duration: "3:47",
+      text: "Kanye West"
     },
     {
       src: "archivos/GONE, GONE _ THANK YOU - Tyler.mp3",
       name: "GONE, GONE | THANK YOU",
       image: "archivos/Cover of GONE GONE THANK YOU by Tyler.jpg",
-      duration: "6:15"
+      duration: "6:15",
+      text: "Tyler, The Creator"
     },
     {
       src: "archivos/Time Moves Slow - BADBADNOTGOOD.mp3",
       name: "Time Moves Slow",
       image: "archivos/Cover of Time Moves Slow by BADBADNOTGOOD, Samuel T. Herring.jpg",
-      duration: "4:33"
+      duration: "4:33",
+      text: "BADBADNOTGOOD, Samuel T. Herring"
     },
     {
       src: "archivos/All Caps - Madvillain.mp3",
       name: "All Caps",
       image: "archivos/Cover of All Caps by Madvillain, Madlib, MF DOOM.jpg",
-      duration: "2:10"
+      duration: "2:10",
+      text: "Madvillain, Madlib, MF DOOM"
     },
     {
       src: "archivos/20191009 I Like Her - Mac DeMarco.mp3",
       name: "20191009 I Like Her",
       image: "archivos/Cover of 20191012 Fooled by Love by Mac DeMarco.jpg",
-      duration: "2:16"
+      duration: "2:16",
+      text: "Mac DeMarco"
     },
     {
       src: "archivos/Soundtrack for Your Backseat - sundiver ca.mp3",
       name: "Soundtrack for Your Backseat",
       image: "archivos/Cover of Soundtrack for Your Backseat by sundiver ca.jpg",
-      duration: "2:42"
+      duration: "2:42",
+      text: "sundiver ca"
     },
     {
       src: "archivos/Devil In A New Dress - Kanye West.mp3",
       name: "Devil In A New Dress",
       image: "archivos/Cover of Devil In A New Dress by Kanye West, Rick Ross.jpg",
-      duration: "5:51"
+      duration: "5:51",
+      text: "Kanye West, Rick Ross"
     },
     {
       src: "archivos/Somethin' Stupid - Frank Sinatra.mp3",
       name: "Somethin' Stupid",
       image: "archivos/Cover of Somethin' Stupid by Frank Sinatra, Nancy Sinatra.jpg",
-      duration: "2:42"
+      duration: "2:42",
+      text: "Frank Sinatra, Nancy Sinatra"
     },
     {
       src: "archivos/Garota De Ipanema - Antônio Carlos Jobim.mp3",
       name: "Garota de Ipanema",
       image: "archivos/Cover of Garota De Ipanema by Antônio Carlos Jobim.jpg",
-      duration: "4:02"
+      duration: "4:02",
+      text: "Antônio Carlos Jobim"
     },
     {
       src: "archivos/Lover Is a Day - Cuco.mp3",
       name: "Lover Is a Day",
       image: "archivos/Cover of Lover Is a Day by Cuco.jpg",
-      duration: "7:36"
+      duration: "7:36",
+      text: "Cuco"
     },
     {
       src: "archivos/Hey Mama - Kanye West.mp3",
       name: "Hey Mama",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "5:05"
+      duration: "5:05",
+      text: "Kanye West"
     },
     {
       src: "archivos/Touch The Sky - Kanye West.mp3",
       name: "Touch The Sky",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "3:56"
+      duration: "3:56",
+      text: "Kanye West"
     },
     {
       src: "archivos/On Sight - Kanye West.mp3",
       name: "On Sight",
       image: "archivos/Cover of Bound 2 by Kanye West.jpg",
-      duration: "2:36"
+      duration: "2:36",
+      text: "Kanye West"
     },
     {
       src: "archivos/Bound 2 - Kanye West.mp3",
       name: "Bound 2",
       image: "archivos/Cover of Bound 2 by Kanye West.jpg",
-      duration: "3:49"
+      duration: "3:49",
+      text: "Kanye West"
     },
     {
       src: "archivos/Big Poppa - 2005 Remaster - The Notorious B.I.G..mp3",
       name: "Big Poppa - 2005 Remaster",
       image: "archivos/Cover of Juicy - 2005 Remaster by The Notorious B.I.G..jpg",
-      duration: "4:12"
+      duration: "4:12",
+      text: "Notorious B.I.G."
     },
     {
       src: "archivos/You Know How We Do It - Ice Cube.mp3",
       name: "You Know How We Do It",
       image: "archivos/Cover of You Know How We Do It by Ice Cube.jpg",
-      duration: "3:52"
+      duration: "3:52",
+      text: "Ice Cube"
     },
     {
       src: "archivos/Like You Do - Joji.mp3",
       name: "Like You Do",
       image: "archivos/Cover of Like You Do by Joji.jpg",
-      duration: "4:00"
+      duration: "4:00",
+      text: "Joji"
     },
     {
       src: "archivos/American Boy - Estelle.mp3",
       name: "American Boy",
       image: "archivos/Cover of American Boy by Estelle, Kanye West.jpg",
-      duration: "4:44"
+      duration: "4:44",
+      text: "Estelle, Kanye West"
     },
     {
       src: "archivos/505 - Arctic Monkeys.mp3",
       name: "505",
       image: "archivos/Cover of 505 by Arctic Monkeys.jpg",
-      duration: "4:13"
+      duration: "4:13",
+      text: "Arctic Monkeys"
     },
     {
       src: "archivos/Can't Tell Me Nothing - Kanye West.mp3",
       name: "Can't Tell Me Nothing",
       image: "archivos/Cover of I Wonder by Kanye West.jpg",
-      duration: "4:31"
+      duration: "4:31",
+      text: "Kanye West"
     },
     {
       src: "archivos/Champion - Kanye West.mp3",
       name: "Champion",
       image: "archivos/Cover of I Wonder by Kanye West.jpg",
-      duration: "2:47"
+      duration: "2:47",
+      text: "Kanye West"
     },
     {
       src: "archivos/Flashing Lights - Kanye West.mp3",
       name: "Flashing Lights",
       image: "archivos/Cover of I Wonder by Kanye West.jpg",
-      duration: "3:57"
+      duration: "3:57",
+      text: "Kanye West"
     },
     {
       src: "archivos/Violent Crimes - Kanye West.mp3",
       name: "Violent Crimes",
       image: "archivos/Ghost Town by Kanye West, PARTYNEXTDOOR.jpg",
-      duration: "3:35"
+      duration: "3:35",
+      text: "Kanye West, PARTYNEXTDOOR"
     },
     {
       src: "archivos/Small Worlds - Mac Miller.mp3",
       name: "Small Worlds",
       image: "archivos/Cover of Small Worlds by Mac Miller.jpg",
-      duration: "4:31"
+      duration: "4:31",
+      text: "Mac Miller"
     },
     {
       src: "archivos/I Wonder - Kanye West.mp3",
       name: "I Wonder",
       image: "archivos/Cover of I Wonder by Kanye West.jpg",
-      duration: "4:03"
+      duration: "4:03",
+      text: "Kanye West"
     },
     {
       src: "archivos/Rhymes Like Dimes - MF DOOM.mp3",
       name: "Rhymes Like Dimes",
       image: "archivos/Cover of Gas Drawls by MF DOOM.jpg",
-      duration: "4:18"
+      duration: "4:18",
+      text: "Kanye West"
     },
     {
       src: "archivos/Rapp Snitch Knishes - MF DOOM.mp3",
       name: "Rapp Snitch Knishes",
       image: "archivos/Cover of One Beer by MF DOOM.jpg",
-      duration: "2:52"
+      duration: "2:52",
+      text: "MF DOOM"
     },
     {
       src: "archivos/Runaway - Kanye West.mp3",
       name: "Runaway",
       image: "archivos/Cover of Runaway by Kanye West, Pusha T.jpg",
-      duration: "9:07"
+      duration: "9:07",
+      text: "Kanye West, Pusha T"
     },
     {
       src: "archivos/One Beer - MF DOOM.mp3",
       name: "One Beer",
       image: "archivos/Cover of One Beer by MF DOOM.jpg",
-      duration: "4:18"
+      duration: "4:18",
+      text: "MF DOOM"
     },
     {
       src: "archivos/PRIDE. - Kendrick Lamar.mp3",
       name: "PRIDE.",
       image: "archivos/Cover of PRIDE. by Kendrick Lamar.jpg",
-      duration: "4:35"
+      duration: "4:35",
+      text: "Kendrick Lamar"
     },
     {
       src: "archivos/Ghost Town - Kanye West.mp3",
       name: "Ghost Town",
       image: "archivos/Ghost Town by Kanye West, PARTYNEXTDOOR.jpg",
-      duration: "4:31"
+      duration: "4:31",
+      text: "Kanye West, PARTYNEXTDOOR"
     },
     {
       src: "archivos/Gas Drawls - MF DOOM.mp3",
       name: "Gas Drawls",
       image: "archivos/Cover of Gas Drawls by MF DOOM.jpg",
-      duration: "3:43"
+      duration: "3:43",
+      text: "MF DOOM"
     },
     {
       src: "archivos/20191012 Fooled By Love - Mac DeMarco.mp3",
       name: "20191012 Fooled By Love",
       image: "archivos/Cover of 20191012 Fooled By Love by Mac DeMarco.jpg",
-      duration: "3:17"
+      duration: "3:17",
+      text: "Mac DeMarco"
     },
     {
       src: "archivos/Moonlight on the River - Mac DeMarco.mp3",
       name: "Moonlight on the River",
       image: "archivos/Cover of For the First Time by Mac DeMarco.jpg",
-      duration: "7:02"
+      duration: "7:02",
+      text: "Mac DeMarco"
     },
     {
       src: "archivos/For the First Time - Mac DeMarco.mp3",
       name: "For the First Time",
       image: "archivos/Cover of For the First Time by Mac DeMarco.jpg",
-      duration: "3:02"
+      duration: "3:02",
+      text: "Mac DeMarco"
     },
     {
       src: "archivos/My Kind of Woman - Mac DeMarco.mp3",
       name: "My Kind of Woman",
       image: "archivos/Cover of My Kind of Woman by Mac DeMarco.jpg",
-      duration: "3:10"
+      duration: "3:10",
+      text: "Mac DeMarco"
     },
     {
       src: "archivos/Amtrak - Los Retros.mp3",
       name: "Amtrak",
       image: "archivos/Cover of Amtrak by Los Retros.jpg",
-      duration: "2:56"
+      duration: "2:56",
+      text: "Los Retros"
     },
     {
       src: "archivos/サマー・サンバ - Lisa Ono.mp3",
       name: "サマー・サンバ",
       image: "archivos/Cover of サマー・サンバ by Lisa Ono.jpg",
-      duration: "2:14"
+      duration: "2:14",
+      text: "Lisa Ono"
     },
     {
       src: "archivos/Garota de Ipanema - 2006 Version - Lisa Ono.mp3",
       name: "Garota de Ipanema",
       image: "archivos/Cover of Garota de Ipanema - 2006 Version by Lisa Ono.jpg",
-      duration: "4:39"
+      duration: "4:39",
+      text: "Lisa Ono"
     },
     {
       src: "archivos/Friends - Los Retros.mp3",
       name: "Friends",
       image: "archivos/Cover of Friends by Los Retros.jpg",
-      duration: "2:39"
+      duration: "2:39",
+      text: "Los Retros"
     },
     {
       src: "archivos/Someone To Spend Time With - Los Retros.mp3",
       name: "Someone To Spend Time With",
       image: "archivos/Cover of Someone To Spend Time With by Los Retros.jpg",
-      duration: "2:53"
+      duration: "2:53",
+      text: "Los Retros"
     }
       
   ];
