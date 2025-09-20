@@ -192,7 +192,7 @@ albumImage.addEventListener('mouseleave', () => {
       text: "¥$, Kanye West, Ty Dolla $ign"
     },
     {
-      src: "archivos/Homecoming - Kanye West.mp3",
+      src: "archivos/Waves - Kanye West.mp3",
       name: "Waves",
       image: "archivos/Cover of Father Stretch My Hands Pt. 1 by Kanye West.jpg",
       duration: "3:23",
