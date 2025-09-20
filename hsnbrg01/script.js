@@ -167,35 +167,35 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Hurricane - Kanye West.mp3", 
       name: "Hurricane",
       image: "archivos/Cover of Moon by Kanye West.jpg",
-      duration: "2:39",
+      duration: "4:03",
       text: "Kanye West"
     },
     {
       src: "archivos/Everything We Need - Kanye West.mp3",
       name: "Everything We Need",
       image: "archivos/Cover of God Is by Kanye West.jpg",
-      duration: "2:39",
+      duration: "1:56",
       text: "Kanye West, Ty Dolla $ign, Ant Clemons"
     },
     {
       src: "archivos/On God - Kanye West.mp3",
       name: "On God",
       image: "archivos/Cover of God Is by Kanye West.jpg",
-      duration: "2:39",
+      duration: "2:16",
       text: "Kanye West"
     },
     {
       src: "archivos/RIVER - ¥$.mp3",
       name: "RIVER",
       image: "archivos/Cover of PROMOTION by ¥$, Kanye West, Ty Dolla $ign.jpg",
-      duration: "2:39",
+      duration: "4:07",
       text: "¥$, Kanye West, Ty Dolla $ign"
     },
     {
       src: "archivos/Homecoming - Kanye West.mp3",
       name: "Waves",
       image: "archivos/Cover of Father Stretch My Hands Pt. 1 by Kanye West.jpg",
-      duration: "2:39",
+      duration: "3:23",
       text: "Kanye West"
     },
     {
