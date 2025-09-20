@@ -125,7 +125,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/MY HOOD - Kanye West.mp3",
       name: "MY HOOD",
       image: "archivos/Bully-edit.jpeg",
-      duration: "2:39",
+      duration: "2:36",
       text: "Kanye West"
     },
     {
