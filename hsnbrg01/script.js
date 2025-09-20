@@ -216,7 +216,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/LIFESTYLE - ¥$.mp3",
       name: "LIFESTYLE",
       image: "archivos/Cover of PROMOTION by ¥$, Kanye West, Ty Dolla $ign.jpg",
-      duration: "5:51",
+      duration: "3:23",
       text: "¥$, Ty Dolla $ign, Kanye West"
     },
     {
