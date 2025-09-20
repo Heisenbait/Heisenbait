@@ -199,6 +199,13 @@ albumImage.addEventListener('mouseleave', () => {
       text: "Snoop Dogg, Pharrell Williams"
     },
     {
+      src: "archivos/PROMOTION - ¥$.mp3",
+      name: "PROMOTION",
+      image: "archivos/Cover of PROMOTION by ¥$, Kanye West, Ty Dolla $ign.jpg",
+      duration: "2:39",
+      text: "¥$, Kanye West, Ty Dolla $ign"
+    },
+    {
       src: "archivos/Blood On The Leaves - Kanye West.mp3",
       name: "Blood On The Leaves",
       image: "archivos/Cover of Bound 2 by Kanye West.jpg",
