@@ -164,7 +164,7 @@ albumImage.addEventListener('mouseleave', () => {
       text: "The Notorious B.I.G."
     },
     {
-      src: "archivos/Hurricane - Kanye West.mp3",
+      src: "archivos/Hurricane - Kanye West.mp3", 
       name: "Hurricane",
       image: "archivos/Cover of Moon by Kanye West.jpg",
       duration: "2:39",
