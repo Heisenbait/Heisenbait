@@ -593,12 +593,12 @@ img {
   }
     
   .search-btn {
-    width: 45px;
-    height: 45px;
+    width: 62px;
+    height: 62px;
   }
     
   .search-btn img {
-    width: 20px;
+    width: 24px;
     height: 20px;
   }
 }
