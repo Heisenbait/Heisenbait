@@ -1,5 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+  const searchBtn = document.getElementById('searchBtn');
+
+searchBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  mostrarBusqueda();
+});
+
+function mostrarBusqueda() {
+  console.log("Búsqueda activada");
+}
   const inicioBtn = document.getElementById('inicioBtn');
   const mscBtn = document.getElementById('mscBtn');
   const inicio = document.getElementById('inicio');
