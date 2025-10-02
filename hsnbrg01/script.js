@@ -146,6 +146,13 @@ albumImage.addEventListener('mouseleave', () => {
       text: "The Notorious B.I.G."
     },
     {
+      src: "archivos/Gone - Kanye West.mp3",
+      name: "Gone",
+      image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
       src: "archivos/Breathe In Breathe Out - Kanye West.mp3",
       name: "Breathe In Breathe Out",
       image: "archivos/Cover of Through The Wire by Kanye West.jpg",
