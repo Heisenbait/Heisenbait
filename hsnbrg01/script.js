@@ -148,9 +148,9 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/Breathe In Breathe Out - Kanye West.mp3",
       name: "Breathe In Breathe Out",
-      image: "archivos/Cover of Homecoming by Kanye West.jpg",
+      image: "archivos/Cover of Through The Wire by Kanye West.jpg",
       duration: "2:39",
-      text: ""
+      text: "Kanye West"
     },
     {
       src: "archivos/Hurricane - Kanye West.mp3", 
