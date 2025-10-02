@@ -146,6 +146,13 @@ albumImage.addEventListener('mouseleave', () => {
       text: "The Notorious B.I.G."
     },
     {
+      src: "archivos/Breathe In Breathe Out - Kanye West.mp3",
+      name: "Breathe In Breathe Out",
+      image: "archivos/Cover of Homecoming by Kanye West.jpg",
+      duration: "2:39",
+      text: ""
+    },
+    {
       src: "archivos/Hurricane - Kanye West.mp3", 
       name: "Hurricane",
       image: "archivos/Cover of Moon by Kanye West.jpg",
