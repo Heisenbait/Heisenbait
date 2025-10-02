@@ -31,7 +31,7 @@ albumImage.addEventListener('mousemove', (e) => {
   const rotateX = ((offsetY / offsetHeight) - 0.5) * 10;
   const rotateY = ((offsetX / offsetWidth) - 0.5) * 10;
 
-  albumImage.style.transform = `perspective(500px) rotateX(${-rotateX}deg) rotateY(${rotateY}deg) scale(1.05)`;
+  albumImage.style.transform = `perspective(500px) rotateX(${rotateX}deg) rotateY(${-rotateY}deg) scale(1.05)`;
 });
 
 albumImage.addEventListener('mouseleave', () => {
