@@ -146,6 +146,69 @@ albumImage.addEventListener('mouseleave', () => {
       text: "The Notorious B.I.G."
     },
     {
+      src: "archivos/I Thought About Killing You - Kanye West.mp3",
+      name: "I Thought About Killing You",
+      image: "archivos/Ghost Town by Kanye West, PARTYNEXTDOOR.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/Hold My Liquor - Kanye West.mp3",
+      name: "Hold My Liquor",
+      image: "archivos/Cover of Bound 2 by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/All Day - Kanye West.mp3",
+      name: "All Day",
+      image: "archivos/Cover of All Day by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West, Paul McCartney"
+    },
+    {
+      src: "archivos/Love, Love, Love - Donny Hathaway.mp3",
+      name: "Love, Love, Love",
+      image: "archivos/Cover of Love, Love, Love by Donny Hathaway.jpg",
+      duration: "2:39",
+      text: "Donny Hathaway"
+    },
+    {
+      src: "archivos/Rock with You - Single Version - Michael Jackson.mp3",
+      name: "Rock with You",
+      image: "archivos/Cover of Rock with You - Single Version by Michael Jackson.jpg",
+      duration: "2:39",
+      text: "Michael Jackson"
+    },
+    {
+      src: "archivos/Accordion - Madvillain.mp3",
+      name: "Accordion",
+      image: "archivos/Cover of Accordion by MF DOOM.jpg",
+      duration: "2:39",
+      text: "Madvillain, MF DOOM"
+    },
+    {
+      src: "archivos/Jail - Kanye West.mp3",
+      name: "Jail",
+      image: "archivos/Cover of Moon by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West, JAY-Z"
+    },
+    {
+      src: "archivos/Believe What I Say - Kanye West.mp3",
+      name: "Believe What I Say",
+      image: "archivos/Cover of Moon by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/Saint Pablo - Kanye West.mp3",
+      name: "Saint Pablo",
+      image: "archivos/Cover of Father Stretch My Hands Pt. 1 by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
       src: "archivos/Something - Remastered 2009 - The Beatles.mp3",
       name: "Something - Remastered 2009",
       image: "archivos/Cover of Something - Remastered 2009 by The Beatles.jpg",
@@ -171,7 +234,7 @@ albumImage.addEventListener('mouseleave', () => {
       name: "Hurricane",
       image: "archivos/Cover of Moon by Kanye West.jpg",
       duration: "4:03",
-      text: "Kanye West"
+      text: "Kanye West, The Weeknd"
     },
     {
       src: "archivos/Everything We Need - Kanye West.mp3",
