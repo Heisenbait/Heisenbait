@@ -314,7 +314,7 @@ img {
   height: 320px;
   border-radius: 8px;
   object-fit: cover;
-  transition: transform 0.15s ease, box-shadow 0.3s ease;
+  transition: transform 0.13s ease, box-shadow 0.3s ease;
   will-change: transform;
   box-shadow: 0 12px 44px rgba(0, 0, 0, 0.7), 
               0 6px 22px rgba(0, 0, 0, 0.1);
