@@ -156,21 +156,21 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Diamonds From Sierra Leone - Remix - Kanye West.mp3",
       name: "Diamonds From Sierra Leone - Remix",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "2:39",
+      duration: "3:53",
       text: "Kanye West, JAY-Z"
     },
     {
       src: "archivos/Crack Music - Kanye West.mp3",
       name: "Crack Music",
       image: "archivos/Cover of Touch The Sky by Kanye West.jpg",
-      duration: "2:39",
+      duration: "4:30",
       text: "Kanye West, The Game"
     },
     {
       src: "archivos/Remote Control - Kanye West.mp3",
       name: "Remote Control",
       image: "archivos/Cover of Moon by Kanye West.jpg",
-      duration: "2:39",
+      duration: "3:18",
       text: "Kanye West"
     },
     {
