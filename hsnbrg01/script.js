@@ -153,6 +153,13 @@ albumImage.addEventListener('mouseleave', () => {
       text: "The Notorious B.I.G."
     },
     {
+      src: "archivos/Remote Control - Kanye West.mp3",
+      name: "Remote Control",
+      image: "archivos/Cover of Moon by Kanye West.jpg",
+      duration: "2:39",
+      text: "Kanye West"
+    },
+    {
       src: "archivos/I Thought About Killing You - Kanye West.mp3",
       name: "I Thought About Killing You",
       image: "archivos/Ghost Town by Kanye West, PARTYNEXTDOOR.jpg",
