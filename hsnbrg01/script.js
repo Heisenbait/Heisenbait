@@ -111,9 +111,16 @@ albumImage.addEventListener('mouseleave', () => {
       text: "Kanye West"
     },
     {
+      src: "archivos/Passanger - Kanye West.mp3",
+      name: "Passanger",
+      image: "archivos/Cover of I Wonder by Kanye West.jpg",
+      duration: "2:39",
+      text: ""
+    },
+    {
       src: "archivos/Building - Kanye West.mp3",
       name: "Building",
-      image: "archivos/Cover of Building by Kanye West.jpg",
+      image: "archivos/Cover of I Wonder by Kanye West.jpg",
       duration: "3:08",
       text: "Kanye West, JAY-Z"
     },
