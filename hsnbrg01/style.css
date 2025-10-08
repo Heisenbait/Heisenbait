@@ -468,10 +468,10 @@ img {
 
 .search-btn {
     position: fixed;
-    bottom: 20px;
+    bottom: 14px;
     left: calc(51% + 160px);
-    width: 63px;
-    height: 63px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px) saturate(180%);
