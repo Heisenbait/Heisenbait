@@ -189,7 +189,7 @@ albumImage.addEventListener('mouseleave', () => {
     },
     {
       src: "archivos/Come to Life - Kanye West.mp3",
-      name: "Come to Life - Kanye West",
+      name: "Come to Life",
       image: "archivos/Cover of Moon by Kanye West.jpg",
       duration: "5:10",
       text: "Kanye West"
