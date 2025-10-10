@@ -156,70 +156,70 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Reborn - KIDS SEE GHOSTS.mp3",
       name: "Reborn",
       image: "archivos/Cover of Feel The Love by KIDS SEE GHOSTS, Pusha T.jpg",
-      duration: "3:18",
+      duration: "5:24",
       text: "KID SEE GHOSTS"
     },
     {
       src: "archivos/PUPPET - Tyler.mp3",
       name: "PUPPET",
       image: "archivos/Cover of GONE GONE THANK YOU by Tyler.jpg",
-      duration: "3:18",
+      duration: "2:59",
       text: "Tyler, The Creator"
     },
     {
       src: "archivos/Jukebox Joints - A$AP Rocky.mp3",
       name: "Jukebox Joints",
       image: "archivos/Cover of Jukebox Joints by A$AP Rocky, Joe Fox, Kanye West.jpg",
-      duration: "3:18",
+      duration: "5:23",
       text: "A$AP Rocky, Joe Fox, Kanye West"
     },
     {
       src: "archivos/Heaven and Hell - Kanye West.mp3",
       name: "Heaven and Hell",
       image: "archivos/Cover of Moon by Kanye West.jpg",
-      duration: "3:18",
+      duration: "2:25",
       text: "Kanye West"
     },
     {
       src: "archivos/Lord I Need You - Kanye West.mp3",
       name: "Lord I Need You",
       image: "archivos/Cover of Moon by Kanye West.jpg",
-      duration: "3:18",
+      duration: "2:42",
       text: "Kanye West"
     },
     {
       src: "archivos/Come to Life - Kanye West.mp3",
       name: "Come to Life - Kanye West",
       image: "archivos/Cover of Moon by Kanye West.jpg",
-      duration: "3:18",
+      duration: "5:10",
       text: "Kanye West"
     },
     {
       src: "archivos/Can't Stop - Red Hot Chili Peppers.mp3",
       name: "Can't Stop",
       image: "archivos/Cover of Can't Stop by Red Hot Chili Peppers.jpg",
-      duration: "3:18",
+      duration: "4:29",
       text: "Red Hot Chili Peppers"
     },
     {
       src: "archivos/COUSINS - Ye.mp3",
       name: "COUSINS",
       image: "archivos/Cover of COUSINS by Ye.jpg",
-      duration: "3:18",
+      duration: "2:31",
       text: "Ye"
     },
     {
       src: "archivos/Estamos Bien - Bad Bunny.mp3",
       name: "Estamos Bien",
       image: "archivos/Cover of Estamos Bien by Bad Bunny.jpg",
-      duration: "3:18",
+      duration: "3:28",
       text: "Bad Bunny"
     },
     {
       src: "archivos/Street Lights - Kanye West.mp3",
       name: "Street Lights",
       image: "archivos/Cover of Paranoid by Kanye West, Mr Hudson.jpg",
-      duration: "3:18",
+      duration: "3:09",
       text: "Kanye West"
     },
     {
