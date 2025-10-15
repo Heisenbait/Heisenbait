@@ -196,14 +196,28 @@ albumImage.addEventListener('mouseleave', () => {
 
 
    function mostrarInicio() {
+
+   if (document.querySelector('.navbar').classList.contains('search-active')) {
+     cerrarBusqueda();
+  }
+     
     inicio.style.display = 'block';
     infoMSC.style.display = 'none';
     infoICFRD.style.display = 'none';
     header.style.display = 'block';
     window.scrollTo(0, 0);
+
+   const searchBtn = document.getElementById('searchBtn');
+    searchBtn.style.opacity = '0.5';
+    searchBtn.style.pointerEvents = 'none';
   }
 
    function mostrarMSC() {
+
+   if (document.querySelector('.navbar').classList.contains('search-active')) {
+     cerrarBusqueda();
+  }
+     
     inicio.style.display = 'none';
     infoMSC.style.display = 'block';
     infoICFRD.style.display = 'none';
@@ -217,11 +231,21 @@ albumImage.addEventListener('mouseleave', () => {
 }
 
    function mostrarICFRD() {
+
+   if (document.querySelector('.navbar').classList.contains('search-active')) {
+     cerrarBusqueda();
+  }
+     
     inicio.style.display = 'none';
     infoMSC.style.display = 'none';
     infoICFRD.style.display = 'block';
     header.style.display = 'none';
     window.scrollTo(0, 0);
+
+   const searchBtn = document.getElementById('searchBtn');
+    searchBtn.style.opacity = '0.5';
+    searchBtn.style.pointerEvents = 'none';
+}
   }
 
   function toggleShuffle() {
