@@ -122,10 +122,10 @@ img {
   text-align: center;
   padding: 80px 20px;
   background: 
-    radial-gradient(circle at 20% 80%, #ff6b6b, transparent 50%),
-    radial-gradient(circle at 80% 20%, #4ecdc4, transparent 50%),
-    radial-gradient(circle at 40% 40%, #45b7d1, transparent 50%),
-    radial-gradient(circle at 80% 80%, #96ceb4, transparent 50%),
+    radial-gradient(circle at 20% 80%, #1B1357, transparent 50%),
+    radial-gradient(circle at 80% 20%, #BD4C0D, transparent 50%),
+    radial-gradient(circle at 40% 40%, #A31A3E, transparent 50%),
+    radial-gradient(circle at 80% 80%, #1A66A1, transparent 50%),
     radial-gradient(circle at 20% 20%, #feca57, transparent 50%),
     linear-gradient(135deg, #667eea, #764ba2);
   color: white;
