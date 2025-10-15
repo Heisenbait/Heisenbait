@@ -77,8 +77,14 @@ function mostrarBusqueda() {
 function cerrarBusquedaAlTocarFuera(e) {
   const navbar = document.querySelector('.navbar');
   const searchInput = document.querySelector('.search-input');
+  const searchBtn = document.getElementById('searchBtn');
   
-  if (!navbar.contains(e.target) && e.target !== document.getElementById('searchBtn')) {
+  const clickedLink = e.target.closest('a');
+  if (clickedLink && (clickedLink.id === 'inicioBtn' || clickedLink.id === 'mscBtn' || clickedLink.id === 'icfrdBtn')) {
+    return;
+  }
+  
+  if (!navbar.contains(e.target) && e.target !== searchBtn && !searchBtn.contains(e.target)) {
     cerrarBusqueda();
   }
 }
