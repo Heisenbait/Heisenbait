@@ -708,10 +708,6 @@ img {
     width: 20px;
     height: 16px;
   }
-
-  .navbar.search-active + .search-btn {
-    display: none !important;
-  }
 }
 
 
