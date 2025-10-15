@@ -8,7 +8,6 @@ searchBtn.addEventListener('click', (e) => {
 });
 
 function mostrarBusqueda() {
-  // Solo funciona en la sección MSCQMG
   if (infoMSC.style.display !== 'block') {
     console.log("La búsqueda solo está disponible en MSCQMG");
     return;
@@ -17,39 +16,32 @@ function mostrarBusqueda() {
   const navbar = document.querySelector('.navbar');
   const searchBtn = document.getElementById('searchBtn');
   
-  // Si ya está activa, desactivar y limpiar filtro
   if (navbar.classList.contains('search-active')) {
     navbar.classList.remove('search-active');
     searchBtn.style.opacity = '1';
     searchBtn.style.pointerEvents = 'auto';
     searchBtn.style.transform = 'scale(1)';
     
-    // Remover el input si existe
     const existingInput = document.querySelector('.search-input');
     if (existingInput) {
       existingInput.remove();
     }
     
-    // Restaurar lista completa de canciones
     restoreTrackList();
   } else {
-    // Activar modo búsqueda
     navbar.classList.add('search-active');
     
-    // Crear input de búsqueda si no existe
     if (!document.querySelector('.search-input')) {
       const searchInput = document.createElement('input');
       searchInput.type = 'text';
       searchInput.className = 'search-input';
-      searchInput.placeholder = 'Buscar canción...';
+      searchInput.placeholder = 'Buscar...';
       navbar.appendChild(searchInput);
       
-      // Enfocar el input automáticamente
       setTimeout(() => {
         searchInput.focus();
       }, 100);
       
-      // Manejar la tecla Enter para buscar
       searchInput.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') {
           const searchTerm = searchInput.value.trim().toLowerCase();
@@ -58,13 +50,11 @@ function mostrarBusqueda() {
           }
         }
         
-        // Tecla Escape para salir
         if (e.key === 'Escape') {
-          mostrarBusqueda(); // Desactivar búsqueda
+          mostrarBusqueda();
         }
       });
       
-      // Buscar en tiempo real mientras escribe (opcional)
       searchInput.addEventListener('input', (e) => {
         const searchTerm = e.target.value.trim().toLowerCase();
         if (searchTerm === '') {
@@ -77,7 +67,6 @@ function mostrarBusqueda() {
   }
 }
 
-// Variable para guardar la lista original
 let originalTracks = [];
 
 function filterTracks(searchTerm) {
