@@ -540,6 +540,60 @@ img {
 
 
 
+
+/* Estados de la barra de búsqueda */
+.navbar.search-active {
+    width: 90%;
+    max-width: 500px;
+    justify-content: center;
+}
+
+.navbar.search-active a {
+    display: none;
+}
+
+.search-input {
+    display: none;
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+}
+
+.navbar.search-active .search-input {
+    display: block;
+}
+
+.search-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Ocultar botón de buscar cuando la búsqueda está activa */
+.navbar.search-active ~ .search-btn {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     
   .header h1 {
