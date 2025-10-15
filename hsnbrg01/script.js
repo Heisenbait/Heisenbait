@@ -67,6 +67,35 @@ function mostrarBusqueda() {
   }
 }
 
+    setTimeout(() => {
+      document.addEventListener('click', cerrarBusquedaAlTocarFuera);
+      document.addEventListener('touchstart', cerrarBusquedaAlTocarFuera);
+    }, 100);
+  }
+}
+
+function cerrarBusquedaAlTocarFuera(e) {
+  const navbar = document.querySelector('.navbar');
+  const searchInput = document.querySelector('.search-input');
+  
+  if (!navbar.contains(e.target) && e.target !== document.getElementById('searchBtn')) {
+    cerrarBusqueda();
+  }
+}
+
+function cerrarBusqueda() {
+  const navbar = document.querySelector('.navbar');
+  const searchInput = document.querySelector('.search-input');
+  
+  navbar.classList.remove('search-active');
+  
+  document.removeEventListener('click', cerrarBusquedaAlTocarFuera);
+  document.removeEventListener('touchstart', cerrarBusquedaAlTocarFuera);
+  
+  if (searchInput) {
+    searchInput.remove();
+  }
+
 let originalTracks = [];
 
 function filterTracks(searchTerm) {
