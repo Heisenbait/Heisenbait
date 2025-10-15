@@ -8,10 +8,16 @@ searchBtn.addEventListener('click', (e) => {
 });
 
 function mostrarBusqueda() {
+  // Solo funciona en la sección MSCQMG
+  if (infoMSC.style.display !== 'block') {
+    console.log("La búsqueda solo está disponible en MSCQMG");
+    return;
+  }
+
   const navbar = document.querySelector('.navbar');
   const searchBtn = document.getElementById('searchBtn');
   
-  // Si ya está activa, desactivar
+  // Si ya está activa, desactivar y limpiar filtro
   if (navbar.classList.contains('search-active')) {
     navbar.classList.remove('search-active');
     searchBtn.style.opacity = '1';
@@ -23,6 +29,9 @@ function mostrarBusqueda() {
     if (existingInput) {
       existingInput.remove();
     }
+    
+    // Restaurar lista completa de canciones
+    restoreTrackList();
   } else {
     // Activar modo búsqueda
     navbar.classList.add('search-active');
@@ -32,7 +41,7 @@ function mostrarBusqueda() {
       const searchInput = document.createElement('input');
       searchInput.type = 'text';
       searchInput.className = 'search-input';
-      searchInput.placeholder = 'Buscar...';
+      searchInput.placeholder = 'Buscar canción...';
       navbar.appendChild(searchInput);
       
       // Enfocar el input automáticamente
@@ -40,16 +49,79 @@ function mostrarBusqueda() {
         searchInput.focus();
       }, 100);
       
-      // Manejar la tecla Escape para salir
+      // Manejar la tecla Enter para buscar
       searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          const searchTerm = searchInput.value.trim().toLowerCase();
+          if (searchTerm) {
+            filterTracks(searchTerm);
+          }
+        }
+        
+        // Tecla Escape para salir
         if (e.key === 'Escape') {
           mostrarBusqueda(); // Desactivar búsqueda
+        }
+      });
+      
+      // Buscar en tiempo real mientras escribe (opcional)
+      searchInput.addEventListener('input', (e) => {
+        const searchTerm = e.target.value.trim().toLowerCase();
+        if (searchTerm === '') {
+          restoreTrackList();
+        } else {
+          filterTracks(searchTerm);
         }
       });
     }
   }
 }
 
+// Variable para guardar la lista original
+let originalTracks = [];
+
+function filterTracks(searchTerm) {
+  const filteredSongs = songs.filter(song => 
+    song.name.toLowerCase().includes(searchTerm) || 
+    song.text.toLowerCase().includes(searchTerm)
+  );
+  
+  updateTrackList(filteredSongs);
+}
+
+function updateTrackList(filteredSongs) {
+  trackListEl.innerHTML = '';
+
+  if (filteredSongs.length === 0) {
+    trackListEl.innerHTML = '<div class="no-results">No se encontraron canciones</div>';
+    return;
+  }
+
+  filteredSongs.forEach((song, index) => {
+    const trackEl = document.createElement('div');
+    trackEl.className = 'track';
+    trackEl.dataset.index = songs.findIndex(s => s.src === song.src);
+    trackEl.innerHTML = `
+      <span class="number">${index + 1}</span>
+      <div class="title-container">
+        <div class="title">${song.name}</div>
+        <div class="song-text">${song.text}</div>
+      </div>
+      <span class="time">${song.duration || '0:00'}</span>
+    `;
+
+    trackEl.addEventListener('click', () => {
+      const originalIndex = songs.findIndex(s => s.src === song.src);
+      currentSongIndex = originalIndex;
+      playSong(song);
+    });
+    trackListEl.appendChild(trackEl);
+  });
+}
+
+function restoreTrackList() {
+  createTrackList();
+}
 
 
 
