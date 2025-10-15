@@ -99,6 +99,9 @@ function cerrarBusqueda() {
   if (searchInput) {
     searchInput.remove();
   }
+  
+  restoreTrackList();
+}
 
 let originalTracks = [];
 
@@ -250,7 +253,6 @@ albumImage.addEventListener('mouseleave', () => {
     searchBtn.style.opacity = '0.5';
     searchBtn.style.pointerEvents = 'none';
 }
-  }
 
   function toggleShuffle() {
     isShuffleOn = !isShuffleOn;
