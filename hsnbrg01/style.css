@@ -521,7 +521,7 @@ img {
 }
 
 .navbar.search-active {
-    width: 35.5%;
+    width: 33%;
     max-width: 500px;
     justify-content: center;
 }
