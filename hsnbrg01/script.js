@@ -192,7 +192,11 @@ albumImage.addEventListener('mouseleave', () => {
     header.style.display = 'none';
     window.scrollTo(0, 0);
     initPlayer();
-  }
+    
+    const searchBtn = document.getElementById('searchBtn');
+    searchBtn.style.opacity = '1';
+    searchBtn.style.pointerEvents = 'auto';
+}
 
    function mostrarICFRD() {
     inicio.style.display = 'none';
