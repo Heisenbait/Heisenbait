@@ -72,7 +72,6 @@ function mostrarBusqueda() {
       document.addEventListener('touchstart', cerrarBusquedaAlTocarFuera);
     }, 100);
   }
-}
 
 function cerrarBusquedaAlTocarFuera(e) {
   const navbar = document.querySelector('.navbar');
