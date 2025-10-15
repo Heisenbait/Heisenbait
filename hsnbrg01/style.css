@@ -483,14 +483,6 @@ img {
   background: #ccc;
 }
 
-
-
-
-
-
-
-
-
 .search-container {
     position: fixed;
     bottom: 20px;
@@ -528,20 +520,6 @@ img {
     height: 24px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Estados de la barra de búsqueda */
 .navbar.search-active {
     width: 90%;
     max-width: 500px;
@@ -573,19 +551,11 @@ img {
     color: rgba(255, 255, 255, 0.7);
 }
 
-/* Ocultar botón de buscar cuando la búsqueda está activa */
 .navbar.search-active ~ .search-btn {
     opacity: 0;
     pointer-events: none;
     transform: scale(0.8);
 }
-
-
-
-
-
-
-
 
 .no-results {
   text-align: center;
@@ -594,7 +564,6 @@ img {
   font-style: italic;
 }
 
-/* Asegurar que la búsqueda solo funcione en MSC */
 .navbar:not(.search-active) ~ .search-btn {
   opacity: 0.5;
   pointer-events: none;
