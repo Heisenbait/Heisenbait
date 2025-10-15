@@ -595,26 +595,25 @@ img {
 
 
 @media (max-width: 768px) {
-    
   .header h1 {
-        font-size: 40px;
-    }
+    font-size: 40px;
+  }
 
   .main h2 {
-        font-size: 28px;
-    }
+    font-size: 28px;
+  }
 
   .main p {
-        font-size: 16px;
-        padding: 0 10px;
-    }
+    font-size: 16px;
+    padding: 0 10px;
+  }
 
   #info-MSC {
-        max-width: 100%;
-        padding: 0px;
-        margin: 10px auto;
-        padding-bottom: 55px;
-    }
+    max-width: 100%;
+    padding: 0px;
+    margin: 10px auto;
+    padding-bottom: 55px;
+  }
 
   .album-cover {
     position: relative;
@@ -674,19 +673,44 @@ img {
   .controls {
     max-width: 100%;
     padding: 20px;
+    gap: 5px;
   }
-  .search-container {
-    transform: translateX(120px);
+
+  .navbar {
+    bottom: 15px;
+    padding: 9px 20px;
+    width: 70%;
   }
-    
+
+  .navbar a {
+    padding: 9px 20px;
+    font-size: 16px;
+  }
+
+  .navbar.search-active {
+    width: 85%;
+    max-width: 290px;
+  }
+
+  .search-input {
+    font-size: 16px;
+    padding: 11.6px;
+  }
+
   .search-btn {
-    width: 62px;
-    height: 62px;
+    bottom: 15.5px;
+    left: calc(46% + 175px);
+    width: 55px;
+    height: 55px;
   }
-    
+
   .search-btn img {
-    width: 24px;
-    height: 20px;
+    width: 20px;
+    height: 16px;
+  }
+
+  .navbar.search-active + .search-btn {
+    display: none !important;
   }
 }
 
