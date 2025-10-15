@@ -8,8 +8,57 @@ searchBtn.addEventListener('click', (e) => {
 });
 
 function mostrarBusqueda() {
-  console.log("Búsqueda activada");
+  const navbar = document.querySelector('.navbar');
+  const searchBtn = document.getElementById('searchBtn');
+  
+  // Si ya está activa, desactivar
+  if (navbar.classList.contains('search-active')) {
+    navbar.classList.remove('search-active');
+    searchBtn.style.opacity = '1';
+    searchBtn.style.pointerEvents = 'auto';
+    searchBtn.style.transform = 'scale(1)';
+    
+    // Remover el input si existe
+    const existingInput = document.querySelector('.search-input');
+    if (existingInput) {
+      existingInput.remove();
+    }
+  } else {
+    // Activar modo búsqueda
+    navbar.classList.add('search-active');
+    
+    // Crear input de búsqueda si no existe
+    if (!document.querySelector('.search-input')) {
+      const searchInput = document.createElement('input');
+      searchInput.type = 'text';
+      searchInput.className = 'search-input';
+      searchInput.placeholder = 'Buscar...';
+      navbar.appendChild(searchInput);
+      
+      // Enfocar el input automáticamente
+      setTimeout(() => {
+        searchInput.focus();
+      }, 100);
+      
+      // Manejar la tecla Escape para salir
+      searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          mostrarBusqueda(); // Desactivar búsqueda
+        }
+      });
+    }
+  }
 }
+
+
+
+
+
+
+
+
+
+  
   const inicioBtn = document.getElementById('inicioBtn');
   const mscBtn = document.getElementById('mscBtn');
   const inicio = document.getElementById('inicio');
