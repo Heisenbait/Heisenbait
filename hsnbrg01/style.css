@@ -587,6 +587,37 @@ img {
 
 
 
+.no-results {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  font-style: italic;
+}
+
+/* Asegurar que la búsqueda solo funcione en MSC */
+.navbar:not(.search-active) ~ .search-btn {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+#info-MSC:not([style*="display: block"]) ~ .search-btn {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+#info-MSC[style*="display: block"] ~ .search-btn {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+
+
+
+
+
+
+
 
 
 
