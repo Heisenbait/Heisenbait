@@ -521,7 +521,7 @@ img {
 }
 
 .navbar.search-active {
-    width: 90%;
+    width: 36%;
     max-width: 500px;
     justify-content: center;
 }
@@ -540,7 +540,7 @@ img {
     font-size: 16px;
     text-align: center;
     outline: none;
-    padding: 10px;
+    padding: 14px;
 }
 
 .navbar.search-active .search-input {
