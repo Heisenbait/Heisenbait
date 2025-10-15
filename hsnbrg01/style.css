@@ -121,9 +121,13 @@ img {
 .icfrd-content {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 25%, #f093fb 50%, #f5576c 75%, #4facfe 100%);
-  background-size: 400% 400%;
-  animation: gradientShift 15s ease infinite;
+  background: 
+    radial-gradient(circle at 20% 80%, #ff6b6b, transparent 50%),
+    radial-gradient(circle at 80% 20%, #4ecdc4, transparent 50%),
+    radial-gradient(circle at 40% 40%, #45b7d1, transparent 50%),
+    radial-gradient(circle at 80% 80%, #96ceb4, transparent 50%),
+    radial-gradient(circle at 20% 20%, #feca57, transparent 50%),
+    linear-gradient(135deg, #667eea, #764ba2);
   color: white;
   font-family: 'IBM Plex Mono', monospace;
   min-height: 100vh;
@@ -142,7 +146,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
 
@@ -165,18 +169,6 @@ img {
   margin: 0 auto;
   line-height: 1.8;
   font-weight: 400;
-}
-
-@keyframes gradientShift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 .music-player {
