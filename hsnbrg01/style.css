@@ -126,7 +126,7 @@ img {
     radial-gradient(circle at 80% 20%, #BD4C0D, transparent 50%),
     radial-gradient(circle at 40% 40%, #A31A3E, transparent 50%),
     radial-gradient(circle at 80% 80%, #1A66A1, transparent 50%),
-    radial-gradient(circle at 20% 20%, #feca57, transparent 50%),
+    radial-gradient(circle at 20% 20%, #A31A3E, transparent 50%),
     linear-gradient(135deg, #667eea, #764ba2);
   color: white;
   font-family: 'IBM Plex Mono', monospace;
