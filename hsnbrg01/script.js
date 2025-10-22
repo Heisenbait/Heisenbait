@@ -280,7 +280,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/When I See It - Kanye West.mp3",
       name: "When I See It",
       image: "archivos/Cover of When I See It.jpg",
-      duration: "2:36",
+      duration: "1:45",
       text: "Kanye West"
     },
     {
