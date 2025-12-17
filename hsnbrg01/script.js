@@ -280,7 +280,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Amazing - Kanye West & Ant Clemons.mp3",
       name: "Amazing",
       image: "archivos/BBPB cover.png",
-      duration: "1:45",
+      duration: "3:14",
       text: "Kanye West, Ant Clemons"
     },
     {
@@ -317,6 +317,13 @@ albumImage.addEventListener('mouseleave', () => {
       image: "archivos/Cover of Donda with childs.jpg",
       duration: "3:05",
       text: "Kanye West, Justin Bieber"
+    },
+    {
+      src: "archivos/Sky - Playboi Carti.mp3",
+      name: "Sky",
+      image: "archivos/Cover of WLR by Playboi Carti.jpg",
+      duration: "3:54",
+      text: "Playboi Carti"
     },
     {
       src: "archivos/Eazy - The Game, Kanye West.mp3",
