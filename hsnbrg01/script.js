@@ -322,7 +322,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Sky - Playboi Carti.mp3",
       name: "Sky",
       image: "archivos/Cover of WLR by Playboi Carti.jpg",
-      duration: "3:54",
+      duration: "3:13",
       text: "Playboi Carti"
     },
     {
