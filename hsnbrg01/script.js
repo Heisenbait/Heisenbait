@@ -277,6 +277,13 @@ albumImage.addEventListener('mouseleave', () => {
 
   const songs = [
     {
+      src: "archivos/Amazing - Kanye West & Ant Clemons.mp3",
+      name: "Amazing",
+      image: "archivos/BBPB cover.png",
+      duration: "1:45",
+      text: "Kanye West, Ant Clemons"
+    },
+    {
       src: "archivos/When I See It - Kanye West.mp3",
       name: "When I See It",
       image: "archivos/Cover of When I See It.jpg",
