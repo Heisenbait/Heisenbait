@@ -280,7 +280,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Street Lights - Kanye West, Ty Dolla $ign (ft. Freddie Gibbs)  B.B.P.B..mp3",
       name: "Street Lights (ft. Freddie Gibbs)",
       image: "archivos/BBPB cover.png",
-      duration: "3:14",
+      duration: "4:55",
       text: "Kanye West, Ty Dolla $ign, Freddie Gibbs"
     },
     {
