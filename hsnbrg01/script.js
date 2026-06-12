@@ -343,7 +343,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Kanye West - GUN TO MY HEAD V3.mp3",
       name: "GUN TO MY HEAD",
       image: "archivos/BBPB cover.png",
-      duration: "3:54",
+      duration: "5:40",
       text: "Kanye West, Ty Dolla $ign, Kid Cudi"
     },
     {
