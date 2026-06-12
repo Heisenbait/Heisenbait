@@ -340,11 +340,11 @@ albumImage.addEventListener('mouseleave', () => {
       text: "¥$, Kanye West & Ty Dolla $ign"
     },
     {
-      src: "archivos/Eazy - The Game, Kanye West.mp3",
-      name: "Eazy",
-      image: "archivos/Cover of Eazy by The Game, Kanye West (1).jpg",
+      src: "archivos/Kanye West - GUN TO MY HEAD V3.mp3",
+      name: "GUN TO MY HEAD",
+      image: "archivos/BBPB cover.png",
       duration: "3:54",
-      text: "Kanye West, The Game"
+      text: "Kanye West, Ty Dolla $ign, Kid Cudi"
     },
     {
       src: "archivos/Master Of Puppets - Metallica.mp3",
