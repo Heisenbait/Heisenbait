@@ -333,11 +333,11 @@ albumImage.addEventListener('mouseleave', () => {
       text: "Kanye West, Justin Bieber"
     },
     {
-      src: "archivos/Sky - Playboi Carti.mp3",
-      name: "Sky",
-      image: "archivos/Cover of WLR by Playboi Carti.jpg",
+      src: "archivos/BELIEVER - ¥$, Kanye West & Ty Dolla $ign.mp3",
+      name: "BELIEVER",
+      image: "archivos/BBPB cover.png",
       duration: "3:13",
-      text: "Playboi Carti"
+      text: "¥$, Kanye West & Ty Dolla $ign"
     },
     {
       src: "archivos/Eazy - The Game, Kanye West.mp3",
