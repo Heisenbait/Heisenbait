@@ -279,7 +279,7 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/How Deep Is Your Love - Bee Gees.mp3",
       name: "How Deep Is Your Love",
-      image: "archivos/Cover of How Deep Is Your Love by Bee Gees.png",
+      image: "archivos/Cover of How Deep Is Your Love by Bee Gees.jpg",
       duration: "4:55",
       text: "Bee Gees"
     },
