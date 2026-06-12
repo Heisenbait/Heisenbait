@@ -355,7 +355,7 @@ albumImage.addEventListener('mouseleave', () => {
     },
     {
       src: "archivos/Kanye West, Ty Dolla $ign - MY SOUL.mp3",
-      name: "MY SOUL",
+      name: "FIGHTING FIRES",
       image: "archivos/BBPB cover.png",
       duration: "4:16",
       text: "Kanye West, Ty Dolla $ign"
