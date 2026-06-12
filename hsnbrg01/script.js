@@ -347,18 +347,18 @@ albumImage.addEventListener('mouseleave', () => {
       text: "Kanye West, Ty Dolla $ign, Kid Cudi"
     },
     {
-      src: "archivos/Master Of Puppets - Metallica.mp3",
-      name: "Master Of Puppets",
-      image: "archivos/Cover of Master Of Puppets by Metallica.jpg",
+      src: "archivos/Kanye West, Ty Dolla $ign- After Lyfe.mp3",
+      name: "AFTER LIFE",
+      image: "archivos/BBPB cover.png",
       duration: "8:35",
-      text: "Metallica"
+      text: "Kanye West, Ty Dolla $ign"
     },
     {
-      src: "archivos/Juicy - 2005 Remaster - The Notorious B.I.G..mp3",
-      name: "Juicy - 2005 Remaster",
-      image: "archivos/Cover of Juicy - 2005 Remaster by The Notorious B.I.G..jpg",
+      src: "archivos/Kanye West, Ty Dolla $ign - MY SOUL.mp3",
+      name: "MY SOUL",
+      image: "archivos/BBPB cover.png",
       duration: "4:16",
-      text: "The Notorious B.I.G."
+      text: "Kanye West, Ty Dolla $ign"
     },
     {
       src: "archivos/Reborn - KIDS SEE GHOSTS.mp3",
