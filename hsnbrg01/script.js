@@ -361,11 +361,11 @@ albumImage.addEventListener('mouseleave', () => {
       text: "Kanye West, Ty Dolla $ign"
     },
     {
-      src: "archivos/Reborn - KIDS SEE GHOSTS.mp3",
-      name: "Reborn",
-      image: "archivos/Cover of Feel The Love by KIDS SEE GHOSTS, Pusha T.jpg",
+      src: "archivos/Playboi Carti, A$AP Nast - Take A Soul",
+      name: "Take A Soul",
+      image: "archivos/carti_photo.jpg",
       duration: "5:24",
-      text: "KID SEE GHOSTS"
+      text: "Playboi Carti, A$AP Nast"
     },
     {
       src: "archivos/PUPPET - Tyler.mp3",
