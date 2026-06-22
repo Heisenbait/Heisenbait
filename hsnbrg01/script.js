@@ -361,7 +361,7 @@ albumImage.addEventListener('mouseleave', () => {
       text: "Kanye West, Ty Dolla $ign"
     },
     {
-      src: "archivos/Playboi Carti, A$AP Nast - Take A Soul",
+      src: "archivos/Playboi Carti, A$AP Nast - Take A Soul.mp3",
       name: "Take A Soul",
       image: "archivos/carti_photo.jpg",
       duration: "2:59",
