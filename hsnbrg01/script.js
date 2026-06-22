@@ -364,7 +364,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Playboi Carti, A$AP Nast - Take A Soul.mp3",
       name: "Take A Soul",
       image: "archivos/carti_photo.jpg",
-      duration: "2:59",
+      duration: "1:57",
       text: "Playboi Carti, A$AP Nast"
     },
     {
