@@ -350,21 +350,21 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Kanye West, Ty Dolla $ign- After Lyfe.mp3",
       name: "AFTER LIFE",
       image: "archivos/BBPB cover.png",
-      duration: "8:35",
+      duration: "2:48",
       text: "Kanye West, Ty Dolla $ign"
     },
     {
       src: "archivos/Kanye West, Ty Dolla $ign - MY SOUL.mp3",
       name: "FIGHTING FIRES",
       image: "archivos/BBPB cover.png",
-      duration: "4:16",
+      duration: "5:10",
       text: "Kanye West, Ty Dolla $ign"
     },
     {
       src: "archivos/Playboi Carti, A$AP Nast - Take A Soul",
       name: "Take A Soul",
       image: "archivos/carti_photo.jpg",
-      duration: "5:24",
+      duration: "2:59",
       text: "Playboi Carti, A$AP Nast"
     },
     {
