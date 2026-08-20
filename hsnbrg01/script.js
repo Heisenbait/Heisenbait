@@ -377,7 +377,7 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/Storm - Kanye West.mp3",
       name: "Storm",
-      image: "archivos/Cover of Moon by Kanye West.jpg",
+      image: "archivos/Yandhi_Cover.jpg",
       duration: "1:57",
       text: "Kanye West, Kid Cudi, Ty Dolla $ign"
     },
