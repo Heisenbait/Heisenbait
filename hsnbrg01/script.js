@@ -382,6 +382,27 @@ albumImage.addEventListener('mouseleave', () => {
       text: "Kanye West, Kid Cudi, Ty Dolla $ign"
     },
     {
+      src: "archivos/COSBY - Kanye West.mp3",
+      name: "COSBY",
+      image: "archivos/Cuck Portada.jpeg",
+      duration: "1:57",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/BIANCA - Kanye West.mp3",
+      name: "BIANCA",
+      image: "archivos/Cuck Portada.jpeg",
+      duration: "1:57",
+      text: "Kanye West"
+    },
+    {
+      src: "archivos/VIRGIL - Kanye West.mp3",
+      name: "VIRGIL",
+      image: "archivos/Cuck Portada.jpeg",
+      duration: "1:57",
+      text: "Kanye West"
+    },
+    {
       src: "archivos/Jukebox Joints - A$AP Rocky.mp3",
       name: "Jukebox Joints",
       image: "archivos/Cover of Jukebox Joints by A$AP Rocky, Joe Fox, Kanye West.jpg",
