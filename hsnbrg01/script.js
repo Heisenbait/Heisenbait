@@ -385,14 +385,14 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/BIANCA - Kanye West.mpeg",
       name: "BIANCA",
       image: "archivos/Cuck Portada.jpeg",
-      duration: "1:57",
+      duration: "1:55",
       text: "Kanye West"
     },
     {
       src: "archivos/VIRGIL - Kanye West.mpeg",
       name: "VIRGIL",
       image: "archivos/Cuck Portada.jpeg",
-      duration: "1:57",
+      duration: "2:03",
       text: "Kanye West"
     },
     {
