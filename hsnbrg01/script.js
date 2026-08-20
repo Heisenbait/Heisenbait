@@ -284,6 +284,13 @@ albumImage.addEventListener('mouseleave', () => {
       text: "Bee Gees"
     },
     {
+      src: "archivos/JARED - Kanye West",
+      name: "JARED",
+      image: "archivos/Cover of How Deep Is Your Love by Bee Gees.jpg",
+      duration: "3:59",
+      text: "Kanye West"
+    },
+    {
       src: "archivos/Street Lights - Kanye West, Ty Dolla $ign (ft. Freddie Gibbs)  B.B.P.B..mp3",
       name: "Street Lights (ft. Freddie Gibbs)",
       image: "archivos/BBPB cover.png",
