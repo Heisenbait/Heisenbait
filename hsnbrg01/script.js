@@ -286,7 +286,7 @@ albumImage.addEventListener('mouseleave', () => {
     {
       src: "archivos/JARED - Kanye West",
       name: "JARED",
-      image: "archivos/Cover of How Deep Is Your Love by Bee Gees.jpg",
+      image: "archivos/Cuck Portada.jpeg",
       duration: "3:59",
       text: "Kanye West"
     },
