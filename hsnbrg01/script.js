@@ -287,7 +287,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/JARED - Kanye West.mp3",
       name: "JARED",
       image: "archivos/Cuck Portada.jpeg",
-      duration: "3:59",
+      duration: "2:43",
       text: "Kanye West"
     },
     {
@@ -375,11 +375,11 @@ albumImage.addEventListener('mouseleave', () => {
       text: "Playboi Carti, A$AP Nast"
     },
     {
-      src: "archivos/PUPPET - Tyler.mp3",
-      name: "PUPPET",
-      image: "archivos/Cover of GONE GONE THANK YOU by Tyler.jpg",
-      duration: "2:59",
-      text: "Tyler, The Creator"
+      src: "archivos/Storm - Kanye West.mp3",
+      name: "Storm",
+      image: "archivos/Cover of Moon by Kanye West.jpg",
+      duration: "1:57",
+      text: "Kanye West, Kid Cudi, Ty Dolla $ign"
     },
     {
       src: "archivos/Jukebox Joints - A$AP Rocky.mp3",
@@ -422,13 +422,6 @@ albumImage.addEventListener('mouseleave', () => {
       image: "archivos/Cover of COUSINS by Ye.jpg",
       duration: "2:31",
       text: "Ye"
-    },
-    {
-      src: "archivos/Estamos Bien - Bad Bunny.mp3",
-      name: "Estamos Bien",
-      image: "archivos/Cover of Estamos Bien by Bad Bunny.jpg",
-      duration: "3:28",
-      text: "Bad Bunny"
     },
     {
       src: "archivos/Street Lights - Kanye West.mp3",
