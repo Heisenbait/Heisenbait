@@ -284,7 +284,7 @@ albumImage.addEventListener('mouseleave', () => {
       text: "Bee Gees"
     },
     {
-      src: "archivos/JARED - Kanye West",
+      src: "archivos/JARED - Kanye West.mp3",
       name: "JARED",
       image: "archivos/Cuck Portada.jpeg",
       duration: "3:59",
