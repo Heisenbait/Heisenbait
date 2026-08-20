@@ -371,25 +371,25 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Storm - Kanye West.mp3",
       name: "Storm",
       image: "archivos/Yandhi_Cover.jpg",
-      duration: "1:57",
+      duration: "3:19",
       text: "Kanye West, Kid Cudi, Ty Dolla $ign"
     },
     {
       src: "archivos/COSBY - Kanye West.mp3",
       name: "COSBY",
       image: "archivos/Cuck Portada.jpeg",
-      duration: "1:57",
+      duration: "2:30",
       text: "Kanye West"
     },
     {
-      src: "archivos/BIANCA - Kanye West.mp3",
+      src: "archivos/BIANCA - Kanye West.mpeg",
       name: "BIANCA",
       image: "archivos/Cuck Portada.jpeg",
       duration: "1:57",
       text: "Kanye West"
     },
     {
-      src: "archivos/VIRGIL - Kanye West.mp3",
+      src: "archivos/VIRGIL - Kanye West.mpeg",
       name: "VIRGIL",
       image: "archivos/Cuck Portada.jpeg",
       duration: "1:57",
