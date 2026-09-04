@@ -308,21 +308,21 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/$, Ye, Ty Dolla $ign - Everything ft. Ant Clemons.mp3",
       name: "Everything",
       image: "archivos/BBPB cover.png",
-      duration: "1:45",
+      duration: "2:54",
       text: "Kanye West, Ty Dolla $ign, Ant Clemons"
     },
     {
       src: "archivos/$, Ye, Ty Dolla $ign - Worship.mp3",
       name: "Worship",
       image: "archivos/BBPB cover.png",
-      duration: "1:45",
+      duration: "1:44",
       text: "Kanye West, Ty Dolla $ign"
     },
     {
       src: "archivos/$, Ye, Ty Dolla $ign, Project Pat, Young Moose - PAY PER VIEW.mp3",
       name: "PAY PER VIEW",
       image: "archivos/BBPB cover.png",
-      duration: "1:45",
+      duration: "2:53",
       text: "Kanye West, Ty Dolla $ign, Young Moose"
     },
     {
