@@ -305,6 +305,13 @@ albumImage.addEventListener('mouseleave', () => {
       text: "Kanye West"
     },
     {
+      src: "archivos/Kanye West - THIRSTY.mp3",
+      name: "THIRSTY",
+      image: "archivos/THIRSTY cover.png",
+      duration: "1:45",
+      text: "Kanye West"
+    },
+    {
       src: "archivos/$, Ye, Ty Dolla $ign - Everything ft. Ant Clemons.mp3",
       name: "Everything",
       image: "archivos/BBPB cover.png",
