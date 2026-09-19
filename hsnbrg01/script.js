@@ -308,7 +308,7 @@ albumImage.addEventListener('mouseleave', () => {
       src: "archivos/Kanye West - THIRSTY.mp3",
       name: "THIRSTY",
       image: "archivos/THIRSTY cover.png",
-      duration: "1:45",
+      duration: "2:35",
       text: "Kanye West"
     },
     {
