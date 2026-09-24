@@ -435,7 +435,7 @@ img {
 .random-btn {
   align-self: flex-start;
   margin: 0 0 24px;
-  padding: 14px 18px;
+  padding: 14px 468px;
   border-radius: 12px;
   background: var(--glass);
   backdrop-filter: var(--blur);
