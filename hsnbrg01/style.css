@@ -503,7 +503,7 @@ img {
   .track-info { width: 100%; padding: 20px 8px; }
   .track-info h1 { font-size: 24px; text-align: center; }
   .album-meta { font-size: 14px; text-align: center; }
-  .random-btn { align-self: center; padding: 10px 20px; font-size: 14px; }
+  .random-btn { align-self: center; padding: 10px 140px; font-size: 14px; }
   .track { gap: 12px; font-size: 14px; padding: 6px; }
   .track .number { width: 24px; }
 }
