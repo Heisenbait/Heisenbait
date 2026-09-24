@@ -401,7 +401,7 @@ img {
   width: 100%;
   appearance: none;
   -webkit-appearance: none;
-  height: 9px;
+  height: 14px;
   background: var(--glass);
   border-radius: 5px;
   outline: none;
