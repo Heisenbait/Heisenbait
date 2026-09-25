@@ -218,13 +218,17 @@ img {
 }
 
 .footer {
+  background: transparent;
+}
+
+/*.footer {
   background-color: #494949;
   color: white;
   text-align: center;
   padding: 3px;
   position: relative;
 }
-
+*/
 /* ---------- ICFRD ---------- */
 .icfrd-content {
   text-align: center;
