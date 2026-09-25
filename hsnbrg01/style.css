@@ -433,9 +433,11 @@ img {
 .album-meta { color: var(--muted); margin: 5px 0 20px; }
 
 .random-btn {
-  align-self: flex-start;
+  width: 100%;
+  display: block;
+  text-align: center;
   margin: 0 0 24px;
-  padding: 14px 468px;
+  padding: 14px 20px;
   border-radius: 12px;
   background: var(--glass);
   backdrop-filter: var(--blur);
@@ -503,7 +505,7 @@ img {
   .track-info { width: 100%; padding: 20px 8px; }
   .track-info h1 { font-size: 24px; text-align: center; }
   .album-meta { font-size: 14px; text-align: center; }
-  .random-btn { align-self: center; padding: 10px 140px; font-size: 14px; }
+  .random-btn { width: 100%; padding: 12px 20px; font-size: 14px; }
   .track { gap: 12px; font-size: 14px; padding: 6px; }
   .track .number { width: 24px; }
 }
