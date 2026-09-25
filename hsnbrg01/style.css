@@ -508,6 +508,30 @@ img {
   .random-btn { width: 100%; padding: 12px 20px; font-size: 14px; }
   .track { gap: 12px; font-size: 14px; padding: 6px; }
   .track .number { width: 24px; }
+
+  .album-cover .progress-bar,
+  .album-cover .volume-control {
+    width: 82%;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .volume-control {
+    display: flex;
+    justify-content: center;
+  }
+
+  #volumeSlider {
+    width: 100%;
+  }
+
+  .album-cover .song-name {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 }
 
 @media (prefers-reduced-motion: reduce) {
