@@ -1374,6 +1374,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let isShuffleOn = false;
   let shuffleQueue = [];
   let shuffleIndex = 0;
+  let historyStack = [];
   let playerReady = false;
   let loadToken = 0;
 
@@ -1504,13 +1505,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  function playSong(index) {
+function playSong(index, addToHistory = true) {
+    if (addToHistory && currentSongIndex !== -1 && currentSongIndex !== index) {
+      historyStack.push(currentSongIndex);
+    }
+    
     currentSongIndex = index;
     const song = songs[index];
     const token = ++loadToken;
     const img = new Image();
     img.crossOrigin = 'Anonymous';
-
+    
     const start = (loaded) => {
       if (token !== loadToken) return; // se pidió otra canción mientras cargaba
       songImageEl.src = song.image;
@@ -1560,9 +1565,19 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function prevSong() {
-    playSong((currentSongIndex - 1 + songs.length) % songs.length);
-  }
+    if (audio.currentTime > 3) {
+      audio.currentTime = 0;
+      return;
+    }
 
+    if (historyStack.length > 0) {
+      const prevIndex = historyStack.pop();
+      playSong(prevIndex, false);
+    } else {
+      playSong((currentSongIndex - 1 + songs.length) % songs.length, false);
+    }
+  }
+  
   function formatTime(seconds) {
     const min = Math.floor(seconds / 60);
     const sec = Math.floor(seconds % 60);
