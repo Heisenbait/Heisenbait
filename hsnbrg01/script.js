@@ -11,6 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
       text: "Kanye West"
     },
     {
+      src: "archivos/How Deep Is Your Love - Bee Gees.mp3",
+      name: "How Deep Is Your Love",
+      image: "archivos/Cover of How Deep Is Your Love by Bee Gees.jpg",
+      duration: "2:43",
+      text: "Bee Gees"
+    },
+    {
       src: "archivos/Street Lights - Kanye West, Ty Dolla $ign (ft. Freddie Gibbs)  B.B.P.B..mp3",
       name: "Street Lights (ft. Freddie Gibbs)",
       image: "archivos/BBPB cover.png",
