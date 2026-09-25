@@ -4,18 +4,18 @@ document.addEventListener('DOMContentLoaded', () => {
   /* ---------- Canciones ---------- */
   const songs = [
     {
-      src: "archivos/JARED - Kanye West.mp3",
-      name: "JARED",
-      image: "archivos/Cuck Portada.jpeg",
-      duration: "2:43",
-      text: "Kanye West"
-    },
-    {
       src: "archivos/How Deep Is Your Love - Bee Gees.mp3",
       name: "How Deep Is Your Love",
       image: "archivos/Cover of How Deep Is Your Love by Bee Gees.jpg",
       duration: "2:43",
       text: "Bee Gees"
+    },
+    {
+      src: "archivos/JARED - Kanye West.mp3",
+      name: "JARED",
+      image: "archivos/Cuck Portada.jpeg",
+      duration: "2:43",
+      text: "Kanye West"
     },
     {
       src: "archivos/Street Lights - Kanye West, Ty Dolla $ign (ft. Freddie Gibbs)  B.B.P.B..mp3",
