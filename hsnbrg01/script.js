@@ -1435,9 +1435,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   trackListEl.addEventListener('click', (e) => {
-    const track = e.target.closest('.track');
-    if (track) playSong(Number(track.dataset.index));
-  });
+  const track = e.target.closest('.track');
+  if (track) {
+    playSong(Number(track.dataset.index));
+    closeSearch();
+  }
+});
 
   trackListEl.addEventListener('keydown', (e) => {
     if (e.key !== 'Enter' && e.key !== ' ') return;
@@ -1489,9 +1492,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'Escape') closeSearch();
   });
 
-  document.addEventListener('pointerdown', (e) => {
-    if (!dock.contains(e.target)) closeSearch();
-  });
+  document.addEventListener('click', (e) => {
+  if (dock.contains(e.target) || trackListEl.contains(e.target)) return;
+  closeSearch();
+});
 
   /* ---------- Reproductor ---------- */
   function initPlayer() {
