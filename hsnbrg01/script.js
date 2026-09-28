@@ -11,6 +11,13 @@ document.addEventListener('DOMContentLoaded', () => {
       text: "Bee Gees"
     },
     {
+      src: "archivos/Kanye West - Welcome To My Life (ft. Ty Dolla _ign).mp3",
+      name: "Welcome To My Life",
+      image: "archivos/Cover of Donda with childs.jpg",
+      duration: "3:59",
+      text: "Kanye West, Ty Dolla $ign"
+    },
+    {
       src: "archivos/JARED - Kanye West.mp3",
       name: "JARED",
       image: "archivos/Cuck Portada.jpeg",
