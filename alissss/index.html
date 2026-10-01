@@ -95,16 +95,25 @@ function tile(t,x,y,sx,sy){const h=hash(x,y);
  if(t===1&&h%4===0){g.fillStyle='#c0aa6c';g.fillRect(sx+4,sy+8,3,2)}
  if(t===2){g.fillStyle='#5a3a1c';g.fillRect(sx+6,sy+10,4,6);g.fillStyle='#206830';g.fillRect(sx+1,sy+1,14,11);g.fillStyle='#2f8c44';g.fillRect(sx+3,sy+2,6,4);g.fillStyle='#154a22';g.fillRect(sx+1,sy+10,14,2)}
  if(t===3){g.fillStyle='#3890f8';g.fillRect(sx,sy,T,T);g.fillStyle='#78b8f8';const o=(frame>>4)%2*3;g.fillRect(sx+2+o,sy+5,5,1);g.fillRect(sx+8-o,sy+11,5,1)}}
-function drawPlayer(sx,sy){const f=player.moving&&(player.step%2)?1:0,y=sy-4;
+function drawPlayer(sx,sy){const f=player.moving&&(player.step%2)?1:0,y=sy-4,d=player.dir;
+ const h='#6b3a1e',h2='#4a2610',sk='#f8c8a0',p='#f58cb4',p2='#d9638f';
  g.fillStyle='rgba(0,0,0,.25)';g.fillRect(sx+3,sy+13,10,3);
- g.fillStyle='#d03030';g.fillRect(sx+3,y+1,10,4);g.fillRect(player.dir==='left'?sx+1:sx+3,y+4,player.dir==='left'?8:10,1);
- if(player.dir==='right')g.fillRect(sx+7,y+4,8,1);
- if(player.dir!=='up'){g.fillStyle='#f8c8a0';g.fillRect(sx+4,y+5,8,5);g.fillStyle='#202020';
-  if(player.dir==='down'){g.fillRect(sx+5,y+7,2,2);g.fillRect(sx+9,y+7,2,2)}
-  else g.fillRect(player.dir==='left'?sx+5:sx+10,y+7,2,2)}
- else{g.fillStyle='#402818';g.fillRect(sx+4,y+5,8,5)}
- g.fillStyle='#3060d0';g.fillRect(sx+4,y+10,8,5);
- g.fillStyle='#303030';g.fillRect(sx+4+f,y+15,3,2);g.fillRect(sx+9-f,y+15,3,2)}
+ // zapatos y vestido rosa
+ g.fillStyle='#a03060';g.fillRect(sx+5+f,y+16,3,2);g.fillRect(sx+9-f,y+16,3,2);
+ g.fillStyle=p;g.fillRect(sx+4,y+10,8,3);g.fillRect(sx+3,y+13,10,3);
+ g.fillStyle=p2;g.fillRect(sx+3,y+15,10,1);g.fillRect(sx+7,y+10,2,1);
+ // cabello largo
+ g.fillStyle=h;
+ if(d==='up'){g.fillRect(sx+3,y+1,10,13);g.fillStyle=h2;g.fillRect(sx+7,y+4,2,9)}
+ else if(d==='down'){g.fillRect(sx+3,y+1,10,4);g.fillRect(sx+3,y+4,2,9);g.fillRect(sx+11,y+4,2,9)}
+ else{g.fillRect(sx+3,y+1,10,4);g.fillRect(d==='left'?sx+8:sx+3,y+4,5,9)}
+ // cara
+ if(d!=='up'){g.fillStyle=sk;g.fillRect(sx+5,y+4,6,6);g.fillStyle='#202020';
+  if(d==='down'){g.fillRect(sx+6,y+6,1,2);g.fillRect(sx+9,y+6,1,2);g.fillStyle='#f06080';g.fillRect(sx+7,y+8,2,1)}
+  else g.fillRect(d==='left'?sx+5:sx+10,y+6,1,2);
+  g.fillStyle=h;g.fillRect(sx+4,y+3,8,2)}
+ // lazo rosa
+ g.fillStyle=p;g.fillRect(d==='left'?sx+3:d==='up'?sx+7:sx+10,y+1,3,2)}
 function box(x,y,w,h){g.fillStyle='#f8f8f8';g.fillRect(x,y,w,h);g.fillStyle='#303050';g.fillRect(x,y,w,1);g.fillRect(x,y+h-1,w,1);g.fillRect(x,y,1,h);g.fillRect(x+w-1,y,1,h);g.fillStyle='#e04040';g.fillRect(x+1,y+1,w-2,1);g.fillRect(x+1,y+h-2,w-2,1)}
 function draw(){
  const cx=Math.max(0,Math.min(W*T-VW*T,player.px+T/2-VW*T/2)),cy=Math.max(0,Math.min(H*T-VH*T,player.py+T/2-VH*T/2));
