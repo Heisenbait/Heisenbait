@@ -3,7 +3,7 @@
 const SONGS=[{name:'cancion1',src:''},{name:'cancion2',src:''},{name:'cancion3',src:''},{name:'cancion4',src:''}];
 const COINS_PER_SONG=40;
 // ====== XOAQUIN ======
-const ENEMY_EVERY=5*60*1000; // cada cuánto aparece (ms). Para probar: 10*1000
+const ENEMY_EVERY=1*60*1000; // cada cuánto aparece (ms). Para probar: 10*1000
 const ENEMY_STAY=30;         // segundos que se queda lanzando botellas
 const MAX_HITS=5;            // botellas que te pueden caer antes de perder
 // ================================================================
