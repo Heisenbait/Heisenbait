@@ -62,7 +62,7 @@ function say(text){dialog={text,shown:0}}
 function pressA(){if(over){if(frame-overAt>60)location.reload();return}if(!dialog)return;if(dialog.shown<dialog.text.length)dialog.shown=dialog.text.length;else dialog=null}
 function renderSongs(){const n=Math.max(SONGS.length,unlocked);let h='';
  for(let i=0;i<n;i++){const nm=SONGS[i]?SONGS[i].name:'cancion'+(i+1);h+=`<span class="${i<unlocked?'on':''}">${i<unlocked?'♪ '+nm:'🔒 '+nm}</span>`}
- document.getElementById('songs').innerHTML='<b>Canciones:</b><br>'+h}
+ document.getElementById('songs').innerHTML='<b>Reproduce las anciones:</b><br>'+h}
 renderSongs();
 function collect(){const k=K(player.x,player.y);
  if(coins.has(k)){coins.delete(k);total++;
