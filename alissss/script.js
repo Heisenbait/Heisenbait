@@ -1,9 +1,9 @@
 // ====== CANCIONES: pon aquí tus archivos cuando los tengas ======
 // Ejemplo: {name:'cancion1', src:'musica/cancion1.mp3'}
 const SONGS=[{name:'cancion1',src:''},{name:'cancion2',src:''},{name:'cancion3',src:''},{name:'cancion4',src:''}];
-const COINS_PER_SONG=20;
+const COINS_PER_SONG=40;
 // ====== XOAQUIN ======
-const ENEMY_EVERY=5*60*1000; // cada cuánto aparece (ms). Para probar: 10*1000
+const ENEMY_EVERY=1*60*1000; // cada cuánto aparece (ms). Para probar: 10*1000
 const ENEMY_STAY=30;         // segundos que se queda lanzando botellas
 const MAX_HITS=5;            // botellas que te pueden caer antes de perder
 // ================================================================
@@ -30,7 +30,7 @@ function stepPath(){
  if(run<=0){const r=Math.random();if(r<.4)hd=(hd+1)&3;else if(r<.8)hd=(hd+3)&3;run=4+(Math.random()*10|0)}
  hx+=DX[hd];hy+=DY[hd];run--;carve(hx,hy);
  if(Math.random()<.25){const d2=(hd+(Math.random()<.5?1:3))&3;hx+=DX[d2];hy+=DY[d2];carve(hx,hy)}
- if(--coinGap<=0){coinGap=2+(Math.random()*2|0);const o=(Math.random()*3|0)-1,p=(hd+1)&3;
+ if(--coinGap<=0){coinGap=8+(Math.random()*5|0);const o=(Math.random()*3|0)-1,p=(hd+1)&3;
   coins.add(K(hx+DX[p]*o,hy+DY[p]*o))}}
 function ensureAhead(){let n=0;
  while(Math.max(Math.abs(hx-player.x),Math.abs(hy-player.y))<40&&n++<300)stepPath()}
@@ -67,7 +67,7 @@ renderSongs();
 function collect(){const k=K(player.x,player.y);
  if(coins.has(k)){coins.delete(k);total++;
   if(total%COINS_PER_SONG===0){unlocked++;const i=unlocked-1;const nm=SONGS[i]?SONGS[i].name:'cancion'+unlocked;
-   say('¡Canción desbloqueada!\n'+nm);renderSongs();
+   say('Una canción que me recuerda a ti.\n'+nm);renderSongs();
    if(SONGS[i]&&SONGS[i].src){try{new Audio(SONGS[i].src).play()}catch(e){}}}}
  ensureAhead()}
 function update(){frame++;
