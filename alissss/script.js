@@ -66,7 +66,7 @@ renderSongs();
 function collect(){const k=K(player.x,player.y);
  if(coins.has(k)){coins.delete(k);total++;
   if(total%COINS_PER_SONG===0){unlocked++;const i=unlocked-1;const nm=SONGS[i]?SONGS[i].name:'cancion'+unlocked;
-   say('¡Canción desbloqueada!\n'+nm);renderSongs();
+   say('Una de las canciones que me recuerda a ti.\n'+nm);renderSongs();
    if(SONGS[i]&&SONGS[i].src){try{new Audio(SONGS[i].src).play()}catch(e){}}}}
  ensureAhead()}
 function update(){frame++;
