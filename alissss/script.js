@@ -56,8 +56,18 @@ ensureAhead();
 let total=0,dialog=null,frame=0;
 const got=new Set();
 const music=new Audio();
-let curSong=-1; // canción seleccionada
-
+let curSong=-1;
+let enemy=null,bottles=[],hits=0,hitFlash=0,over=false,overAt=0,enemyTimer=0,lastT=performance.now();
+const keys={};
+const kmap={ArrowUp:'up',ArrowDown:'down',ArrowLeft:'left',ArrowRight:'right',w:'up',s:'down',a:'left',d:'right',W:'up',S:'down',A:'left',D:'right',z:'a',Z:'a',Enter:'a',' ':'a'};
+addEventListener('keydown',e=>{const k=kmap[e.key];if(!k)return;e.preventDefault();if(k==='a'&&!keys.a)pressA();keys[k]=true});
+addEventListener('keyup',e=>{const k=kmap[e.key];if(k)keys[k]=false});
+document.querySelectorAll('.pad button').forEach(b=>{const k=b.dataset.k;
+ b.addEventListener('contextmenu',e=>e.preventDefault());
+ b.addEventListener('pointerdown',e=>{e.preventDefault();if(k==='a')pressA();keys[k]=true});
+ ['pointerup','pointerleave','pointercancel'].forEach(ev=>b.addEventListener(ev,()=>keys[k]=false))});
+function say(text){dialog={text,shown:0}}
+function pressA(){if(over){if(frame-overAt>60)location.reload();return}if(!dialog)return;if(dialog.shown<dialog.text.length)dialog.shown=dialog.text.length;else dialog=null}
 function renderSongs(){
  const box=document.getElementById('songs');
  if(!got.size){box.style.display='none';box.innerHTML='';return} // en blanco hasta la primera
