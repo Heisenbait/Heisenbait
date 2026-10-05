@@ -62,15 +62,22 @@ document.querySelectorAll('.pad button').forEach(b=>{const k=b.dataset.k;
  ['pointerup','pointerleave','pointercancel'].forEach(ev=>b.addEventListener(ev,()=>keys[k]=false))});
 function say(text){dialog={text,shown:0}}
 function pressA(){if(over){if(frame-overAt>60)location.reload();return}if(!dialog)return;if(dialog.shown<dialog.text.length)dialog.shown=dialog.text.length;else dialog=null}
-function renderSongs(){const n=Math.max(SONGS.length,unlocked);let h='';
- for(let i=0;i<n;i++){const nm=SONGS[i]?SONGS[i].name:'cancion'+(i+1);h+=`<span class="${i<unlocked?'on':''}">${i<unlocked?'♪ '+nm:'🔒 '+nm}</span>`}
+function renderSongs(){let h='';
+ SONGS.forEach((s,i)=>{const on=got.has(i);
+  h+=`<span class="${on?'on':''}">${on?'♪ '+s.name:'🔒 '+s.name}</span>`});
  document.getElementById('songs').innerHTML='<b>Reproduce las canciones:</b><br>'+h}
 renderSongs();
 function collect(){const k=K(player.x,player.y);
  if(coins.has(k)){coins.delete(k);total++;
-  if(total%COINS_PER_SONG===0){unlocked++;const i=unlocked-1;const nm=SONGS[i]?SONGS[i].name:'cancion'+unlocked;
+  if(total%COINS_PER_SONG===0){
+   let pool=SONGS.map((_,i)=>i).filter(i=>!got.has(i));
+   if(!pool.length)pool=SONGS.map((_,i)=>i);
+   const i=pool[(Math.random()*pool.length)|0];
+   got.add(i);
+   const nm=SONGS[i].name;
    say('Una canción que me recuerda a ti.\n'+nm);renderSongs();
-   if(SONGS[i]&&SONGS[i].src){try{new Audio(SONGS[i].src).play()}catch(e){}}}}
+   if(SONGS[i].src){
+    try{if(current)current.pause();current=new Audio(SONGS[i].src);current.play()}catch(e){}}}}
  ensureAhead()}
 function update(){frame++;
  if(over)return;
