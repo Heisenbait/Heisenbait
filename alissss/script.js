@@ -6,7 +6,7 @@ const SONGS=[{name:'Superpowers - Daniel Caesar',src:'archivos/Superpowers - Dan
              {name:'Hold On - Dwele',src:'archivos/Hold On - Radio Edit - Dwele.mp3'},{name:'Another You - Tony Williams',src:'archivos/Another You _feat. Kanye West_ - The WRLDFMS Tony Williams.mp3'},
              {name:'Tiramisu - Don Toliver',src:'archivos/Tiramisu - Don Toliver.mp3'},{name:'Bound 2 - Kanye West',src:'archivos/Bound 2 - Kanye West.mp3'},
              {name:'Someone To Spend Time With - Los Retros',src:'archivos/Someone To Spend Time With - Los Retros.mp3'},{name:'Strawberry Fields Forever - The Beatles',src:'archivos/Strawberry Fields Forever - Remastered 2009 - The Beatles.mp3'},
-             {name:'White Lines - Kanye West',src:'archivos/WHITE LINES _feat. Andre Troutman_ - Kanye West.mp3'},{name:'Friends - Los Retros',src:''},{name:'Rosary - Don Toliver',src:'archivos/Rosary _feat. Travis Scott_ - Don Toliver.mp3'},
+             {name:'White Lines - Kanye West',src:'archivos/WHITE LINES _feat. Andre Troutman_ - Kanye West.mp3'},{name:'Friends - Los Retros',src:'archivos/Friends - Los Retros.mp3'},{name:'Rosary - Don Toliver',src:'archivos/Rosary _feat. Travis Scott_ - Don Toliver.mp3'},
              {name:'Love, Love, Love - Donny Hathaway',src:'archivos/Love_ Love_ Love - Donny Hathaway.mp3'}];
 const COINS_PER_SONG=10;
 // ====== XOAQUIN ======
@@ -71,7 +71,7 @@ function say(text){dialog={text,shown:0}}
 function pressA(){if(over){if(frame-overAt>60)location.reload();return}if(!dialog)return;if(dialog.shown<dialog.text.length)dialog.shown=dialog.text.length;else dialog=null}
 function renderSongs(){let h='';
  SONGS.forEach((s,i)=>{const on=got.has(i);
-  h+=`<span class="${on?'on':''}">${on?'♪ '+s.name:'🔒 '+s.name}</span>`});
+  h+=`<span class="${on?'on':''}">${on?'♪ '+s.name:'🔒 ???'}</span>`});
  document.getElementById('songs').innerHTML='<b>Reproduce las canciones:</b><br>'+h}
 renderSongs();
 function collect(){const k=K(player.x,player.y);
