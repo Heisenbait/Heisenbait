@@ -48,7 +48,9 @@ carve(0,0);
 const player={x:0,y:0,px:0,py:0,dir:'down',moving:false,tx:0,ty:0,step:0};
 ensureAhead();
 
-let total=0,unlocked=0,dialog=null,frame=0;
+let total=0,dialog=null,frame=0;
+const got=new Set();
+let current=null;
 let enemy=null,bottles=[],hits=0,hitFlash=0,over=false,overAt=0,enemyTimer=0,lastT=performance.now();
 const keys={};
 const kmap={ArrowUp:'up',ArrowDown:'down',ArrowLeft:'left',ArrowRight:'right',w:'up',s:'down',a:'left',d:'right',W:'up',S:'down',A:'left',D:'right',z:'a',Z:'a',Enter:'a',' ':'a'};
