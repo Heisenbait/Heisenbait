@@ -1,11 +1,13 @@
 // ====== CANCIONES: pon aquí tus archivos cuando los tengas ======
 // Ejemplo: {name:'cancion1', src:'musica/cancion1.mp3'}
-const SONGS=[{name:'Superpowers - Daniel Caesar',src:''},{name:'Best Part - Daniel Caesar',src:''},{name:'Yebba´s Heartbreak - Drake',src:''},
-             {name:'In My Life - The Beatles',src:''},{name:'Inside - Don Toliver',src:''},{name:'Signs - Snoop Dogg',src:''},
-             {name:'Hold On - Dwele',src:''},{name:'Another You - Tony Williams',src:''},{name:'Tiramisu - Don Toliver',src:''},
-             {name:'Bound 2 - Kanye West',src:''},{name:'Someone To Spend Time With - Los Retros',src:''},{name:'Strawberry Fields Forever - The Beatles',src:''},
-             {name:'White Lines - Kanye West',src:''},{name:'Friends - Los Retros',src:''},{name:'Rosary - Don Toliver',src:''},
-             {name:'Love, Love, Love - Donny Hathaway',src:''}];
+const SONGS=[{name:'Superpowers - Daniel Caesar',src:'archivos/Superpowers - Daniel Caesar.mp3'},{name:'Best Part - Daniel Caesar',src:'archivos/Best Part _feat. H.E.R._ - Daniel Caesar.mp3'},
+             {name:'Yebba´s Heartbreak - Drake',src:'archivos/Yebba_s Heartbreak - Drake.mp3'},{name:'In My Life - The Beatles',src:'archivos/In My Life - Remastered 2009 - The Beatles.mp3'},
+             {name:'Inside - Don Toliver',src:'archivos/INSIDE _FEAT. TRAVIS SCOTT_ - Don Toliver.mp3'},{name:'Signs - Snoop Dogg',src:'archivos/Signs - Snoop Dogg.mp3'},
+             {name:'Hold On - Dwele',src:'archivos/Hold On - Radio Edit - Dwele.mp3'},{name:'Another You - Tony Williams',src:'archivos/Another You _feat. Kanye West_ - The WRLDFMS Tony Williams.mp3'},
+             {name:'Tiramisu - Don Toliver',src:'archivos/Tiramisu - Don Toliver.mp3'},{name:'Bound 2 - Kanye West',src:'archivos/Bound 2 - Kanye West.mp3'},
+             {name:'Someone To Spend Time With - Los Retros',src:'archivos/Someone To Spend Time With - Los Retros.mp3'},{name:'Strawberry Fields Forever - The Beatles',src:'archivos/Strawberry Fields Forever - Remastered 2009 - The Beatles.mp3'},
+             {name:'White Lines - Kanye West',src:'archivos/WHITE LINES _feat. Andre Troutman_ - Kanye West.mp3'},{name:'Friends - Los Retros',src:''},{name:'Rosary - Don Toliver',src:'archivos/Rosary _feat. Travis Scott_ - Don Toliver.mp3'},
+             {name:'Love, Love, Love - Donny Hathaway',src:'archivos/Love_ Love_ Love - Donny Hathaway.mp3'}];
 const COINS_PER_SONG=10;
 // ====== XOAQUIN ======
 const ENEMY_EVERY=1*60*1000; // cada cuánto aparece (ms). Para probar: 10*1000
