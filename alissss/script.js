@@ -223,3 +223,6 @@ function tickSince(){const n=new Date();
  if(mo<0){mo+=12;y--}
  document.getElementById('since').textContent=[pl(y,'año','años'),pl(mo,'mes','meses'),pl(d,'día','días'),pl(h,'hora','horas'),pl(mi,'minuto','minutos'),pl(s,'segundo','segundos')].join(', ')}
 tickSince();setInterval(tickSince,1000);
+
+addEventListener('contextmenu',e=>e.preventDefault());
+addEventListener('selectstart',e=>e.preventDefault());
