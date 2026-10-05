@@ -1,5 +1,3 @@
-// ====== CANCIONES: pon aquí tus archivos cuando los tengas ======
-// Ejemplo: {name:'cancion1', src:'musica/cancion1.mp3'}
 const SONGS=[{name:'Superpowers - Daniel Caesar',src:'archivos/Superpowers - Daniel Caesar.mp3'},{name:'Best Part - Daniel Caesar',src:'archivos/Best Part _feat. H.E.R._ - Daniel Caesar.mp3'},
              {name:'Yebba´s Heartbreak - Drake',src:'archivos/Yebba_s Heartbreak - Drake.mp3'},{name:'In My Life - The Beatles',src:'archivos/In My Life - Remastered 2009 - The Beatles.mp3'},
              {name:'Inside - Don Toliver',src:'archivos/INSIDE _FEAT. TRAVIS SCOTT_ - Don Toliver.mp3'},{name:'Signs - Snoop Dogg',src:'archivos/Signs - Snoop Dogg.mp3'},
@@ -10,13 +8,13 @@ const SONGS=[{name:'Superpowers - Daniel Caesar',src:'archivos/Superpowers - Dan
              {name:'Love, Love, Love - Donny Hathaway',src:'archivos/Love_ Love_ Love - Donny Hathaway.mp3'}];
 const COINS_PER_SONG=10;
 // ====== XOAQUIN ======
-const ENEMY_EVERY=1*60*1000; // cada cuánto aparece (ms). Para probar: 10*1000
-const ENEMY_STAY=30;         // segundos que se queda lanzando botellas
-const MAX_HITS=5;            // botellas que te pueden caer antes de perder
+const ENEMY_EVERY=1*60*1000;
+const ENEMY_STAY=30;
+const MAX_HITS=5;
 // ================================================================
 const cv=document.getElementById('c'),g=cv.getContext('2d');
 const T=16,VW=15,VH=10;
-const SEED=(Math.random()*1e9)|0; // cambia en cada partida
+const SEED=(Math.random()*1e9)|0;
 const hash=(x,y)=>((x*73856093)^(y*19349663))>>>0;
 const K=(x,y)=>x*100003+y;
 // ruido determinista por semilla
@@ -58,30 +56,24 @@ ensureAhead();
 let total=0,dialog=null,frame=0;
 const got=new Set();
 const music=new Audio();
-let audioUnlocked=false;
-// los navegadores (sobre todo Safari/iPhone) solo dejan sonar audio si el usuario tocó algo antes;
-// con el primer toque o tecla "desbloqueamos" el reproductor con un audio vacío
-function unlockAudio(){if(audioUnlocked)return;audioUnlocked=true;
- music.src='data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=';
- music.play().catch(()=>{})}
-addEventListener('keydown',unlockAudio);
-addEventListener('pointerdown',unlockAudio);
-function playSong(src){music.pause();music.src=src;music.currentTime=0;music.play().catch(()=>{})}
-let enemy=null,bottles=[],hits=0,hitFlash=0,over=false,overAt=0,enemyTimer=0,lastT=performance.now();
-const keys={};
-const kmap={ArrowUp:'up',ArrowDown:'down',ArrowLeft:'left',ArrowRight:'right',w:'up',s:'down',a:'left',d:'right',W:'up',S:'down',A:'left',D:'right',z:'a',Z:'a',Enter:'a',' ':'a'};
-addEventListener('keydown',e=>{const k=kmap[e.key];if(!k)return;e.preventDefault();if(k==='a'&&!keys.a)pressA();keys[k]=true});
-addEventListener('keyup',e=>{const k=kmap[e.key];if(k)keys[k]=false});
-document.querySelectorAll('.pad button').forEach(b=>{const k=b.dataset.k;
- b.addEventListener('contextmenu',e=>e.preventDefault());
- b.addEventListener('pointerdown',e=>{e.preventDefault();if(k==='a')pressA();keys[k]=true});
- ['pointerup','pointerleave','pointercancel'].forEach(ev=>b.addEventListener(ev,()=>keys[k]=false))});
-function say(text){dialog={text,shown:0}}
-function pressA(){if(over){if(frame-overAt>60)location.reload();return}if(!dialog)return;if(dialog.shown<dialog.text.length)dialog.shown=dialog.text.length;else dialog=null}
-function renderSongs(){let h='';
- SONGS.forEach((s,i)=>{const on=got.has(i);
-  h+=`<span class="${on?'on':''}">${on?'♪ '+s.name:'🔒 ???'}</span>`});
- document.getElementById('songs').innerHTML='<b>Reproduce las canciones:</b><br>'+h}
+let curSong=-1; // canción seleccionada
+
+function renderSongs(){
+ const box=document.getElementById('songs');
+ if(!got.size){box.style.display='none';box.innerHTML='';return} // en blanco hasta la primera
+ box.style.display='';
+ let h='';
+ got.forEach(i=>{const playing=curSong===i&&!music.paused;
+  h+=`<button class="song${curSong===i?' on':''}" data-i="${i}">${playing?'⏸':'▶'} ${SONGS[i].name}</button>`});
+ box.innerHTML='<b>Reproduce las canciones:</b><br>'+h}
+
+document.getElementById('songs').addEventListener('click',e=>{
+ const b=e.target.closest('.song');if(!b)return;
+ const i=+b.dataset.i,s=SONGS[i];if(!s.src)return;
+ if(curSong===i){music.paused?music.play().catch(()=>{}):music.pause()} // pausar / continuar
+ else{curSong=i;music.src=s.src;music.play().catch(()=>{})}             // cambiar de canción
+ renderSongs()});
+['play','pause','ended'].forEach(ev=>music.addEventListener(ev,renderSongs));
 renderSongs();
 function collect(){const k=K(player.x,player.y);
  if(coins.has(k)){coins.delete(k);total++;
@@ -90,8 +82,7 @@ function collect(){const k=K(player.x,player.y);
    if(!pool.length)pool=SONGS.map((_,i)=>i);
    const i=pool[(Math.random()*pool.length)|0];
    got.add(i);
-   say('Una canción que me recuerda a ti.\n'+SONGS[i].name);renderSongs();
-   if(SONGS[i].src)playSong(SONGS[i].src)}}
+   say('Una canción que me recuerda a ti.\n'+SONGS[i].name);renderSongs()}}
  ensureAhead()}
 function update(){frame++;
  if(over)return;
