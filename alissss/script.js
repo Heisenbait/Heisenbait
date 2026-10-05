@@ -1,6 +1,6 @@
 // ====== CANCIONES: pon aquí tus archivos cuando los tengas ======
 // Ejemplo: {name:'cancion1', src:'musica/cancion1.mp3'}
-const SONGS=[{name:'cancion1',src:''},{name:'cancion2',src:''},{name:'cancion3',src:''},{name:'cancion4',src:''}];
+const SONGS=[{name:'Superpowers - Daniel Caesar',src:''},{name:'Best Part - Daniel Caesar',src:''},{name:'Yebba´s Heartbreak - Drake',src:''},{name:'In My Life - The Beatles',src:''}];
 const COINS_PER_SONG=40;
 // ====== XOAQUIN ======
 const ENEMY_EVERY=1*60*1000; // cada cuánto aparece (ms). Para probar: 10*1000
