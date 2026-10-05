@@ -57,7 +57,16 @@ ensureAhead();
 
 let total=0,dialog=null,frame=0;
 const got=new Set();
-let current=null;
+const music=new Audio();
+let audioUnlocked=false;
+// los navegadores (sobre todo Safari/iPhone) solo dejan sonar audio si el usuario tocó algo antes;
+// con el primer toque o tecla "desbloqueamos" el reproductor con un audio vacío
+function unlockAudio(){if(audioUnlocked)return;audioUnlocked=true;
+ music.src='data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=';
+ music.play().catch(()=>{})}
+addEventListener('keydown',unlockAudio);
+addEventListener('pointerdown',unlockAudio);
+function playSong(src){music.pause();music.src=src;music.currentTime=0;music.play().catch(()=>{})}
 let enemy=null,bottles=[],hits=0,hitFlash=0,over=false,overAt=0,enemyTimer=0,lastT=performance.now();
 const keys={};
 const kmap={ArrowUp:'up',ArrowDown:'down',ArrowLeft:'left',ArrowRight:'right',w:'up',s:'down',a:'left',d:'right',W:'up',S:'down',A:'left',D:'right',z:'a',Z:'a',Enter:'a',' ':'a'};
@@ -81,10 +90,8 @@ function collect(){const k=K(player.x,player.y);
    if(!pool.length)pool=SONGS.map((_,i)=>i);
    const i=pool[(Math.random()*pool.length)|0];
    got.add(i);
-   const nm=SONGS[i].name;
-   say('Una canción que me recuerda a ti.\n'+nm);renderSongs();
-   if(SONGS[i].src){
-    try{if(current)current.pause();current=new Audio(SONGS[i].src);current.play()}catch(e){}}}}
+   say('Una canción que me recuerda a ti.\n'+SONGS[i].name);renderSongs();
+   if(SONGS[i].src)playSong(SONGS[i].src)}}
  ensureAhead()}
 function update(){frame++;
  if(over)return;
