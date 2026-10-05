@@ -9,7 +9,7 @@ canvas{width:min(100%,720px);image-rendering:pixelated;border:4px solid var(--bd
 .box{width:min(100%,720px);background:var(--card);border:2px solid var(--bd);border-radius:6px;padding:8px 12px;font-size:14px}
 #songs .song{display:inline-block;margin:2px 6px 2px 0;padding:2px 8px;border:2px solid var(--bd);border-radius:4px;background:var(--card);color:var(--fg);font:inherit;cursor:pointer}
 #songs .on{background:#f5c518;color:#222;font-weight:bold}
-.pad,.pad button,canvas{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
+html,body,*{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
 .pad{display:grid;grid-template-columns:repeat(3,56px);grid-template-rows:repeat(2,56px);gap:6px;touch-action:none}
 .pad button{font-size:22px;border:2px solid var(--bd);background:var(--card);color:var(--fg);border-radius:8px;touch-action:none}
 .pad button:active{background:#f5c518;color:#222}
