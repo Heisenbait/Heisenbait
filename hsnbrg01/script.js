@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
       src: "archivos/Fighting Fires.mp3",
       name: "FIGHTING FIRES",
       image: "archivos/BBPB cover.png",
-      duration: "3:26",
+      duration: "3:27",
       text: "Kanye West, Ty Dolla $ign"
     },
     {
