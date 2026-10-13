@@ -123,10 +123,10 @@ document.addEventListener('DOMContentLoaded', () => {
       text: "Kanye West, Ty Dolla $ign"
     },
     {
-      src: "archivos/Kanye West, Ty Dolla $ign - MY SOUL.mp3",
+      src: "archivos/Fighting Fires.mp3",
       name: "FIGHTING FIRES",
       image: "archivos/BBPB cover.png",
-      duration: "5:10",
+      duration: "3:26",
       text: "Kanye West, Ty Dolla $ign"
     },
     {
