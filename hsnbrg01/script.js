@@ -25,6 +25,27 @@ document.addEventListener('DOMContentLoaded', () => {
       text: "Kanye West"
     },
     {
+      src: "archivos/Awesome - Kanye West.mp3",
+      name: "Awesome",
+      image: "archivos/tgfd-portada.png",
+      duration: "3:45",
+      text: "Kanye West, Charlie Wilson"
+    },
+    {
+      src: "archivos/¥$, Ye, Ty Dolla $ign - Melrose ft. Playboi Carti.mp3",
+      name: "Melrose",
+      image: "archivos/BBPB cover.png",
+      duration: "3:45",
+      text: "Kanye West, Ty Dolla $ign, Playboi Carti"
+    },
+    {
+      src: "archivos/JARED - Kanye West.mp3",
+      name: "JARED",
+      image: "archivos/Cuck Portada.jpeg",
+      duration: "2:43",
+      text: "Kanye West"
+    },
+    {
       src: "archivos/Street Lights - Kanye West, Ty Dolla $ign (ft. Freddie Gibbs)  B.B.P.B..mp3",
       name: "Street Lights (ft. Freddie Gibbs)",
       image: "archivos/BBPB cover.png",
