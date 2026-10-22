@@ -27,15 +27,15 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       src: "archivos/Awesome - Kanye West.mp3",
       name: "Awesome",
-      image: "archivos/tgfd-portada.png",
-      duration: "3:45",
+      image: "archivos/tgfd.gif",
+      duration: "4:16",
       text: "Kanye West, Charlie Wilson"
     },
     {
       src: "archivos/¥$, Ye, Ty Dolla $ign - Melrose ft. Playboi Carti.mp3",
       name: "Melrose",
       image: "archivos/BBPB cover.png",
-      duration: "3:45",
+      duration: "5:29",
       text: "Kanye West, Ty Dolla $ign, Playboi Carti"
     },
     {
