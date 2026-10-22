@@ -5,7 +5,10 @@ const SONGS=[{name:'Superpowers - Daniel Caesar',src:'archivos/Superpowers - Dan
              {name:'Tiramisu - Don Toliver',src:'archivos/Tiramisu - Don Toliver.mp3'},{name:'Bound 2 - Kanye West',src:'archivos/Bound 2 - Kanye West.mp3'},
              {name:'Someone To Spend Time With - Los Retros',src:'archivos/Someone To Spend Time With - Los Retros.mp3'},{name:'Strawberry Fields Forever - The Beatles',src:'archivos/Strawberry Fields Forever - Remastered 2009 - The Beatles.mp3'},
              {name:'White Lines - Kanye West',src:'archivos/WHITE LINES _feat. Andre Troutman_ - Kanye West.mp3'},{name:'Friends - Los Retros',src:'archivos/Friends - Los Retros.mp3'},{name:'Rosary - Don Toliver',src:'archivos/Rosary _feat. Travis Scott_ - Don Toliver.mp3'},
-             {name:'Love, Love, Love - Donny Hathaway',src:'archivos/Love_ Love_ Love - Donny Hathaway.mp3'},{name:'Awesome - Kanye West',src:'archivos/Awesome - Kanye West.mp3'}];
+             {name:'Love, Love, Love - Donny Hathaway',src:'archivos/Love_ Love_ Love - Donny Hathaway.mp3'},{name:'Awesome - Kanye West',src:'archivos/Awesome - Kanye West.mp3'},
+             {name:'Mean the Most - MF DOOM',src:'archivos/Mean the Most - MF DOOM.mp3'},{name:'It_s Alright - Mobb Deep',src:'archivos/It´s Alright - Mobb Deep.mp3'},
+             {name:'ANGEL - Laila',src:'archivos/ANGEL - Laila.mp3'},{name:'The Girl Is Mine - Michael Jackson',src:'archivos/The Girl Is Mine - Michael Jackson.mp3'},
+             {name:'Remastered 2009 - The Beatles.mp3',src:'archivos/Michelle - The Beatles.mp3'}];
 const COINS_PER_SONG=25;
 // ====== XOAQUIN ======
 const ENEMY_EVERY=1*60*1000;
