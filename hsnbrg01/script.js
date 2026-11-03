@@ -40,10 +40,10 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       src: "archivos/JARED - Kanye West.mp3",
-      name: "JARED",
-      image: "archivos/Cuck Portada.jpeg",
+      name: "Water (With Dr. Dre)",
+      image: "archivos/jesus is king 2.jpg",
       duration: "2:43",
-      text: "Kanye West"
+      text: "Kanye West, Dr. Dre"
     },
     {
       src: "archivos/Street Lights - Kanye West, Ty Dolla $ign (ft. Freddie Gibbs)  B.B.P.B..mp3",
