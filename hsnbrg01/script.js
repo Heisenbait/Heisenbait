@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
       src: "archivos/Water (With Dr. Dre).mp3",
-      name: "Water (With Dr. Dre)",
+      name: "Water (With Dr. Dre)", 
       image: "archivos/jesus is king 2.jpg",
       duration: "2:40",
       text: "Kanye West, Dr. Dre"
