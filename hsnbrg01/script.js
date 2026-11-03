@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
       text: "Kanye West, Ty Dolla $ign, Playboi Carti"
     },
     {
-      src: "archivos/JARED - Kanye West.mp3",
+      src: "archivos/Water (With Dr. Dre).mp3",
       name: "Water (With Dr. Dre)",
       image: "archivos/jesus is king 2.jpg",
       duration: "2:40",
